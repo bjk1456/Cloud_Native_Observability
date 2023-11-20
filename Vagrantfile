@@ -74,7 +74,7 @@ Vagrant.configure("2") do |config|
 
     vb.memory = "4096"
     #vb.memory = "2048"
-    vb.name = "k3s"
+    vb.name = "k3s2.0"
   end
   #
   # View the documentation for the provider you are using for more
