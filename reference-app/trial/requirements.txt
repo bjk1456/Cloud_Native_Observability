@@ -1,4 +1,5 @@
-Flask==1.1.2
+Flask==1.1.4
+markupsafe==2.0.1
 gunicorn==20.0.4
 jaeger-client==4.3.0
 prometheus-client==0.12.0
@@ -11,3 +12,4 @@ opentelemetry-sdk==0.12b0
 prometheus-flask-exporter==0.18.1
 pylint==2.4.0
 requests==2.23.0
+Flask_OpenTracing==1.1.0

@@ -84,11 +84,11 @@ Vagrant.configure("2") do |config|
   # Ansible, Chef, Docker, Puppet and Salt are also available. Please see the
   # documentation for more information about their specific syntax and use.
   config.vm.provision "shell", inline: <<-SHELL
-     sudo zypper --non-interactive install apparmor-parser
-  SHELL
 
-  args = []
-      config.vm.provision "k3s shell script", type: "shell",
-          path: "k3s.sh",
-          args: args
+  sudo zypper refresh
+  sudo zypper --non-interactive install bzip2
+  sudo zypper --non-interactive install etcd
+  sudo zypper --non-interactive install apparmor-parser
+  curl -sfL https://get.k3s.io | INSTALL_K3S_VERSION=v1.19.5+k3s1 K3S_KUBECONFIG_MODE="644" sh -
+  SHELL
 end
