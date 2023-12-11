@@ -1,6 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+  name: backend
   annotations:
     sidecar.jaegertracing.io/inject: 'true'
     prometheus.io/scrape: "true"
