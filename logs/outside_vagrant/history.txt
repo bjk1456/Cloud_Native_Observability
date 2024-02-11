@@ -1,0 +1,5749 @@
+ 2000  ls -lhtr
+ 2001  mv 'Screenshot from 2023-04-08 12-34-34.png' argocd-ui.png
+ 2002  mv argocd-ui.png ~/Udacity/Tech_Trends/screen_shots/
+ 2003  exit
+ 2004  cd 
+ 2005  ls
+ 2006  cd Pictures/
+ 2007  ls
+ 2008  cd Screenshots/
+ 2009  ls -lhtr
+ 2010  mv 'Screenshot from 2023-04-26 21-41-27.png' docker-run-local.png
+ 2011  mv docker-run-local.png ~/Udacity/Tech_Trends/screen_shots/
+ 2012  exit
+ 2013  ls
+ 2014  mv argocd-techtrends-* ~/Udacity/Tech_Trends/screen_shots/
+ 2015  ls -lhtr
+ 2016  mv 'Screenshot from 2023-05-19 15-33-58.png' argocd-techtrends-staging.png
+ 2017  exit
+ 2018  ls -lhtr
+ 2019  history
+ 2020  ls -lhtr
+ 2021  mv 'Screenshot from 2023-05-19 15-48-21.png' argocd-techtrends-prod.png
+ 2022  ls -lhtr
+ 2023  mv argocd-techtrends-* ~/Udacity/Tech_Trends/screen_shots/
+ 2024  cd ~/Udacity/
+ 2025  ls
+ 2026  mkdir CloudNativeApplicationArchitecture
+ 2027  mv -R Tech_Trends CloudNativeApplicationArchitecture/
+ 2028  mv Tech_Trends CloudNativeApplicationArchitecture/
+ 2029  ls
+ 2030  cd CloudNativeApplicationArchitecture/
+ 2031  ls
+ 2032  git clone git@github.com:udacity/nd064-c2-message-passing-projects-starter.git
+ 2033  ls
+ 2034  cd nd064-c2-message-passing-projects-starter/
+ 2035  ls
+ 2036  vagrant up
+ 2037  ls
+ 2038  cd ../
+ 2039  ls
+ 2040  git clone git@github.com:bjk1456/UdaConnect.git
+ 2041  ls
+ 2042  mv -r Tech_Trends/* UdaConnect/
+ 2043  cp -r Tech_Trends/* UdaConnect/
+ 2044  cd UdaConnect/
+ 2045  ls
+ 2046  git add *
+ 2047  git commit "Initial commit"
+ 2048  git commit -m "Initial commit"
+ 2049  git push
+ 2050  cd ../
+ 2051  ls
+ 2052  rm -rf nd064-c2-message-passing-projects-starter/
+ 2053  cd UdaConnect/
+ 2054  cd ../
+ 2055  ls
+ 2056  git clone git@github.com:bjk1456/UdaConnect.git
+ 2057  ls
+ 2058  rm -rf UdaConnect
+ 2059  git clone git@github.com:bjk1456/UdaConnect.git
+ 2060  ls
+ 2061  git clone git@github.com:bjk1456/UdaConnect.git
+ 2062  ls
+ 2063  history
+ 2064  git clone git@github.com:udacity/nd064-c2-message-passing-projects-starter.git
+ 2065  ls
+ 2066  cd nd064-c2-message-passing-projects-starter/
+ 2067  ls
+ 2068  cp -r * ../UdaConnect/
+ 2069  ls
+ 2070  cd ../
+ 2071  ls
+ 2072  cd UdaConnect/
+ 2073  ls
+ 2074  cd ../
+ 2075  lsa
+ 2076  ls
+ 2077  rm -rf nd064-c2-message-passing-projects-starter/
+ 2078  ls
+ 2079  cd UdaConnect/
+ 2080  ls
+ 2081  git add -R *
+ 2082  git add -r *
+ 2083  git add *
+ 2084  git status
+ 2085  git commit -m "Initial commit"
+ 2086  git push\
+ 2087  git push
+ 2088  exit
+ 2089  cd Udacity/
+ 2090  ls
+ 2091  cd Udacity/
+ 2092  ls
+ 2093  ls -lhtr
+ 2094  cd CloudNativeApplicationArchitecture
+ 2095  ls
+ 2096  cd UdaConnect/
+ 2097  ls
+ 2098  vagrant up
+ 2099  history
+ 2100  kubectl describe services
+ 2101  kubectl apply -f deployment/
+ 2102  kubectl get pods
+ 2103  vagrant ssh
+ 2104  vagrant destroy
+ 2105  vagrant up
+ 2106  vagrant ssh
+ 2107  kubectl describe services
+ 2108  kubectl apply -f deployment/
+ 2109  kubectl describe services
+ 2110  kubectl get pods
+ 2111  kubectl describe services
+ 2112  vagrant up
+ 2113  vagrant ssh
+ 2114  rm ~/.kube/config 
+ 2115  vim ~/.kube/config
+ 2116  rm ~/.kube/cache/
+ 2117  rm -rf ~/.kube/cache/
+ 2118  kubectl apply -f deployment/
+ 2119  kubectl describe services
+ 2120  kubectl get pods
+ 2121  vagrant destroy
+ 2122  vagrant up
+ 2123  vagrant ssh
+ 2124  ls
+ 2125  rm -rf ~/.kube/cache/
+ 2126  rm ~/.kube/config 
+ 2127  vim ~/.kube/config
+ 2128  kubectl apply -f deployment/
+ 2129  kubectl get pods
+ 2130  vagrant destroy
+ 2131  vagrant up
+ 2132  vagrant ssh
+ 2133  rm ~/.kube/config 
+ 2134  rm -rf ~/.kube/cache/
+ 2135  vim ~/.kube/config
+ 2136  kubectl apply -f deployment/
+ 2137  kubectl get pods
+ 2138  vagrant up
+ 2139  kubectl get pods
+ 2140  vagrant destroy
+ 2141  kubectl get pods
+ 2142  vagrant up
+ 2143  vagrant ssh
+ 2144  rm -rf ~/.kube/cache/
+ 2145  rm ~/.kube/config 
+ 2146  vim ~/.kube/config
+ 2147  kubectl apply -f deployment/
+ 2148  kubectl get pods
+ 2149  sh scripts/run_db_command.sh postgres-59ff9bdfdc-g92qx
+ 2150  kubectl get pods
+ 2151  kubectl get services
+ 2152  vagrant halt
+ 2153  find type -f name docker
+ 2154  find -type f -name docker
+ 2155  ls
+ 2156  find -type f -name db
+ 2157  find . -type f -name db
+ 2158  find -r -type f -name db
+ 2159  find -type f -name db
+ 2160  find -type f -name db-secret.yaml
+ 2161  find -type f -name db-secret
+ 2162  find -type f -name db-secret*
+ 2163  find -type f -name *docker*
+ 2164  cd /
+ 2165  ls
+ 2166  cd bin
+ 2167  ls
+ 2168  cd linucd
+ 2169  ls
+ 2170  cd
+ 2171  ls
+ 2172  ls -lhtr
+ 2173  echo "$(cat kubectl.sha256)  kubectl" | sha256sum --check
+ 2174  sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+ 2175  kubectl version --client
+ 2176  pwd
+ 2177  cd Udacity/
+ 2178  ls
+ 2179  ls -lhtr
+ 2180  cd CloudNativeApplicationArchitecture/
+ 2181  ls
+ 2182  cd ../
+ 2183  vim ~/.kube/config 
+ 2184  rm ~/.kube/config 
+ 2185  vim ~/.kube/config 
+ 2186  free -m
+ 2187  sudo apt update && sudo apt upgrade -y
+ 2188  ls
+ 2189  cp config.py __init__.py routes.py ../services/
+ 2190  cd ../
+ 2191  ls
+ 2192  cd services/
+ 2193  ls
+ 2194  mv * ../
+ 2195  ls
+ 2196  cd ../
+ 2197  ls
+ 2198  cd app/
+ 2199  ls
+ 2200  cd udaconnect/
+ 2201  ls
+ 2202  cp * ../../services/
+ 2203  ls
+ 2204  exit
+ 2205  ls
+ 2206  cd ../
+ 2207  ls
+ 2208  cd app
+ 2209  ls
+ 2210  cp config.py __init__.py routes.py ../services/
+ 2211  cd udaconnect/
+ 2212  ls
+ 2213  cp * ../../services/
+ 2214  exit
+ 2215  grep -R flask
+ 2216  exit
+ 2217  grep -R person
+ 2218  exit
+ 2219  cd ~/Downloads/
+ 2220  ls
+ 2221  ls -lhtr
+ 2222  mv 'Response to NIN-1333LB23JB00000001SSN sources sought request 2023-05-12T15_58_38-04 00.eml' /tmp/tmp
+ 2223  ls -lhtr
+ 2224  cd ../
+ 2225  ls
+ 2226  ls -lhtr
+ 2227  mv 'Fw: *' /tmp/tmp/
+ 2228  mv 'Fw: '* /tmp/tmp/
+ 2229  ls -lhtr
+ 2230  mv 'Response to NIN-1333LB23JB00000001SSN sources sought request - "Benjamin Kelly" <Benjamin.Kelly@windsorlake.llc> - 2023-05-12 1558.eml' /tmp/tmp
+ 2231  mv 'Re: Response to NIN-1333LB23JB00000001SSN sources sought request - "Benjamin Kelly" <Benjamin.Kelly@windsorlake.llc> - 2023-05-13 1200.eml' /tmp/tmp/
+ 2232  history
+ 2233  history | grep container
+ 2234  history | grep docker
+ 2235  cd /tmp
+ 2236  git clone https://github.com/udacity/nd064-c2-message-passing-projects-starter.git
+ 2237  ls -lhtr
+ 2238  cd nd064-c2-message-passing-projects-starter/
+ 2239  ls
+ 2240  cd modules/
+ 2241  ls
+ 2242  cd api/
+ 2243  ls
+ 2244  sudo docker build -t udaconnect-app .
+ 2245  sudo docker start -d -p 30000:30000 udaconnect-app
+ 2246  sudo docker run -d -p 30000:30000 udaconnect-app
+ 2247  sudo docker ps
+ 2248  sudo docker rm udaconnect-app
+ 2249  sudo docker build -t udaconnect-app-1 .
+ 2250  ls
+ 2251  ls -la
+ 2252  exit
+ 2253  sudo apt install thunderbird
+ 2254  cd /tmp
+ 2255  ls
+ 2256  mkdir tmo
+ 2257  rmdir tmo
+ 2258  mkdir tmp
+ 2259  cd tmp/
+ 2260  ls
+ 2261  git remote add origin https://liberty.sgvpm.com/benjamin.kelly/governmentcontracting.git
+ 2262  git init
+ 2263  git remote add origin https://liberty.sgvpm.com/benjamin.kelly/governmentcontracting.git
+ 2264  git branch -M master
+ 2265  ls
+ 2266  git add Response\ to\ NIN-1333LB23JB00000001SSN\ sources\ sought\ request\ 2023-05-12T15_58_38-04\ 00.eml 
+ 2267  ls
+ 2268  git add *
+ 2269  git commit -m "Initial emails"
+ 2270  git push
+ 2271  git push master
+ 2272  git push --set-upstream origin master
+ 2273  git pull
+ 2274  ls
+ 2275  git branch -M NIN-1333LB23JB00000001SSN-12May2023
+ 2276  git pull
+ 2277  ls
+ 2278  it branch --set-upstream-to=origin/NIN-1333LB23JB00000001SSN-12May2023
+ 2279  git branch --set-upstream-to=origin/NIN-1333LB23JB00000001SSN-12May2023
+ 2280  git status
+ 2281  git pull
+ 2282  git config pull.rebase false
+ 2283  git pull
+ 2284  ls
+ 2285  git status
+ 2286  git pull
+ 2287  git pull origin NIN-1333LB23JB00000001SSN-12May2023 --allow-unrelated-histories
+ 2288  git status
+ 2289  git push
+ 2290  cd
+ 2291  ls
+ 2292  cd Udacity/
+ 2293  ls
+ 2294  ls -lhtr
+ 2295  cd CloudNativeApplicationArchitecture
+ 2296  ls
+ 2297  cd UdaConnect/
+ 2298  ls
+ 2299  git status
+ 2300  git diff Vagrantfile
+ 2301  pwd
+ 2302  ls
+ 2303  cd ../
+ 2304  git status
+ 2305  ls
+ 2306  cd UdaConnect/
+ 2307  ls
+ 2308  git status
+ 2309  vim kubectl 
+ 2310  file kubectl 
+ 2311  ls
+ 2312  vim .ignore
+ 2313  git status
+ 2314  git add Vagrantfile modules/*
+ 2315  git status
+ 2316  git commit -m "Move Person(s)Service out of the monolith and into its own service."
+ 2317  git push
+ 2318  history
+ 2319  ls
+ 2320  vagrant up
+ 2321  vagrant destroy
+ 2322  ls
+ 2323  cd modules/
+ 2324  ls
+ 2325  cd api/
+ 2326  ls
+ 2327  cd ../frontend/
+ 2328  ls
+ 2329  cd ../
+ 2330  ls
+ 2331  cd ../
+ 2332  ls
+ 2333  cat .ignore 
+ 2334  cat .ignore >> .gitignore
+ 2335  cat .gitignore 
+ 2336  rm .ignore 
+ 2337  ls
+ 2338  cd modules/
+ 2339  ls
+ 2340  cd api/
+ 2341  ls
+ 2342  vim Dockerfile 
+ 2343  docker build -t udaconnect-app .
+ 2344  sudo docker build -t udaconnect-app .
+ 2345  ls
+ 2346  ls -lhtr
+ 2347  file app/
+ 2348  docker run -d -p 3000:3000 udaconnect-app
+ 2349  sudo docker run -d -p 3000:3000 udaconnect-app
+ 2350  sudo status docker 
+ 2351  docker ps
+ 2352  sudo docker ps
+ 2353  sudo docker run -d -p 30000:30000 udaconnect-app
+ 2354  sudo docker ps
+ 2355  sudo docker start -d -p 30000:30000 udaconnect-app
+ 2356  sudo docker run -d -p 3000:3000 udaconnect-app
+ 2357  sudo docker ps
+ 2358  sudo docker logs
+ 2359  sudo docker logs 8056aafb6cda38f65bb54d108b4e1208daf946d1d329341b8833a7a3e32657eb
+ 2360  docker tag udaconnect-app bjk1456/nd064-udaconnect-app:v1.0.0
+ 2361  sudo docker tag udaconnect-app bjk1456/nd064-udaconnect-app:v1.0.0
+ 2362  docker login
+ 2363  sudo docker login
+ 2364  docker push bjk1456/nd064-udaconnect-app:v1.0.0
+ 2365  sudo docker push bjk1456/nd064-udaconnect-app:v1.0.0
+ 2366  pwd
+ 2367  ls
+ 2368  cd ../
+ 2369  ls
+ 2370  cd frontend/
+ 2371  ls
+ 2372  sudo docker container ls
+ 2373  ls
+ 2374  docker build -t udaconnect-app .
+ 2375  sudo docker build -t udaconnect-app .
+ 2376  docker tag udaconnect-app bjk1456/nd064-udaconnect-app:v1.0.0
+ 2377  sudo docker tag udaconnect-app bjk1456/nd064-udaconnect-app:v1.0.0
+ 2378  docker push bjk1456/nd064-udaconnect-app:v1.0.0
+ 2379  sudo docker push bjk1456/nd064-udaconnect-app:v1.0.0
+ 2380  cd ../
+ 2381  ls
+ 2382  cd api
+ 2383  ls
+ 2384  docker build -t udaconnect-api .
+ 2385  sudo docker build -t udaconnect-api .
+ 2386  ls -la
+ 2387  docker tag udaconnect-api bjk1456/nd064-udaconnect-api:v1.0.0
+ 2388  sudo docker tag udaconnect-api bjk1456/nd064-udaconnect-api:v1.0.0
+ 2389  sudo docker push bjk1456/nd064-udaconnect-api:v1.0.0
+ 2390  ls
+ 2391  cd ../
+ 2392  ls
+ 2393  cd persons_api/
+ 2394  ls
+ 2395  docker build -t udaconnect-persons .
+ 2396  sudo docker build -t udaconnect-persons .
+ 2397  docker tag udaconnect-persons bjk1456/nd064-udaconnect-persons:v1.0.0
+ 2398  sudo docker tag udaconnect-persons bjk1456/nd064-udaconnect-persons:v1.0.0
+ 2399  sudo docker push bjk1456/nd064-persons:v1.0.0
+ 2400  sudo docker push bjk1456/nd064-udaconnect-persons:v1.0.0
+ 2401  ls
+ 2402  cd ../
+ 2403  ls
+ 2404  cd frontend/
+ 2405  docker build -t udaconnect-app .
+ 2406  sudo docker build -t udaconnect-app .
+ 2407  docker tag udaconnect-app bjk1456/nd064-udaconnect-app:v1.0.0
+ 2408  sudo docker tag udaconnect-app bjk1456/nd064-udaconnect-app:v1.0.0
+ 2409  docker push bjk1456/nd064-udaconnect-app:v1.0.0
+ 2410  sudo docker push bjk1456/nd064-udaconnect-app:v1.0.0
+ 2411  cd ../
+ 2412  ls
+ 2413  cd ../
+ 2414  ls
+ 2415  vagrant up
+ 2416  vagrant ssh
+ 2417  ls -la
+ 2418  vim ~/.kube/config 
+ 2419  rm ~/.kube/config 
+ 2420  vim ~/.kube/config 
+ 2421  rm ~/.kube/cache/
+ 2422  rm -rf ~/.kube/cache/
+ 2423  kubectl describe services
+ 2424  ls
+ 2425  kubectl apply -f deployment/
+ 2426  kubectl describe services
+ 2427  vagrant up
+ 2428  kubectl describe services
+ 2429  kubectl get services
+ 2430  kubectl get pods
+ 2431  kubectl get services
+ 2432  kubectl get pods
+ 2433  kubectl get pod udaconnect-app-57b5cf4575-kghpl
+ 2434  kubectl logs udaconnect-persons-bd546797d-dd84b
+ 2435  kubectl logs udaconnect-app-57b5cf4575-kghpl
+ 2436  kubectl get pods
+ 2437  kubectl logs udaconnect-api-55d69c59cd-svhl5
+ 2438  kubectl logs postgres-59ff9bdfdc-prw9t
+ 2439  vagrant destory
+ 2440  ls
+ 2441  vagrant ssh
+ 2442  vagrant destroy
+ 2443  ls
+ 2444  cd modules
+ 2445  ls
+ 2446  rm -rf api/
+ 2447  pwd
+ 2448  ls
+ 2449  git diff
+ 2450  ls
+ 2451  rm -rf frontend/
+ 2452  ls
+ 2453  cd frontend/
+ 2454  ls
+ 2455  cd ../
+ 2456  vagrant destroy
+ 2457  ls
+ 2458  cd frontend/
+ 2459  ls
+ 2460  docker build -t udaconnect-app .
+ 2461  sudo docker build -t udaconnect-app .
+ 2462  docker tag udaconnect-app bjk1456/nd064-udaconnect-app:v1.0.0
+ 2463  sudo docker tag udaconnect-app bjk1456/nd064-udaconnect-app:v1.0.0
+ 2464  sudo docker push bjk1456/nd064-udaconnect-app:v1.0.0
+ 2465  cd ../
+ 2466  ls
+ 2467  cd api/
+ 2468  sudo docker build -t udaconnect-api .
+ 2469  docker tag udaconnect-api bjk1456/nd064-udaconnect-api:v1.0.0
+ 2470  sudo docker tag udaconnect-api bjk1456/nd064-udaconnect-api:v1.0.0
+ 2471  sudo docker push bjk1456/nd064-udaconnect-api:v1.0.0
+ 2472  cd ../
+ 2473  ls
+ 2474  docker up
+ 2475  cd ../
+ 2476  ls
+ 2477  vagrant up
+ 2478  vagrant destroy
+ 2479  vagrant up
+ 2480  vagrant destroy
+ 2481  vagrant up
+ 2482  vagrant ssh
+ 2483  ls
+ 2484  rm -rf ~/.kube/cache/
+ 2485  rm ~/.kube/config 
+ 2486  vim ~/.kube/config 
+ 2487  kubectl get services
+ 2488  ls
+ 2489  kubectl apply -f deployment/
+ 2490  kubectl get services
+ 2491  rm ~/.kube/config 
+ 2492  kubectl get services
+ 2493  vagrant status
+ 2494  exit
+ 2495  cd ~/.config/protonmail/
+ 2496  ls
+ 2497  cd bridge-v3/
+ 2498  ls
+ 2499  pwd
+ 2500  history | grep tag
+ 2501  history | grep kubectl
+ 2502  exit
+ 2503  espeak-ng “Hello Everybody
+ 2504  sudo apt install espeak-ng
+ 2505  espeak-ng “Hello Everybody
+ 2506  espeak-ng “Hello Everybody"
+ 2507  espeak-ng -s 125 “Hello Everybody” 
+ 2508  espeak-ng -s 125 “Everybody” 
+ 2509  exit
+ 2510  cd /tmp
+ 2511  ls
+ 2512  ls -lhtr
+ 2513  cd nd064-c2-message-passing-projects-starter
+ 2514  ls
+ 2515  vagrant up
+ 2516  vagrant ssh
+ 2517  vim ~/.kube/config 
+ 2518  rm ~/.kube/config 
+ 2519  vim ~/.kube/config 
+ 2520  kubectl describe services
+ 2521  kubectl apply -f deployment/
+ 2522  kubectl get pods
+ 2523  kubectl get services
+ 2524  kubectl get pods
+ 2525  kubectl get services
+ 2526  kubectl get pods
+ 2527  kubectl logs udaconnect-app-7f4cfb7b69-k9pwx
+ 2528  sh scripts/run_db_command.sh postgres-59ff9bdfdc-rzvqc
+ 2529  ls
+ 2530  cd modules
+ 2531  ls
+ 2532  cp -R /home/kelbenj/Udacity/CloudNativeApplicationArchitecture/UdaConnect/modules/api
+ 2533  cp -R api/ /home/kelbenj/Udacity/CloudNativeApplicationArchitecture/UdaConnect/modules/api
+ 2534  cp -R frontend/ /home/kelbenj/Udacity/CloudNativeApplicationArchitecture/UdaConnect/modules/frontend
+ 2535  vagrant destroy
+ 2536  exit
+ 2537  history
+ 2538  ls
+ 2539  cd Udacity/
+ 2540  ls
+ 2541  cd CloudNativeApplicationArchitecture/
+ 2542  ls
+ 2543  cd UdaConnect/
+ 2544  ls
+ 2545  vagrant destroy
+ 2546  vagrant up
+ 2547  vagrant ssh
+ 2548  ls
+ 2549  rm ~/.kube/config 
+ 2550  vim ~/.kube/config 
+ 2551  kubectl get services
+ 2552  ls
+ 2553  kubectl apply -f deployment/
+ 2554  kubectl get pods
+ 2555  ps -ef
+ 2556  vagrant destroy
+ 2557  cd Udacity/
+ 2558  ls
+ 2559  cd CloudNativeApplicationArchitecture/
+ 2560  ls
+ 2561  cd UdaConnect/
+ 2562  vagrant destroy
+ 2563  vagrant up
+ 2564  vagrant ssh
+ 2565  rm ~/.kube/config 
+ 2566  vim ~/.kube/config 
+ 2567  kubectl get services
+ 2568  ls
+ 2569  kubectl get pods
+ 2570  kubectl apply -f deployment/
+ 2571  kubectl get pods
+ 2572  kubectl get services
+ 2573  kubectl get pods
+ 2574  history
+ 2575  kubectl get pods
+ 2576  sh scripts/run_db_command.sh postgres-59ff9bdfdc-cm528
+ 2577  kubectl get pods
+ 2578  kubectl get services
+ 2579  ls
+ 2580  vagrant destroy
+ 2581  ls
+ 2582  vim Vagrantfile 
+ 2583  vagrant up
+ 2584  vagrant ssh
+ 2585  rm ~/.kube/config 
+ 2586  vim Vagrantfile 
+ 2587  vim ~/.kube/config 
+ 2588  kubectl get pods
+ 2589  kubectl apply -f deployment/
+ 2590  kubectl get pods
+ 2591  kubectl get persons
+ 2592  kubectl get services
+ 2593  kubectl get pods
+ 2594  kubectl logs udaconnect-app-7f4cfb7b69-k9pwx
+ 2595  kubectl logs postgres-59ff9bdfdc-jjwjm
+ 2596  kubectl logs udaconnect-api-75596d4596-fv29j
+ 2597  kubectl get pods
+ 2598  kubectl logs udaconnect-api-75596d4596-fv29j
+ 2599  kubectl get pods
+ 2600  kubectl logs udaconnect-persons-bd546797d-lhxnr
+ 2601  kubectl get pods
+ 2602  ls
+ 2603  cd deployment/
+ 2604  ls
+ 2605  vim postgres.yaml 
+ 2606  cd ../
+ 2607  ls
+ 2608  kubectl get pods
+ 2609  vagrant destroy
+ 2610  exit
+ 2611  exit
+ 2612  cd /tmp
+ 2613  ls
+ 2614  pwd
+ 2615  ls
+ 2616  history | grep clone
+ 2617  git clone https://github.com/udacity/nd064-c2-message-passing-projects-starter.git
+ 2618  ls
+ 2619  cd nd064-c2-message-passing-projects-starter/
+ 2620  ls
+ 2621  vagrant up
+ 2622  vagrant ssh
+ 2623  rm ~/.kube/config 
+ 2624  vim ~/.kube/config 
+ 2625  kubectl get services
+ 2626  kubectl apply -f deployment/
+ 2627  kubectl get services
+ 2628  kubectl get pods
+ 2629  sh scripts/run_db_command.sh postgres-59ff9bdfdc-rzvqc
+ 2630  sh scripts/run_db_command.sh postgres-59ff9bdfdc-xr2v4
+ 2631  pwd
+ 2632  ls
+ 2633  vagrant destroy
+ 2634  vagrant up
+ 2635  exit
+ 2636  cd Udacity/
+ 2637  ls
+ 2638  cd CloudNativeApplicationArchitecture/
+ 2639  ls
+ 2640  cd UdaConnect/
+ 2641  ls
+ 2642  vagrant destroy
+ 2643  vagrant up
+ 2644  vagrant ssh
+ 2645  rm ~/.kube/config 
+ 2646  vim ~/.kube/config 
+ 2647  kubectl apply -f deployment/
+ 2648  kubectl get pods
+ 2649  kubectl get service
+ 2650  kubectl get pods
+ 2651  kubectl get service
+ 2652  kubectl get pods
+ 2653  sh scripts/run_db_command.sh postgres-59ff9bdfdc-m6sl2
+ 2654  kubectl get pods
+ 2655  kubectl get service
+ 2656  kubectl get pods
+ 2657  history
+ 2658  kubectl get pods
+ 2659  curl http://localhost:30001/api/
+ 2660  curl http://localhost:30001/api/locations
+ 2661  http://localhost:30001/api/persons
+ 2662  curl http://localhost:30001/api/persons
+ 2663  curl http://localhost:50002/api/persons
+ 2664  kubectl get pods
+ 2665  kubectl get service
+ 2666  curl http://localhost:5002/api/persons
+ 2667  curl http://localhost:30002/api/persons
+ 2668  kubectl exec -it udaconnect-persons-api bin/sh
+ 2669  kubectl get pods
+ 2670  kubectl exec -it udaconnect-persons-api-5f67b6b76b-2djjh bin/sh
+ 2671  vagrant destroy
+ 2672  ls
+ 2673  cd modules/
+ 2674  ls
+ 2675  cd persons_api/
+ 2676  sudo docker build -t udaconnect-persons-api .
+ 2677  sudo docker tag udaconnect-persons-api bjk1456/udaconnect-persons-api:v1.0.0
+ 2678  sudo docker push bjk1456/udaconnect-persons-api:v1.0.0
+ 2679  cd ../
+ 2680  ls
+ 2681  cd ../
+ 2682  ls
+ 2683  cd deployment/
+ 2684  ls
+ 2685  ls -lhtr
+ 2686  mv udaconnect-api.yaml../
+ 2687  mv udaconnect-api.yaml ../
+ 2688  ls
+ 2689  cd ../
+ 2690  ls
+ 2691  vagrant destroy
+ 2692  vagrant up
+ 2693  vagrant ssh
+ 2694  rm ~/.kube/config 
+ 2695  vim ~/.kube/config 
+ 2696  kubectl get service
+ 2697  kubectl apply -f deployment/
+ 2698  kubectl get pods
+ 2699  kubectl logs udaconnect-persons-bd546797d-lhxnr
+ 2700  kubectl logs udaconnect-app-57b5cf4575-4zw8r
+ 2701  kubectl get pods
+ 2702  kubectl delete pod udaconnect-app-57b5cf4575-4zw8r
+ 2703  ls
+ 2704  cd deployment/
+ 2705  kubectl apply -f udaconnect-app.yaml
+ 2706  cd ../
+ 2707  ls
+ 2708  kubectl get pods
+ 2709  curl http://localhost:30002/api/persons
+ 2710  kubectl exec -it udaconnect-persons-api-5f67b6b76b-h6s8j bin/sh
+ 2711  curl http://localhost:30001/api/persons
+ 2712  curl http://localhost:30000/api/persons
+ 2713  curl http://localhost:30001/api/persons
+ 2714  vagrant destroy
+ 2715  vagrant up
+ 2716  kubectl get pods
+ 2717  kubectl get services
+ 2718  vagrant ssh
+ 2719  rm ~/.kube/config 
+ 2720  vim ~/.kube/config 
+ 2721  kubectl get pods
+ 2722  ls
+ 2723  kubectl apply -f deployment/
+ 2724  kubectl get pods
+ 2725  vagrant destroy
+ 2726  vagrant up
+ 2727  vagrant ssh
+ 2728  rm ~/.kube/config 
+ 2729  vim ~/.kube/config 
+ 2730  kubectl get services
+ 2731  ls
+ 2732  mv udaconnect-api.yaml deployment/
+ 2733  kubectl apply -f deployment/
+ 2734  kubectl get services
+ 2735  kubectl get pods
+ 2736  vagrant destroy
+ 2737  exit
+ 2738  ls
+ 2739  cd modules/
+ 2740  ls
+ 2741  cd frontend/
+ 2742  ls
+ 2743  sudo docker system prune -a
+ 2744  ls
+ 2745  docker build -t udaconnect-app .
+ 2746  sudo docker build -t udaconnect-app .
+ 2747  sudo docker tag udaconnect-app bjk1456/udaconnect-app:v1.0.0
+ 2748  sudo docker push bjk1456/udaconnect-app:v1.0.0
+ 2749  cd ../../
+ 2750  ls
+ 2751  vagrant destroy
+ 2752  vagrant up
+ 2753  vagrant ssh
+ 2754  rm ~/.kube/config 
+ 2755  vim ~/.kube/config 
+ 2756  kubectl get services
+ 2757  ls
+ 2758  kubectl apply -f deployment/
+ 2759  kubectl get pods
+ 2760  vagrant destory
+ 2761  vagrant destroy
+ 2762  ls
+ 2763  grep -R 5000
+ 2764  cd modules/
+ 2765  LS
+ 2766  ls
+ 2767  cd persons_api/
+ 2768  ls
+ 2769  grep -R 5000
+ 2770  vim wsgi.py 
+ 2771  exit
+ 2772  cd Udacity/
+ 2773  ls
+ 2774  cd CloudNativeApplicationArchitecture/
+ 2775  ls
+ 2776  cd UdaConnect/
+ 2777  ls
+ 2778  cd deployment/
+ 2779  ls
+ 2780  ls -lhtr
+ 2781  mv udaconnect-api.yaml ../
+ 2782  cd ../
+ 2783  vagrant destroy
+ 2784  vagrant up
+ 2785  rm ~/.kube/config 
+ 2786  vim wsgi.py 
+ 2787  vim ~/.kube/config 
+ 2788  kubectl get services
+ 2789  ls
+ 2790  kubectl apply -f deployment/
+ 2791  kubectl get services
+ 2792  kubectl get pods
+ 2793  kubectl port-forward udaconnect-persons-api 5000:5002
+ 2794  kubectl get pods
+ 2795  kubectl port-forward udaconnect-persons-api-5f67b6b76b-9p5tz 5000:5002
+ 2796  kubectl port-forward udaconnect-persons-api-5f67b6b76b-9p5tz 5002:5000
+ 2797  kubectl port-forward udaconnect-persons-api-5f67b6b76b-9p5tz 5000:5002
+ 2798  kubectl port-forward udaconnect-persons-api-5f67b6b76b-9p5tz 5000:30002
+ 2799  kubectl port-forward udaconnect-persons-api-5f67b6b76b-9p5tz 5002:30002
+ 2800  kubectl delete pod udaconnect-persons-api-5f67b6b76b-9p5tz
+ 2801  ls
+ 2802  mv udaconnect-api.yaml deployment/
+ 2803  cd deployment/
+ 2804  ls
+ 2805  kubectl apply -f udaconnect-api-persons.yaml
+ 2806  sh scripts/run_db_command.sh postgres-59ff9bdfdc-m6sl2
+ 2807  kubectl get services
+ 2808  kubectl get pods
+ 2809  sh scripts/run_db_command.sh postgres-59ff9bdfdc-9bbp4
+ 2810  cd ../
+ 2811  l
+ 2812  sh scripts/run_db_command.sh postgres-59ff9bdfdc-9bbp4
+ 2813  kubectl get pods
+ 2814  kubectl delete pod udaconnect-persons-api-5f67b6b76b-nbr6r
+ 2815  kubectl get pods
+ 2816  ls
+ 2817  cd deployment/
+ 2818  ls
+ 2819  kubectl apply -f udaconnect-api-persons.yaml
+ 2820  kubectl get services
+ 2821  ls
+ 2822  kubectl apply -f udaconnect-api.yaml 
+ 2823  kubectl get services
+ 2824  kubectl get pods
+ 2825  kubectl delete pod udaconnect-api-75596d4596-r722j
+ 2826  kubectl get pods
+ 2827  kubectl get services
+ 2828  kubectl delete svc udaconnect-api
+ 2829  kubectl get pods
+ 2830  kubectl delete pod udaconnect-api-75596d4596-k9kxj
+ 2831  kubectl get pods
+ 2832  cd ../
+ 2833  vagrant destroy
+ 2834  vagrant up
+ 2835  vagrant ssh
+ 2836  rm ~/.kube/config 
+ 2837  vim ~/.kube/config 
+ 2838  kubectl get services
+ 2839  ls
+ 2840  kubectl apply -f deployment/
+ 2841  kubectl get pods
+ 2842  vagrant destroy
+ 2843  vagrant up
+ 2844  vagrant ssh
+ 2845  rm ~/.kube/config 
+ 2846  vim ~/.kube/config 
+ 2847  kubectl get services
+ 2848  ls
+ 2849  kubectl apply -f deployment/
+ 2850  kubectl get pods
+ 2851  sh scripts/run_db_command.sh postgres-59ff9bdfdc-9bbp4
+ 2852  sh scripts/run_db_command.sh postgres-59ff9bdfdc-dvcq6
+ 2853  git status
+ 2854  ls
+ 2855  git add *
+ 2856  git status
+ 2857  git commit -m "Break persons-api out into its own service"
+ 2858  git push
+ 2859  vagrant destroy
+ 2860  ls
+ 2861  cd modules/
+ 2862  ls
+ 2863  cd api/
+ 2864  grep -R person
+ 2865  grep -Rn person
+ 2866  ls
+ 2867  cd ../
+ 2868  ls
+ 2869  cd persons_api/
+ 2870  git status
+ 2871  git diff
+ 2872  cd ../
+ 2873  ls
+ 2874  git reset --hard 5d9645161870b9ed19eecb6604ea343cd6cda115
+ 2875  git status
+ 2876  ls
+ 2877  git status
+ 2878  ls
+ 2879  cd api/
+ 2880  ls
+ 2881  docker build -t udaconnect-api .
+ 2882  sudo docker build -t udaconnect-api .
+ 2883  docker tag udaconnect-api bjk1456/udaconnect-api:v1.0.1
+ 2884  sudo docker tag udaconnect-api bjk1456/udaconnect-api:v1.0.1
+ 2885  sudo docker push bjk1456/udaconnect-api:v1.0.1
+ 2886  cd ../
+ 2887  ls
+ 2888  cd ../
+ 2889  ls
+ 2890  vagrant destroy
+ 2891  ls
+ 2892  vagrant up
+ 2893  vagrant ssh
+ 2894  rm ~/.kube/config 
+ 2895  vim ~/.kube/config 
+ 2896  kubectl get services
+ 2897  ls
+ 2898  kubectl apply -f deployment/
+ 2899  kubectl get pods
+ 2900  kubectl logs udaconnect-app-57b5cf4575-4zw8r
+ 2901  kubectl logs udaconnect-api-7578699f58-6xbvf
+ 2902  ls
+ 2903  cd modules/
+ 2904  ls
+ 2905  cd api/
+ 2906  ls
+ 2907  docker build -t udaconnect-persons-api .
+ 2908  sudo docker build -t udaconnect-persons-api .
+ 2909  docker build -t udaconnect-api .
+ 2910  sudo docker build -t udaconnect-api .
+ 2911  sudo docker tag udaconnect-api bjk1456/udaconnect-api:v1.0.1
+ 2912  sudo docker push bjk1456/udaconnect-api:v1.0.1
+ 2913  cd ../../
+ 2914  vagrant destroy
+ 2915  vagrant up
+ 2916  vagrant ssh
+ 2917  rm ~/.kube/config 
+ 2918  vim ~/.kube/config 
+ 2919  kubectl get services
+ 2920  ls
+ 2921  kubectl apply -f deployment/
+ 2922  kubectl get pods
+ 2923  kubectl logs udaconnect-api-7578699f58-6xbvf
+ 2924  kubectl logs udaconnect-api-7578699f58-jb5vk
+ 2925  ls
+ 2926  vagrant destroy
+ 2927  ls
+ 2928  cd modules/
+ 2929  ls
+ 2930  cd api/
+ 2931  sudo docker build -t udaconnect-api .
+ 2932  sudo docker tag udaconnect-api bjk1456/udaconnect-api:v1.0.1
+ 2933  sudo docker push bjk1456/udaconnect-api:v1.0.1
+ 2934  cd ../
+ 2935  ls
+ 2936  cd ../
+ 2937  ls
+ 2938  vagrant up
+ 2939  vagrant ssh
+ 2940  rm ~/.kube/config 
+ 2941  vim ~/.kube/config 
+ 2942  ls
+ 2943  kubectl apply -f deployment/
+ 2944  kubectl get pods
+ 2945  kubectl logs udaconnect-api-7578699f58-jb5vk
+ 2946  kubectl logs udaconnect-api-7578699f58-9n4vg
+ 2947  ls
+ 2948  cd modules/
+ 2949  ls
+ 2950  cd api/
+ 2951  ls
+ 2952  grep -Ri Person
+ 2953  ls
+ 2954  cd ../
+ 2955  ls
+ 2956  cd api
+ 2957  sudo docker build -t udaconnect-api .
+ 2958  sudo docker tag udaconnect-api bjk1456/udaconnect-api:v1.0.1
+ 2959  sudo docker push bjk1456/udaconnect-api:v1.0.1
+ 2960  cd ../../
+ 2961  ls
+ 2962  vagrant up
+ 2963  vagrant destroy
+ 2964  vagrant up
+ 2965  vagrant ssh
+ 2966  rm ~/.kube/config 
+ 2967  vim ~/.kube/config 
+ 2968  kubectl get services
+ 2969  kubectl apply -f deployment/
+ 2970  kubectl get pods
+ 2971  history | grep curl
+ 2972  curl http://localhost:30000/api/persons
+ 2973  curl http://localhost:30001/api/persons
+ 2974  kubectl get pods
+ 2975  sh scripts/run_db_command.sh postgres-59ff9bdfdc-dvcq6
+ 2976  sh scripts/run_db_command.sh postgres-59ff9bdfdc-gm77p
+ 2977  kubectl get pods
+ 2978  curl http://localhost:30001/api/persons
+ 2979  curl http://localhost:30002/api/persons
+ 2980  curl http://localhost:30001/api/locations
+ 2981  curl http://localhost:30002/api/locations
+ 2982  kubectl get pods
+ 2983  kubectl logs udaconnect-api-7578699f58-m47g9
+ 2984  kubectl get pods
+ 2985  kubectl logs udaconnect-persons-api-5f67b6b76b-m6ncv
+ 2986  vagrant destroy
+ 2987  git status
+ 2988  git add *
+ 2989  git status
+ 2990  git commit -m "Remove Person from API monolith"
+ 2991  git push
+ 2992  cd ~/Downloads/
+ 2993  ls
+ 2994  ls -lhtr
+ 2995  mv 'Response to PCCA-23-00040 sources sought request 2023-05-29T14_50_24-04 00.eml' /tmp/governmentcontracting/
+ 2996  mv 'Fw RE Response to PCCA-23-00040 sources sought request 2023-05-30T09_31_22-04 00.eml' /tmp/governmentcontracting/
+ 2997  ls -lhtr
+ 2998  cd /tmp
+ 2999  history | grep checkout
+ 3000  history | grep liberty
+ 3001  git checkout https://liberty.sgvpm.com/benjamin.kelly/governmentcontracting.git
+ 3002  git init
+ 3003  git checkout https://liberty.sgvpm.com/benjamin.kelly/governmentcontracting.git
+ 3004  git clone https://liberty.sgvpm.com/benjamin.kelly/governmentcontracting.git
+ 3005  git checkout PCCA-23-00040-29May2023
+ 3006  git checkout
+ 3007  ls
+ 3008  git brach -a
+ 3009  git branch -a
+ 3010  ls -lhtr
+ 3011  cd governmentcontracting/
+ 3012  ls
+ 3013  git checkout PCCA-23-00040-29May2023
+ 3014  ls
+ 3015  git add *
+ 3016  git status
+ 3017  git commit -m "Initial emails"
+ 3018  git push origin PCCA-23-00040-29May2023 8e8daa3
+ 3019  git push origin PCCA-23-00040-29May2023
+ 3020  curl http://localhost:30001/api/persons
+ 3021  curl http://localhost:30002/api/persons
+ 3022  curl http://localhost:30003/api/persons
+ 3023  curl http://localhost:30000/api/persons
+ 3024  curl http://localhost:30002/api/persons
+ 3025  curl http://localhost:30003/api/persons
+ 3026  kubectl get pods
+ 3027  kubectl get services
+ 3028  curl http://localhost:30003/api/persons
+ 3029  curl http://localhost:30002/api/persons
+ 3030  curl http://localhost:30002/
+ 3031  kubectl get services
+ 3032  kubectl get pods
+ 3033  kubectl exec -it udaconnect-persons-api-5f67b6b76b-9p5tz /bin/sh
+ 3034  curl http://localhost:30002/
+ 3035  curl http://localhost:30001
+ 3036  curl http://localhost:30000
+ 3037  curl http://localhost:30002/
+ 3038  curl http://localhost:30002/api/persons
+ 3039  kubectl get services
+ 3040  curl http://localhost:30002/health
+ 3041  kubectl get services
+ 3042  history
+ 3043  kubectl get services
+ 3044  curl http://localhost:30002/health
+ 3045  curl http://localhost:30001/health
+ 3046  curl http://localhost:30002/api/persons
+ 3047  curl http://localhost:30001/api/persons
+ 3048  grep -R 30001
+ 3049  curl http://localhost:30002/api/persons
+ 3050  curl http://localhost:30001/api/persons
+ 3051  curl http://localhost:30002/api/persons
+ 3052  curl http://localhost:30001/api/persons
+ 3053  ls
+ 3054  cd modules/
+ 3055  LS
+ 3056  ls
+ 3057  cd api/
+ 3058  ls
+ 3059  docker build -t udaconnect-api .
+ 3060  sudo docker build -t udaconnect-api .
+ 3061  docker tag udaconnect-api bjk1456/udaconnect-api:v1.0.0
+ 3062  sudo docker tag udaconnect-api bjk1456/udaconnect-api:v1.0.0
+ 3063  sudo docker push bjk1456/udaconnect-api:v1.0.0
+ 3064  curl http://localhost:30001/api/persons
+ 3065  curl http://localhost:30002/api/persons
+ 3066  exit
+ 3067  cd Udacity/
+ 3068  ls
+ 3069  cd CloudNativeApplicationArchitecture/
+ 3070  ls
+ 3071  cd UdaConnect/
+ 3072  ls
+ 3073  cd modules/
+ 3074  ls
+ 3075  cd persons_api/
+ 3076  ls
+ 3077  docker build -t udaconnect-persons-api .
+ 3078  sudo docker build -t udaconnect-persons-api .
+ 3079  sudo docker tag udaconnect-persons-api bjk1456/udaconnect-persons-api:v1.0.2
+ 3080  sudo docker push bjk1456/udaconnect-persons-api:v1.0.2
+ 3081  cd ../
+ 3082  ls
+ 3083  vagant destroy
+ 3084  vagrant destroy
+ 3085  vagrant up
+ 3086  vagrant ssh
+ 3087  rm ~/.kube/config 
+ 3088  vim ~/.kube/config 
+ 3089  kubectl get services
+ 3090  ls
+ 3091  cd ../
+ 3092  ls
+ 3093  kubectl apply -f deployment/
+ 3094  kubectl get pods
+ 3095  kubectl logs udaconnect-persons-api-844664c9d8-7x9z4
+ 3096  kubectl get pods
+ 3097  sh scripts/run_db_command.sh postgres-59ff9bdfdc-2bdnm
+ 3098  kubectl get pods
+ 3099  kubectl logs udaconnect-persons-api-844664c9d8-7x9z4
+ 3100  vagrant destroy
+ 3101  ls
+ 3102  cd modules/
+ 3103  ls
+ 3104  cd persons_api/
+ 3105  ls
+ 3106  history
+ 3107  docker build -t udaconnect-persons-api .
+ 3108  sudo docker build -t udaconnect-persons-api .
+ 3109  sudo docker tag udaconnect-persons-api bjk1456/udaconnect-persons-api:v1.0.2
+ 3110  sudo docker push bjk1456/udaconnect-persons-api:v1.0.2
+ 3111  cd ../
+ 3112  ls
+ 3113  cd ../
+ 3114  ls
+ 3115  vagrant destroy
+ 3116  vagrant up
+ 3117  vagrant ssh
+ 3118  rm ~/.kube/config 
+ 3119  vim ~/.kube/config 
+ 3120  kubectl get services
+ 3121  kubectl apply -f deployment/
+ 3122  kubectl get pods
+ 3123  kubectl apply -f deployment/
+ 3124  vagrant destroy 
+ 3125  vagrant up
+ 3126  vagrant ssh
+ 3127  rm ~/.kube/config 
+ 3128  vim ~/.kube/config 
+ 3129  ls
+ 3130  kubectl apply -f deployment/
+ 3131  kubectl get pods
+ 3132  kubectl logs udaconnect-persons-api-844664c9d8-7x9z4
+ 3133  kubectl logs udaconnect-persons-api-844664c9d8-xxcc6
+ 3134  kubectl get pods
+ 3135  sh scripts/run_db_command.sh postgres-59ff9bdfdc-x7m5w
+ 3136  kubectl get pods
+ 3137  kubectl logs udaconnect-persons-api-844664c9d8-xxcc6
+ 3138  vagrant destroy
+ 3139  ls
+ 3140  cd modules/
+ 3141  ls
+ 3142  cd persons_api/
+ 3143  ls
+ 3144  sudo docker build -t udaconnect-persons-api .
+ 3145  sudo docker tag udaconnect-persons-api bjk1456/udaconnect-persons-api:v1.0.2
+ 3146  sudo docker push bjk1456/udaconnect-persons-api:v1.0.2
+ 3147  cd ../../
+ 3148  ls
+ 3149  vagrant up
+ 3150  vagrant ssh
+ 3151  rm ~/.kube/config 
+ 3152  vim ~/.kube/config 
+ 3153  kubectl get services
+ 3154  kubectl apply -f deployment/
+ 3155  kubectl get pods
+ 3156  vagrant destroy
+ 3157  vagrant up
+ 3158  vagrant ssh
+ 3159  rm ~/.kube/config 
+ 3160  vim ~/.kube/config 
+ 3161  ls
+ 3162  kubectl apply -f deployment/
+ 3163  kubectl get pods
+ 3164  sh scripts/run_db_command.sh postgres-59ff9bdfdc-9hlt4
+ 3165  vagrant destroy
+ 3166  grep -R TODO
+ 3167  grep -Rn TODO
+ 3168  grep -Rn localhost
+ 3169  grep -Rni todo 
+ 3170  ls
+ 3171  cd modules/
+ 3172  ls
+ 3173  cd api/
+ 3174  ls
+ 3175  sudo docker build -t udaconnect-api .
+ 3176  sudo docker tag udaconnect-api bjk1456/udaconnect-api:v1.0.2
+ 3177  sudo docker push bjk1456/udaconnect-api:v1.0.2
+ 3178  cd ../
+ 3179  ls
+ 3180  cd ../
+ 3181  ls
+ 3182  vagrant up
+ 3183  vagrant ssh
+ 3184  rm ~/.kube/config 
+ 3185  vim ~/.kube/config 
+ 3186  kubectl get services
+ 3187  kubectl apply -f deployment/
+ 3188  kubectl get pods
+ 3189  sh scripts/run_db_command.sh postgres-59ff9bdfdc-tg9vk
+ 3190  kubectl get pods
+ 3191  kubectl logs udaconnect-persons-api-844664c9d8-xxcc6
+ 3192  kubectl logs udaconnect-persons-api-844664c9d8-rxwm2
+ 3193  kubectl logs udaconnect-api-7578699f58-rt57b
+ 3194  vagrant destroy
+ 3195  vagrant up
+ 3196  vagrant ssh
+ 3197  rm ~/.kube/config 
+ 3198  vim ~/.kube/config 
+ 3199  kubectl apply -f deployment/
+ 3200  kubectl get pods
+ 3201  kubectl logs udaconnect-api-7578699f58-rt57b
+ 3202  kubectl logs udaconnect-api-75d74bf777-lx29f
+ 3203  vagrant destroy
+ 3204  ls
+ 3205  cd modules/
+ 3206  ls
+ 3207  cd api/
+ 3208  ls
+ 3209  sudo docker build -t udaconnect-api .
+ 3210  docker tag udaconnect-api bjk1456/udaconnect-api:v1.0.2
+ 3211  sudo docker tag udaconnect-api bjk1456/udaconnect-api:v1.0.2
+ 3212  sudo docker push bjk1456/udaconnect-api:v1.0.2
+ 3213  cd ../../
+ 3214  ls
+ 3215  vagrant up
+ 3216  vagrant ssh
+ 3217  rm ~/.kube/config 
+ 3218  vim ~/.kube/config 
+ 3219  kubectl apply -f deployment/
+ 3220  kubectl get pods
+ 3221  sh scripts/run_db_command.sh postgres-59ff9bdfdc-tg9vk
+ 3222  sh scripts/run_db_command.sh postgres-59ff9bdfdc-jqtcm
+ 3223  kubectl get pods
+ 3224  sh scripts/run_db_command.sh postgres-59ff9bdfdc-jqtcm
+ 3225  kubectl get pods
+ 3226  kubectl logs udaconnect-api-75d74bf777-lx29f
+ 3227  kubectl logs udaconnect-app-d5c6dd9b6-gsz46
+ 3228  kubectl exec -it udaconnect-app-d5c6dd9b6-gsz46 /bin/sh
+ 3229  kubectl logs udaconnect-app-d5c6dd9b6-gsz46
+ 3230  kubectl get pods
+ 3231  kubectl logs udaconnect-api-75d74bf777-6mtcj
+ 3232  curl -X GET "http://localhost:30002/api/persons" -H "accept: application/json"
+ 3233  curl "http://localhost:30002/api/persons"
+ 3234  vim hello.py
+ 3235  python hello.py 
+ 3236  python3 hello.py 
+ 3237  python hello.py 
+ 3238  vim hello.py
+ 3239  python3 hello.py 
+ 3240  vim hello.py
+ 3241  python3 hello.py 
+ 3242  vim hello.py
+ 3243  python3 hello.py 
+ 3244  vim hello.py
+ 3245  python3 hello.py 
+ 3246  vim hello.py
+ 3247  python3 hello.py 
+ 3248  vim hello.py
+ 3249  python3 hello.py 
+ 3250  vim hello.py
+ 3251  python3 hello.py 
+ 3252  vim hello.py
+ 3253  python3 hello.py 
+ 3254  vagrant destroy
+ 3255  vim hello.py
+ 3256  python3 hello.py 
+ 3257  vim hello.py
+ 3258  python3 hello.py 
+ 3259  vim hello.py
+ 3260  python3 hello.py 
+ 3261  vim hello.py
+ 3262  python3 hello.py 
+ 3263  vim hello.py
+ 3264  python3 hello.py 
+ 3265  vim hello.py
+ 3266  python3 hello.py 
+ 3267  curl http://localhost:30002/api/persons
+ 3268  vagrant destroy
+ 3269  ls
+ 3270  cd modules/
+ 3271  cd api/
+ 3272  ls
+ 3273  sudo docker build -t udaconnect-api .
+ 3274  sudo docker tag udaconnect-api bjk1456/udaconnect-api:v1.0.2
+ 3275  sudo docker push bjk1456/udaconnect-api:v1.0.2
+ 3276  cd ../
+ 3277  cd ../
+ 3278  ls
+ 3279  vagrant up
+ 3280  vagrant ssh
+ 3281  rm ~/.kube/config 
+ 3282  vim hello.py
+ 3283  vim ~/.kube/config 
+ 3284  kubectl get services
+ 3285  kubectl apply -f deployment/
+ 3286  kubectl get pods
+ 3287  kubectl logs udaconnect-api-75d74bf777-6mtcj
+ 3288  kubectl logs postgres-59ff9bdfdc-qd649
+ 3289  kubectl get pods
+ 3290  sh scripts/run_db_command.sh postgres-59ff9bdfdc-jqtcm
+ 3291  sh scripts/run_db_command.sh postgres-59ff9bdfdc-qd649
+ 3292  kubectl get pods
+ 3293  kubectl logs udaconnect-api-75d74bf777-vt75l
+ 3294  vagrant destroy
+ 3295  ls
+ 3296  cd modules/
+ 3297  ls
+ 3298  cd api/
+ 3299  sudo docker build -t udaconnect-api .
+ 3300  docker tag udaconnect-api bjk1456/udaconnect-api:v1.0.2
+ 3301  sudo docker tag udaconnect-api bjk1456/udaconnect-api:v1.0.2
+ 3302  sudo docker push bjk1456/udaconnect-api:v1.0.2
+ 3303  cd ../../
+ 3304  ls
+ 3305  vagrant up
+ 3306  vagrant ssh
+ 3307  rm ~/.kube/config 
+ 3308  vim ~/.kube/config 
+ 3309  kubectl apply -f deployment/
+ 3310  kubectl get pods
+ 3311  sh scripts/run_db_command.sh postgres-59ff9bdfdc-qwdl9
+ 3312  kubectl get pods
+ 3313  kubectl logs udaconnect-api-75d74bf777-ssdkh
+ 3314  vagrant destroy
+ 3315  ls
+ 3316  vim hello.py 
+ 3317  ls
+ 3318  cd modules/
+ 3319  ls
+ 3320  cd api/
+ 3321  ls
+ 3322  sudo docker build -t udaconnect-api .
+ 3323  sudo docker tag udaconnect-api bjk1456/udaconnect-api:v1.0.2
+ 3324  sudo docker push bjk1456/udaconnect-api:v1.0.2
+ 3325  cd ../../
+ 3326  ls
+ 3327  vagrant up
+ 3328  vagrant ssh
+ 3329  ls
+ 3330  rm ~/.kube/config 
+ 3331  vim hello.py 
+ 3332  vim ~/.kube/config 
+ 3333  ls
+ 3334  kubectl apply -f deployment/
+ 3335  kubectl get pods
+ 3336  sh scripts/run_db_command.sh postgres-59ff9bdfdc-mk8q8
+ 3337  ls
+ 3338  kubectl logs udaconnect-api-75d74bf777-ssdkh
+ 3339  kubectl get pods
+ 3340  kubectl logs udaconnect-api-75d74bf777-w6xt2
+ 3341  docker destroy
+ 3342  vagrant destroy
+ 3343  ls
+ 3344  cd modules/
+ 3345  ls
+ 3346  cd api/
+ 3347  ls
+ 3348  sudo docker build -t udaconnect-api .
+ 3349  sudo docker tag udaconnect-api bjk1456/udaconnect-api:v1.0.2
+ 3350  sudo docker push bjk1456/udaconnect-api:v1.0.2
+ 3351  cd ../../
+ 3352  vagrant up
+ 3353  vagrant ssh
+ 3354  rm ~/.kube/config 
+ 3355  vim ~/.kube/config 
+ 3356  kubectl apply -f deployment/
+ 3357  kubectl get pods
+ 3358  sh scripts/run_db_command.sh postgres-59ff9bdfdc-bbh2s
+ 3359  kubectl get pods
+ 3360  kubectl logs udaconnect-app-d5c6dd9b6-rlc4l
+ 3361  kubectl logs udaconnect-api-75d74bf777-dtfqq
+ 3362  vagrant destroy
+ 3363  ls
+ 3364  cd modules/
+ 3365  ls
+ 3366  cd api/
+ 3367  sudo docker build -t udaconnect-api .
+ 3368  sudo docker tag udaconnect-api bjk1456/udaconnect-api:v1.0.2
+ 3369  sudo docker push bjk1456/udaconnect-api:v1.0.2
+ 3370  cd ../../
+ 3371  ls
+ 3372  vagrant up
+ 3373  vagrant ssh
+ 3374  rm ~/.kube/config 
+ 3375  vim ~/.kube/config 
+ 3376  kubectl apply -f deployment/
+ 3377  kubectl get pods
+ 3378  sh scripts/run_db_command.sh postgres-59ff9bdfdc-z2hfc
+ 3379  kubectl get pods
+ 3380  kubectl logs udaconnect-api-75d74bf777-dtfqq
+ 3381  kubectl logs udaconnect-api-75d74bf777-dkfmx
+ 3382  kubectl exec -it udaconnect-api-75d74bf777-dkfmx /bin/sh
+ 3383  kubectl get pods
+ 3384  kubectl logs udaconnect-api-75d74bf777-q4bzj
+ 3385  kubectl get pods
+ 3386  kubectl exec -it udaconnect-api-75d74bf777-q4bzj /bin/sh
+ 3387  kubectl get pods
+ 3388  kubectl logs udaconnect-api-75d74bf777-q4bzj
+ 3389  vagrant destroy
+ 3390  vagrant up
+ 3391  vagrant ssh
+ 3392  rm ~/.kube/config 
+ 3393  vim ~/.kube/config 
+ 3394  kubectl apply -f deployment/od
+ 3395  kubectl apply -f deployment/
+ 3396  kubectl get pods
+ 3397  sh scripts/run_db_command.sh postgres-59ff9bdfdc-jwksn
+ 3398  kubectl get pods
+ 3399  sh scripts/run_db_command.sh postgres-59ff9bdfdc-jwksn
+ 3400  kubectl get pods
+ 3401  sh scripts/run_db_command.sh postgres-59ff9bdfdc-jwksn
+ 3402  kubectl get pods
+ 3403  kubectl logs udaconnect-api-75d74bf777-xb6md
+ 3404  kubectl get pods
+ 3405  kubectl exec -it udaconnect-api-75d74bf777-xb6md /bin/sh
+ 3406  vagrant destroy
+ 3407  ls
+ 3408  vim hello.py 
+ 3409  vagrant destroy
+ 3410  vagrant up
+ 3411  vagrant ssh
+ 3412  rm ~/.kube/config 
+ 3413  vim ~/.kube/config 
+ 3414  kubectl apply -f deployment/
+ 3415  kubectl get pods
+ 3416  sh scripts/run_db_command.sh postgres-59ff9bdfdc-jwksn
+ 3417  sh scripts/run_db_command.sh postgres-59ff9bdfdc-h588b
+ 3418  kubectl get pods
+ 3419  kubectl logs udaconnect-api-75d74bf777-xb6md
+ 3420  kubectl logs udaconnect-api-75d74bf777-2pctg
+ 3421  vagrant destroy
+ 3422  grep -R log
+ 3423  grep -Rn log
+ 3424  grep -Rn "Running on"
+ 3425  vagrant up
+ 3426  vagrant ssh
+ 3427  rm ~/.kube/config 
+ 3428  vim ~/.kube/config 
+ 3429  kubectl get services
+ 3430  kubectl apply -f deployment/
+ 3431  kubectl get pods
+ 3432  sh scripts/run_db_command.sh postgres-59ff9bdfdc-rgx6p
+ 3433  kubectl get pods
+ 3434  kubectl logs udaconnect-api-75d74bf777-2pctg
+ 3435  kubectl logs udaconnect-api-75d74bf777-x5dd6
+ 3436  kubectl exec -it udaconnect-api-75d74bf777-xb6md /bin/sh
+ 3437  kubectl exec -it udaconnect-api-75d74bf777-x5dd6 /bin/sh
+ 3438  curl http://localhost:30002/api/persons
+ 3439  vagrant destroy
+ 3440  grep -R log
+ 3441  grep -Rn log
+ 3442  ls
+ 3443  vim hello.py 
+ 3444  grep -Rn " - - "
+ 3445  grep -Rn "- -"
+ 3446  vagrant up
+ 3447  vahrant ssh
+ 3448  vagrant ssh
+ 3449  rm ~/.kube/config 
+ 3450  vim hello.py 
+ 3451  vim ~/.kube/config 
+ 3452  kubectl apply -f deployment/
+ 3453  kubectl get pods
+ 3454  sh scripts/run_db_command.sh postgres-59ff9bdfdc-xhvhk
+ 3455  kubectl get pods
+ 3456  kubectl logs udaconnect-api-75d74bf777-x5dd6
+ 3457  kubectl logs udaconnect-api-75d74bf777-nszwp
+ 3458  kubectl exec -it udaconnect-app-d5c6dd9b6-rfftw /bin/sh
+ 3459  exit
+ 3460  grep -Rni "location"
+ 3461  ls
+ 3462  cd modules/
+ 3463  ls
+ 3464  cd persons_api/
+ 3465  grep -Rni "location"
+ 3466  exit
+ 3467  ls
+ 3468  cd modules/
+ 3469  ls
+ 3470  cd persons_api/
+ 3471  ls
+ 3472  grep -Rni "ConnectionService"
+ 3473  cd ../../
+ 3474  ls
+ 3475  grep -Rni localhost
+ 3476  exit
+ 3477  bin/kafka-server-start.sh config/server.properties
+ 3478  ls
+ 3479  cd kafka_2.13-3.5.0/
+ 3480  bin/kafka-server-start.sh config/server.properties
+ 3481  gpg --import KEYS
+ 3482  cd /tmp/
+ 3483  ls
+ 3484  ls  -lhtr
+ 3485  cd
+ 3486  ls
+ 3487  mkdir tmp
+ 3488  cd tmp/
+ 3489  cd ~/tmp/
+ 3490  ls
+ 3491  tar -xzf kafka_2.13-3.5.0.tgz 
+ 3492  ls
+ 3493  rm kafka_2.13-3.5.0.tgz 
+ 3494  bin/zookeeper-server-start.sh config/zookeeper.properties
+ 3495  cd kafka_2.13-3.5.0/
+ 3496  ls
+ 3497  bin/zookeeper-server-start.sh config/zookeeper.properties
+ 3498  ls
+ 3499  cd config/
+ 3500  ls
+ 3501  cd ../
+ 3502  bin/kafka-topics.sh --version
+ 3503  bin/zookeeper-server-start.sh config/zookeeper.properties
+ 3504  bin/kafka-topics.sh   --zookeeper localhost:9092   --create --topic locations   --partitions 1   --replication-factor 1
+ 3505  ls
+ 3506  bin/kafka-topics.sh   --bootstrap-server localhost:9092   --create --topic locations   --partitions 1   --replication-factor 1
+ 3507  ls
+ 3508  cd Udacity/
+ 3509  ls
+ 3510  cd CloudNativeApplicationArchitecture/
+ 3511  ls
+ 3512  cd uda
+ 3513  cd UdaConnect/
+ 3514  ls
+ 3515  vagrant destroy
+ 3516  vagrant up
+ 3517  vagrant ssh
+ 3518  rm ~/.kube/config 
+ 3519  vim ~/.kube/config 
+ 3520  kubectl apply -f deployment/
+ 3521  kubectl get pods
+ 3522  sh scripts/run_db_command.sh postgres-59ff9bdfdc-rzm27
+ 3523  vagrant destroy
+ 3524  git revert 1fbfa893b000e1dc94e541422d77581ff0e7f2ef
+ 3525  git stash
+ 3526  git revert 1fbfa893b000e1dc94e541422d77581ff0e7f2ef
+ 3527  pwd
+ 3528  vagrant up
+ 3529  vagrant ssh
+ 3530  rm ~/.kube/config 
+ 3531  vim ~/.kube/config 
+ 3532  kubectl apply -f deployment/
+ 3533  kubectl get pods
+ 3534  sh scripts/run_db_command.sh postgres-59ff9bdfdc-nddbx
+ 3535  kubectl get pods
+ 3536  kubectl logs udaconnect-api-7b469d78cb-clwrz
+ 3537  kubectl logs udaconnect-persons-api-844664c9d8-vvpfq
+ 3538  kubectl logs udaconnect-api-7b469d78cb-clwrz
+ 3539  vagrant destroy
+ 3540  vagrant up
+ 3541  vagrant ssh
+ 3542  rm ~/.kube/config 
+ 3543  vim ~/.kube/config 
+ 3544  kubectl apply -f deployment/
+ 3545  kubectl get pods
+ 3546  kubectl logs udaconnect-persons-api-55b7b7c7b5-kgs75
+ 3547  vagrant destroy
+ 3548  pip install kafka
+ 3549  ls
+ 3550  cd modules/
+ 3551  ls
+ 3552  cd persons_api/
+ 3553  ls
+ 3554  vim requirements.txt 
+ 3555  kubectl apply -f deployment/
+ 3556  cd ../
+ 3557  ls
+ 3558  cd ../
+ 3559  ls
+ 3560  kubectl apply -f deployment/
+ 3561  vagrant status
+ 3562  vagrant up
+ 3563  vagrant ssh
+ 3564  rm ~/.kube/config 
+ 3565  vim requirements.txt 
+ 3566  kubectl apply -f deployment/
+ 3567  vim requirements.txt 
+ 3568  kubectl apply -f deployment/
+ 3569  vagrant ssh
+ 3570  rm ~/.kube/config 
+ 3571  vim ~/.kube/config 
+ 3572  kubectl apply -f deployment/
+ 3573  kubectl get pods
+ 3574  kubectl logs udaconnect-persons-api-55b7b7c7b5-kjj97
+ 3575  vagrant destroy
+ 3576  vagrant up
+ 3577  vagrant ssh
+ 3578  rm ~/.kube/config 
+ 3579  vim ~/.kube/config 
+ 3580  kubectl apply -f deployment/
+ 3581  kubectl get pods
+ 3582  kubectl logs udaconnect-persons-api-55b7b7c7b5-55x7d
+ 3583  vagrant destroy
+ 3584  pip uninstall kafka
+ 3585  pip install kafka-python
+ 3586  ls
+ 3587  vim modules/persons_api/requirements.txt
+ 3588  vagrant up
+ 3589  sudo cat /etc/rancher/k3s/k3s.yaml
+ 3590  vagrant ssh
+ 3591  rm ~/.kube/config 
+ 3592  vim modules/persons_api/requirements.txt
+ 3593  vim ~/.kube/config 
+ 3594  kubectl apply -f deployment/
+ 3595  kubectl get pods
+ 3596  kubectl logs udaconnect-persons-api-55b7b7c7b5-x2q9b
+ 3597  vagrant suspend
+ 3598  vagrant up
+ 3599  kubectl get pods
+ 3600  kubectl logs udaconnect-persons-api-55b7b7c7b5-x2q9b
+ 3601  vagrant destroy
+ 3602  vagrant up
+ 3603  vagrant ssh
+ 3604  rm ~/.kube/config 
+ 3605  vim ~/.kube/config 
+ 3606  kubectl apply -f deployment/
+ 3607  kubectl get pods
+ 3608  kubectl logs udaconnect-persons-api-55b7b7c7b5-vts66
+ 3609  kubectl get pods
+ 3610  kubectl logs udaconnect-persons-api-55b7b7c7b5-vts66
+ 3611  vargant destroy
+ 3612  vagrant destroy
+ 3613  vagrant up
+ 3614  vagrant ssh
+ 3615  rm ~/.kube/config 
+ 3616  vim ~/.kube/config 
+ 3617  kubectl apply -f deployment/
+ 3618  kubectl get pods
+ 3619  kubectl logs udaconnect-persons-api-55b7b7c7b5-7r8zn
+ 3620  kubectl get pods
+ 3621  kubectl logs udaconnect-persons-api-55b7b7c7b5-7r8zn
+ 3622  kubectl get pods
+ 3623  vagrant destroy
+ 3624  vagrant up
+ 3625  vagrant ssh
+ 3626  rm ~/.kube/config 
+ 3627  vim ~/.kube/config 
+ 3628  kubectl apply -f deployment/
+ 3629  kubectl get pods
+ 3630  kubectl logs udaconnect-persons-api-55b7b7c7b5-v8kbq
+ 3631  vagrant destroy
+ 3632  vagrant up
+ 3633  vagrant ssh
+ 3634  rm ~/.kube/config 
+ 3635  vim ~/.kube/config 
+ 3636  kubectl apply -f deployment/
+ 3637  kubectl get pods
+ 3638  sh scripts/run_db_command.sh postgres-59ff9bdfdc-gcmbp
+ 3639  kubectl get pods
+ 3640  kubectl logs udaconnect-persons-api-55b7b7c7b5-9s9c4
+ 3641  vagrant destroy
+ 3642  vagrant up
+ 3643  vagrant ssh
+ 3644  rm ~/.kube/config 
+ 3645  vim ~/.kube/config 
+ 3646  kubectl apply -f deployment/
+ 3647  kubectl get pods
+ 3648  sh scripts/run_db_command.sh postgres-59ff9bdfdc-qvztk
+ 3649  kubectl get pods
+ 3650  kubectl logs udaconnect-persons-api-55b7b7c7b5-7ml4r
+ 3651  vagrant destroy
+ 3652  history
+ 3653  ps -ef
+ 3654  history | grep git
+ 3655  cd ~/Udacity/CloudNativeApplicationArchitecture/UdaConnect
+ 3656  ls
+ 3657  cd modules/
+ 3658  ls
+ 3659  cd api/
+ 3660  ls
+ 3661  cd ../
+ 3662  ls
+ 3663  cd persons_api/
+ 3664  ls
+ 3665  sudo docker build -t udaconnect-persons-api .
+ 3666  sudo docker tag udaconnect-persons-api bjk1456/udaconnect-persons-api:v1.0.3
+ 3667  sudo docker push bjk1456/udaconnect-persons-api:v1.0.3
+ 3668  sudo docker build -t udaconnect-persons-api .
+ 3669  sudo docker tag udaconnect-persons-api bjk1456/udaconnect-persons-api:v1.0.3
+ 3670  sudo docker push bjk1456/udaconnect-persons-api:v1.0.3
+ 3671  sudo docker build -t udaconnect-persons-api .
+ 3672  sudo docker tag udaconnect-persons-api bjk1456/udaconnect-persons-api:v1.0.3
+ 3673  sudo docker push bjk1456/udaconnect-persons-api:v1.0.3
+ 3674  sudo docker build -t udaconnect-persons-api .
+ 3675  sudo docker tag udaconnect-persons-api bjk1456/udaconnect-persons-api:v1.0.3
+ 3676  sudo docker push bjk1456/udaconnect-persons-api:v1.0.3
+ 3677  sudo docker build -t udaconnect-persons-api .
+ 3678  pip search python-kafka
+ 3679  pip search
+ 3680  pip search kafka
+ 3681  pip list
+ 3682  sudo docker tag udaconnect-persons-api bjk1456/udaconnect-persons-api:v1.0.3
+ 3683  sudo docker build -t udaconnect-persons-api .
+ 3684  sudo docker tag udaconnect-persons-api bjk1456/udaconnect-persons-api:v1.0.3
+ 3685  sudo docker push bjk1456/udaconnect-persons-api:v1.0.3
+ 3686  sudo docker build -t udaconnect-persons-api .
+ 3687  sudo docker tag udaconnect-persons-api bjk1456/udaconnect-persons-api:v1.0.3
+ 3688  sudo docker push bjk1456/udaconnect-persons-api:v1.0.3
+ 3689  sudo docker build -t udaconnect-persons-api .
+ 3690  sudo docker tag udaconnect-persons-api bjk1456/udaconnect-persons-api:v1.0.3
+ 3691  sudo docker push bjk1456/udaconnect-persons-api:v1.0.3
+ 3692  sudo docker build -t udaconnect-persons-api .
+ 3693  sudo docker tag udaconnect-persons-api bjk1456/udaconnect-persons-api:v1.0.3
+ 3694  sudo docker push bjk1456/udaconnect-persons-api:v1.0.3
+ 3695  ls
+ 3696  cd modules/
+ 3697  ls
+ 3698  cd persons_api/
+ 3699  ls
+ 3700  cd app/
+ 3701  ls
+ 3702  cd udaconnect/
+ 3703  ls
+ 3704  python -m grpc_tools.protoc -I./ --python_out=./ --grpc_python_out=./ person.proto
+ 3705  python3 -m grpc_tools.protoc -I./ --python_out=./ --grpc_python_out=./ person.proto
+ 3706  ls
+ 3707  ls -lhtr
+ 3708  grep -Rni namespace
+ 3709  ls
+ 3710  grep -Rni space
+ 3711  grep -Rni Namespace
+ 3712  grep -Rni udaconnect-api
+ 3713  exit
+ 3714  cd /usr/share/java
+ 3715  ls
+ 3716  pwd
+ 3717  confluent-hub install
+ 3718  echo $PATH
+ 3719  cd
+ 3720  ls
+ 3721  cd tmp/
+ 3722  ls
+ 3723  wget https://client.hub.confluent.io/confluent-hub-client-latest.tar.gz
+ 3724  tar -xzf confluent-hub-client-latest.tar.gz 
+ 3725  ls
+ 3726  cd bin/
+ 3727  ls
+ 3728  file confluent-hub 
+ 3729  vim confluent-hub 
+ 3730  pwd
+ 3731  PATH=$PATH:~//home/kelbenj/tmp/bin
+ 3732  confluent-hub
+ 3733  ls
+ 3734  cd ../
+ 3735  ls
+ 3736  cd etc/
+ 3737  ls
+ 3738  cd confluent-hub-client/
+ 3739  ls
+ 3740  cd ../../
+ 3741  ls
+ 3742  cd bin/
+ 3743  ls
+ 3744  cat confluent-hub 
+ 3745  ls
+ 3746  cd ../
+ 3747  ls
+ 3748  rm -rf confluent-hub-client-latest.tar.gz 
+ 3749  rm -rf etc/
+ 3750  rm -rf share
+ 3751  rm -rf bin/
+ 3752  ls
+ 3753  curl -O http://packages.confluent.io/archive/7.1/confluent-7.1.1.zip
+ 3754  tar -xzf confluent-7.1.1.zip
+ 3755  unzip confluent-7.1.1.zip
+ 3756  ls
+ 3757  cd kafka_2.13-3.5.0/
+ 3758  cd ../confluent-7.1.1/
+ 3759  ls
+ 3760  cd ci
+ 3761  cd bin/
+ 3762  ls
+ 3763  cd ../
+ 3764  la
+ 3765  cd ../
+ 3766  ls
+ 3767  PATH=$PATH:~//home/kelbenj/tmp/bin
+ 3768  confluent-hub
+ 3769  PATH=$PATH:~/home/kelbenj/tmp/bin
+ 3770  confluent-hub
+ 3771  ls
+ 3772  cd confluent-7.1.1/
+ 3773  ls
+ 3774  pwd
+ 3775  PATH=$PATH:~/home/kelbenj/tmp/kafka_2.13-3.5.0/bin
+ 3776  confluent-hub
+ 3777  ls
+ 3778  ~/home/kelbenj/tmp/kafka_2.13-3.5.0/bin/confluent-hub
+ 3779  cd ~/home/kelbenj/tmp/kafka_2.13-3.5.0/bin/
+ 3780  ls
+ 3781  cd bin/
+ 3782  ls
+ 3783  pwd
+ 3784  export $PATH
+ 3785  PATH=$(getconf PATH)
+ 3786  export $PATH
+ 3787  PATH=$PATH:~/home/kelbenj/tmp/kafka_2.13-3.5.0/bin
+ 3788  export $PATH
+ 3789  confluent-hub
+ 3790  cd /home/kelbenj/home/kelbenj/tmp/kafka_2.13-3.5.0/bin
+ 3791  pwd
+ 3792  ls
+ 3793  PATH=$(getconf PATH)
+ 3794  PATH=$PATH:/home/kelbenj/tmp/confluent-7.1.1/bin
+ 3795  confluent-hub
+ 3796  pwd
+ 3797  ls
+ 3798  cd /usr/share/
+ 3799  ls
+ 3800  mkdir confluence-hub-components
+ 3801  vim /etc/hosts
+ 3802  sudo vim /etc/hosts
+ 3803  ls
+ 3804  kubectl port-forward kafka-broker-578fdcbd6f-bhq25 9092 -n default
+ 3805  ls -lhtr ~/Downloads/
+ 3806  mv ~/Downloads/'Screenshot 2023-06-18 at 19-39-37 How To Deploy Apache Kafka With Kubernetes.png' ~/Udacity/CloudNativeApplicationArchitecture/
+ 3807  ls
+ 3808  hisotry | grep git
+ 3809  history | grep git
+ 3810  pwd
+ 3811  ls
+ 3812  cd deployment/
+ 3813  ls
+ 3814  cd kafka/
+ 3815  ls
+ 3816  wget https://raw.githubusercontent.com/streamthoughts/kafka-connect-file-pulse/master/docker-compose.yml
+ 3817  ls
+ 3818  cd Udacity/
+ 3819  ls
+ 3820  cd CloudNativeApplicationArchitecture/
+ 3821  ls
+ 3822  cd UdaConnect/
+ 3823  ls
+ 3824  vagrant up
+ 3825  vagrant ssh
+ 3826  rm ~/.kube/config 
+ 3827  vim ~/.kube/config 
+ 3828  kubectl apply -f deployment/
+ 3829  kubectl get pods
+ 3830  kubectl get namespaces
+ 3831  kubectl api-resource --namespaced=true
+ 3832  kubectl api-resources --namespaced=true
+ 3833  kubectl get pods
+ 3834  kubectl get pods --wide
+ 3835  kubectl get all
+ 3836  kubectl get pods --all-namespaces
+ 3837  kubectl logs udaconnect-persons-api-55b7b7c7b5-2qrms
+ 3838  vagrant destroy
+ 3839  git revert 1fbfa893b000e1dc94e541422d77581ff0e7f2ef
+ 3840  git stash
+ 3841  git revert 1fbfa893b000e1dc94e541422d77581ff0e7f2ef
+ 3842  ls
+ 3843  vagrant up
+ 3844  vagrant ssh
+ 3845  rm ~/.kube/config 
+ 3846  vim ~/.kube/config 
+ 3847  ls
+ 3848  cd deployment/
+ 3849  ls
+ 3850  cd kafka/
+ 3851  ls
+ 3852  kubectl apply -f zookeeper.yaml
+ 3853  kubectl get services -n kafka
+ 3854  kubectl get services
+ 3855  kubectl get services -n default
+ 3856  kubectl apply -f kafka.yaml
+ 3857  kubectl get services -n default
+ 3858  kubectl get pods -n default
+ 3859  echo "hello world!" | kafkacat -P -b localhost:9092 -t test
+ 3860  sudo apt install kafkacat
+ 3861  echo "hello world!" | kafkacat -P -b localhost:9092 -t test
+ 3862  kafkacat -C -b localhost:9092 -t test
+ 3863  vagrant destroy
+ 3864  ls
+ 3865  confluent-hub
+ 3866  ls
+ 3867  vagrant up
+ 3868  vagrant ssh
+ 3869  rm ~/.kube/config 
+ 3870  vim ~/.kube/config 
+ 3871  ls
+ 3872  kubectl apply -f zookeeper.yaml 
+ 3873  kubectl get services 
+ 3874  vim kafka.yaml 
+ 3875  kubectl apply -f kafka.yaml 
+ 3876  vim kafka.yaml 
+ 3877  kubectl apply -f kafka.yaml 
+ 3878  kubectl get services 
+ 3879  kubectl get pods
+ 3880  vagrant destroy
+ 3881  vagrant up
+ 3882  vagrant ssh
+ 3883  rm ~/.kube/config 
+ 3884  vim ~/.kube/config 
+ 3885  ls
+ 3886  kubectl apply -f docker-compose.yml 
+ 3887  kubectl apply -f docker-compose.yml --validate=false
+ 3888  ls
+ 3889  vagrant statud
+ 3890  vagrant status
+ 3891  vagrant destroy
+ 3892  cd ../
+ 3893  ls
+ 3894  vagrant up
+ 3895  ls
+ 3896  cd deployment/
+ 3897  ls
+ 3898  cd kafka/
+ 3899  ls
+ 3900  rm docker-compose.yml 
+ 3901  kubectl apply -f zookeeper.yaml 
+ 3902  vagrant ssh
+ 3903  rm ~/.kube/config 
+ 3904  vim ~/.kube/config 
+ 3905  ls
+ 3906  kubectl apply -f zookeeper.yaml 
+ 3907  kubectl get services 
+ 3908  vim kafka.yaml 
+ 3909  kubectl apply -f kafka.yaml 
+ 3910  kubectl get services 
+ 3911  vagrant destroy
+ 3912  ls
+ 3913  cd Udacity/
+ 3914  ls
+ 3915  cd CloudNativeApplicationArchitecture/
+ 3916  ls
+ 3917  mv 'Screenshot 2023-06-18 at 19-39-37 How To Deploy Apache Kafka With Kubernetes.png' UdaConnect/
+ 3918  ls
+ 3919  cd UdaConnect/
+ 3920  ls
+ 3921  vagrant up
+ 3922  vagrant ssh
+ 3923  rm ~/.kube/config 
+ 3924  vim ~/.kube/config 
+ 3925  ls
+ 3926  vagrant destroy
+ 3927  exit
+ 3928  ls
+ 3929  cd deployment/
+ 3930  ls
+ 3931  cd kafka/
+ 3932  ls
+ 3933  kubectl apply -f zookeeper.yaml 
+ 3934  kubectl get pods
+ 3935  kubectl get services 
+ 3936  kubectl get pods
+ 3937  ls
+ 3938  vim kafka.yaml 
+ 3939  kubectl apply -f kafka.yaml 
+ 3940  kubectl get pods
+ 3941  kubectl get services 
+ 3942  history | grep port-forward
+ 3943  kubectl port-forward kafka-broker-58c5f4d874-hc5dc 9092 -n default
+ 3944  exit
+ 3945  cd ../
+ 3946  ls
+ 3947  cd ../
+ 3948  ls
+ 3949  cd db/
+ 3950  ls
+ 3951  cd ../
+ 3952  ls
+ 3953  cd scripts/
+ 3954  ls
+ 3955  vim run_db_command.sh 
+ 3956  ls
+ 3957  python producer.py 
+ 3958  python3 producer.py 
+ 3959  history | grep pip
+ 3960  pip search kafka
+ 3961  pip list
+ 3962  pip list | grep kafka
+ 3963  python3 producer.py 
+ 3964  pip3 install kafka-python
+ 3965  python3 producer.py 
+ 3966  pip uninstall kafka
+ 3967  pip uninstall kafka-python
+ 3968  pip install kafka-python
+ 3969  pip3 install kafka-python
+ 3970  python3 producer.py 
+ 3971  ls
+ 3972  python3 consumer.py 
+ 3973  python3 producer.py 
+ 3974  python3 consumer.py 
+ 3975  exit
+ 3976  python3 producer.py 
+ 3977  exit
+ 3978  ls
+ 3979  cd ../
+ 3980  ls
+ 3981  cd db
+ 3982  ls
+ 3983  sed -e 's!insert into public.person (id, first_name, last_name, company_name) values (!!' udaconnect_public_person.sql
+ 3984  sed -e 's!insert into public.person (id, first_name, last_name, company_name) values (!!' udaconnect_public_person.sql > person.csv
+ 3985  insert into public.person (id, first_name, last_name, company_name) values (
+ 3986  sed -e 's!);!!' person.csv 
+ 3987  sed -e 's!);!!' person.csv > person.csv
+ 3988  cat person.csv 
+ 3989  sed -e 's!insert into public.person (id, first_name, last_name, company_name) values (!!' udaconnect_public_person.sql > person.csv
+ 3990  cat person.csv 
+ 3991  sed -e 's!insert into public.person (id, first_name, last_name, company_name) values (!!' udaconnect_public_person.sql > tmp.csv
+ 3992  sed -e 's!);!!' tmp.csv > person.csv
+ 3993  cat person.csv 
+ 3994  sed -e 's!\'' person.csv
+ 3995  sed -e 's!\\'' person.csv
+ 3996  sed -e sed 's/'\'' person.csv
+ 3997  cat person.csv 
+ 3998  sed "s/['\"]//g" person.csv 
+ 3999  sed "s/['\"]//g" person.csv > tmp.csv
+ 4000  mv tmp.csv person.csv 
+ 4001  cat person.csv 
+ 4002  ls
+ 4003  sed -e 's!insert into public.location (id, person_id, coordinate, creation_time) values (' udaconnect_public_location.sql > tmp.csv
+ 4004  sed -e 's!insert into public.location (id, person_id, coordinate, creation_time) values (!!' udaconnect_public_location.sql > tmp.csv
+ 4005  cat tmp.csv 
+ 4006  sed -e 's!);!!' tmp.csv > location.csv
+ 4007  cat location.csv 
+ 4008  sed "s/['\"]//g" location.csv > tmp.csv
+ 4009  mv tmp.csv location.csv 
+ 4010  cat location.csv 
+ 4011  cat person.csv 
+ 4012  exit
+ 4013  grep -Rni PersonResource.py
+ 4014  ls
+ 4015  exit
+ 4016  ls
+ 4017  cd modules/
+ 4018  ls
+ 4019  cd api/
+ 4020  ls
+ 4021  cd app/
+ 4022  ls
+ 4023  cd udaconnect/
+ 4024  ls
+ 4025  mv ../../../../scripts/consumer.py .
+ 4026  ls
+ 4027  pwd
+ 4028  /bin/python3
+ 4029  cd Udacity/
+ 4030  ls
+ 4031  cd CloudNativeApplicationArchitecture/
+ 4032  ls
+ 4033  cd UdaConnect/
+ 4034  ls
+ 4035  vagrant up
+ 4036  vagrant ssh
+ 4037  rm ~/.kube/config 
+ 4038  vim run_db_command.sh 
+ 4039  vim ~/.kube/config 
+ 4040  ls
+ 4041  kubectl apply -f deployment/
+ 4042  kubectl get pods
+ 4043  sh scripts/run_db_command.sh postgres-59ff9bdfdc-qvztk
+ 4044  sh scripts/run_db_command.sh postgres-59ff9bdfdc-lqcx4
+ 4045  kubectl get pods
+ 4046  vagrant destroy
+ 4047  vagrant up
+ 4048  vagrant ssh
+ 4049  rm ~/.kube/config 
+ 4050  vim ~/.kube/config 
+ 4051  ls
+ 4052  cd deployment/
+ 4053  ls
+ 4054  cd kafka/
+ 4055  ls
+ 4056  kubectl apply -f zookeeper.yaml 
+ 4057  kubectl get pods
+ 4058  kubectl get services 
+ 4059  ls
+ 4060  vim kafka.yaml 
+ 4061  kubectl get services 
+ 4062  kubectl apply -f kafka.yaml 
+ 4063  kubectl get services 
+ 4064  kubectl get pods
+ 4065  cd ../../
+ 4066  git status
+ 4067  git add docker_cmds
+ 4068  vim .gitignore 
+ 4069  git status
+ 4070  git add *
+ 4071  git commit -m "Create a consumer and producer for kafka"
+ 4072  git push
+ 4073  vagrant destroy
+ 4074  vagrant up
+ 4075  vagrant ssh
+ 4076  rm ~/.kube/config 
+ 4077  vim ~/.kube/config 
+ 4078  ls
+ 4079  cd deployment/
+ 4080  ls
+ 4081  cd kafka/
+ 4082  ls
+ 4083  kubectl apply -f kafka.yaml 
+ 4084  cd ../../
+ 4085  ls
+ 4086  vagrant destroy
+ 4087  vagrant up
+ 4088  vagrant ssh
+ 4089  rm ~/.kube/config 
+ 4090  vim ~/.kube/config 
+ 4091  ls
+ 4092  cd deployment/
+ 4093  ls
+ 4094  cd kafka/
+ 4095  ls
+ 4096  kubectl apply -f zookeeper.yaml 
+ 4097  kubectl get pods
+ 4098  kubectl get services
+ 4099  vim kafka.yaml 
+ 4100  kubectl apply -f kafka.yaml 
+ 4101  kubectl get services
+ 4102  kubectl get pods
+ 4103  kubectl port-forward kafka-broker-7f4f7cdc69-wxqdt 9092
+ 4104  vagrant destroy
+ 4105  vagrant up
+ 4106  vagrant ssh
+ 4107  rm ~/.kube/config 
+ 4108  vim kafka.yaml 
+ 4109  vim ~/.kube/config 
+ 4110  ls
+ 4111  kubectl apply -f zookeeper.yaml 
+ 4112  kubectl get services
+ 4113  kubectl get pods
+ 4114  kubectl get services
+ 4115  kubectl get pods
+ 4116  kubectl get services
+ 4117  vim kafka.yaml 
+ 4118  kubectl apply -f kafka.yaml 
+ 4119  kubectl get services
+ 4120  kubectl get pods
+ 4121  cd ../../
+ 4122  ls
+ 4123  git status
+ 4124  git add *
+ 4125  git commit -m "Obtain locations and persons in consumer.py"
+ 4126  git push
+ 4127  vagrant destroy
+ 4128  vagrant up
+ 4129  vagrant ssh
+ 4130  rm ~/.kube/config 
+ 4131  vim kafka.yaml 
+ 4132  ls
+ 4133  cd deployment/
+ 4134  ls
+ 4135  cd kafka/
+ 4136  ls
+ 4137  kubectl apply -f zookeeper.yaml 
+ 4138  kubectl
+ 4139  kubectl apply -f zookeeper.yaml 
+ 4140  vim ~/.kube/config 
+ 4141  kubectl apply -f zookeeper.yaml 
+ 4142  kubectl get pods
+ 4143  kubectl get services
+ 4144  ls
+ 4145  vim kafka.yaml 
+ 4146  kubectl apply -f kafka.yaml 
+ 4147  kubectl get pods
+ 4148  ls
+ 4149  cd ../
+ 4150  ls
+ 4151  cd ../
+ 4152  ;s
+ 4153  ls
+ 4154  kubectl apply -f deployment/
+ 4155  kubectl get pods
+ 4156  sh scripts/run_db_command.sh postgres-59ff9bdfdc-rjr4w
+ 4157  kubectl get pods
+ 4158  kubectl logs udaconnect-api-5f9dcb65ff-vbvvw
+ 4159  kubectl delete pod udaconnect-api-5f9dcb65ff-vbvvw
+ 4160  kubectl get pods
+ 4161  vagrant destroy
+ 4162  ls
+ 4163  cd deployment/
+ 4164  ls
+ 4165  cd kafka/
+ 4166  ls
+ 4167  kubectl apply -f zookeeper.yaml 
+ 4168  cd ../../
+ 4169  vagrant up
+ 4170  vagrant ssh
+ 4171  rm ~/.kube/config 
+ 4172  vim ~/.kube/config 
+ 4173  ls
+ 4174  cd de
+ 4175  cd deployment/
+ 4176  ls
+ 4177  cd kafka/
+ 4178  ls
+ 4179  kubectl apply -f zookeeper.yaml 
+ 4180  kubectl get pods
+ 4181  kubectl get services
+ 4182  vim kafka.yaml 
+ 4183  kubectl get pods
+ 4184  kubectl apply -f kafka.yaml 
+ 4185  kubectl get pods
+ 4186  cd ../
+ 4187  kubectl apply -f deployment/
+ 4188  kubectl get pods
+ 4189  kubectl logs udaconnect-api-5f9dcb65ff-74lfk
+ 4190  kubectl get pods
+ 4191  kubectl logs udaconnect-api-5f9dcb65ff-74lfk
+ 4192  cd deployment/
+ 4193  ls
+ 4194  cd kafka/
+ 4195  ls
+ 4196  vim kafka.yaml 
+ 4197  ls
+ 4198  cd ../../
+ 4199  ls
+ 4200  kubectl get pods
+ 4201  kubectl exec -it udaconnect-api-5f9dcb65ff-74lfk bash
+ 4202  kubectl get pods
+ 4203  kubectl exec -it udaconnect-api-5f9dcb65ff-74lfk bash
+ 4204  kubectl get pods
+ 4205  kubectl exec -it udaconnect-app-6559967c97-9tqn6 bash
+ 4206  kubectl exec -it udaconnect-app-6559967c97-9tqn6 /bin/sh
+ 4207  kubectl exec -it udaconnect-api-5f9dcb65ff-74lfk /bin/sh
+ 4208  kubectl exec -it udaconnect-app-6559967c97-9tqn6 /bin/sh
+ 4209  ls
+ 4210  kubectl get pods
+ 4211  vagrant destroy
+ 4212  vagrant up
+ 4213  vagrant ssh
+ 4214  rm ~/.kube/config 
+ 4215  vim ~/.kube/config 
+ 4216  ls
+ 4217  cd deployment/
+ 4218  ls
+ 4219  cd kafka/
+ 4220  ls
+ 4221  kubectl apply -f zookeeper.yaml 
+ 4222  kubectl get pods
+ 4223  kubectl get services
+ 4224  kubectl get pods
+ 4225  vim kafka.yaml 
+ 4226  kubectl apply -f kafka.yaml 
+ 4227  kubectl get pods
+ 4228  kubectl exec -it zookeeper-69fb744db5-gvjg6 /bin/sh
+ 4229  ls
+ 4230  cd ../../
+ 4231  ls
+ 4232  kubectl apply -f deployment/
+ 4233  kubectl get pods
+ 4234  sh scripts/run_db_command.sh postgres-59ff9bdfdc-j47br
+ 4235  kubectl get pods
+ 4236  kubectl exec -it udaconnect-persons-api-844664c9d8-ckbmd /bin/sh
+ 4237  vagrant destroy
+ 4238  vagrant up
+ 4239  vagrant ssh
+ 4240  rm ~/.kube/config 
+ 4241  vim ~/.kube/config 
+ 4242  ls
+ 4243  cd deployment/
+ 4244  ;s
+ 4245  ls
+ 4246  cd kafka/
+ 4247  ls
+ 4248  kubectl apply -f zookeeper.yaml 
+ 4249  kubectl get pods
+ 4250  kubectl get services
+ 4251  vim kafka.yaml 
+ 4252  kubectl apply -f kafka.yaml 
+ 4253  kubectl get pods
+ 4254  cd ../../
+ 4255  ls
+ 4256  kubectl apply -f deployment/
+ 4257  kubectl get pods
+ 4258  sh scripts/run_db_command.sh postgres-59ff9bdfdc-x6dm6
+ 4259  kubectl get pods
+ 4260  kubectl logs udaconnect-api-5f9dcb65ff-sqmjs
+ 4261  vagrant destroy
+ 4262  vagrant up
+ 4263  sudo cat /etc/rancher/k3s/k3s.yaml
+ 4264  vagrant ssh
+ 4265  rm ~/.kube/config 
+ 4266  vim ~/.kube/config 
+ 4267  cd deployment/
+ 4268  ls
+ 4269  cd kafka/
+ 4270  ls
+ 4271  kubectl apply -f zookeeper.yaml 
+ 4272  kubectl get pods
+ 4273  kubectl get services
+ 4274  vim kafka.yaml 
+ 4275  kubectl apply -f kafka.yaml 
+ 4276  kubectl get pods
+ 4277  kubectl get services
+ 4278  kubectl get pods
+ 4279  cd ../
+ 4280  ls
+ 4281  cd ../
+ 4282  kubectl apply -f deployment/
+ 4283  kubectl get pods
+ 4284  sh scripts/run_db_command.sh postgres-59ff9bdfdc-w2rzc
+ 4285  kubectl get pods
+ 4286  kubectl logs udaconnect-api-5f9dcb65ff-xdjv4
+ 4287  kubectl get pods
+ 4288  kubectl destroy udaconnect-api-5f9dcb65ff-xdjv4
+ 4289  kubectl remove udaconnect-api-5f9dcb65ff-xdjv4
+ 4290  history | gtep kubectl
+ 4291  history | grep kubectl
+ 4292  kubectl get pods
+ 4293  kubectl delete udaconnect-api-5f9dcb65ff-xdjv4
+ 4294  kubectl get pods
+ 4295  kubectl delete udaconnect-api-5f9dcb65ff-xdjv4
+ 4296  kubectl delete pod udaconnect-api-5f9dcb65ff-xdjv4
+ 4297  kubectl get pods
+ 4298  kubectl logs udaconnect-api-5f9dcb65ff-wxt4c
+ 4299  kubectl get pods
+ 4300  kubectl logs udaconnect-api-5f9dcb65ff-wxt4c
+ 4301  vagrant destroy
+ 4302  grep -Rni kafka-broker
+ 4303  vagrant up
+ 4304  vagrant ssh
+ 4305  rm ~/.kube/config 
+ 4306  vim ~/.kube/config 
+ 4307  cd deployment/
+ 4308  ls
+ 4309  cd kafka/
+ 4310  ls
+ 4311  kubectl apply -f zookeeper.yaml 
+ 4312  kubectl get pods
+ 4313  kubectl get services
+ 4314  vim kafka.yaml 
+ 4315  kubectl apply -f kafka.yaml 
+ 4316  kubectl get pods
+ 4317  cd ../../
+ 4318  kubectl apply -f deployment/
+ 4319  kubectl get pods
+ 4320  sh scripts/run_db_command.sh postgres-59ff9bdfdc-t4cg7
+ 4321  kubectl get pods
+ 4322  kubectl logs udaconnect-api-5f9dcb65ff-zfk2v
+ 4323  grep -Rni kafka-broker
+ 4324  kubectl get pods
+ 4325  kubectl logs udaconnect-api-5f9dcb65ff-zfk2v
+ 4326  grep -Rni kafka-broker
+ 4327  vagrant destroy
+ 4328  vagrant up
+ 4329  vagrant ssh
+ 4330  rm ~/.kube/config 
+ 4331  vim ~/.kube/config 
+ 4332  cd deployment/kafka/
+ 4333  ls
+ 4334  kubectl apply -f zookeeper.yaml 
+ 4335  kubectl get pods
+ 4336  kubectl get services
+ 4337  vim kafka.yaml 
+ 4338  kubectl apply -f kafka.yaml 
+ 4339  kubectl get pods
+ 4340  kubectl logs kafka-broker-7cc455fc8d-6z45g
+ 4341  kubectl get pods
+ 4342  kubectl delete pod kafka-broker-7cc455fc8d-6z45g
+ 4343  kubectl get pods
+ 4344  kubectl logs kafka-broker-7cc455fc8d-sg65z
+ 4345  kubectl delete pod kafka-broker-7cc455fc8d-sg65z
+ 4346  kubectl get pods
+ 4347  kubectl logs kafka-broker-7cc455fc8d-f47l6
+ 4348  vagrant destroy
+ 4349  vagrant up
+ 4350  vagrant ssh
+ 4351  rm ~/.kube/config 
+ 4352  vim ~/.kube/config 
+ 4353  ls
+ 4354  kubectl apply -f zookeeper.yaml 
+ 4355  kubectl get pods
+ 4356  kubectl get services
+ 4357  vim kafka.yaml 
+ 4358  kubectl apply -f kafka.yaml 
+ 4359  kubectl get pods
+ 4360  kubectl logs kafka-broker-6494f676d4-7n29d
+ 4361  vagrant destroy
+ 4362  vagrant up
+ 4363  vagrant ssh
+ 4364  rm ~/.kube/config 
+ 4365  vim ~/.kube/config 
+ 4366  kubectl apply -f zookeeper.yaml 
+ 4367  kubectl get pods
+ 4368  vim kafka.yaml 
+ 4369  kubectl apply -f kafka.yaml 
+ 4370  kubectl get pods
+ 4371  kubectl logs kafka-broker-7476b9b8cb-4z2q2
+ 4372  vagrant destroy
+ 4373  vagrant up
+ 4374  sudo cat /etc/rancher/k3s/k3s.yaml
+ 4375  vagrant ssh
+ 4376  rm ~/.kube/config 
+ 4377  vim ~/.kube/config 
+ 4378  kubectl apply -f zookeeper.yaml 
+ 4379  kubectl get services
+ 4380  vim kafka.yaml 
+ 4381  kubectl apply -f kafka.yaml 
+ 4382  kubectl get pods
+ 4383  kubectl logs kafka-broker-7c8f5ffff7-bzhzk
+ 4384  vagrant destroy
+ 4385  vagrant up
+ 4386  vagrant ssh
+ 4387  rm ~/.kube/config 
+ 4388  vim ~/.kube/config 
+ 4389  ls
+ 4390  kubectl apply -f zookeeper.yaml 
+ 4391  kubectl get pods
+ 4392  kubectl get services
+ 4393  vim kafka.yaml 
+ 4394  kubectl apply -f kafka.yaml 
+ 4395  kubectl get pods
+ 4396  kubectl logs kafka-broker-7c8d799d7c-n2fxv
+ 4397  vagrant destroy
+ 4398  vagrant up
+ 4399  vagrant ssh
+ 4400  rm ~/.kube/config 
+ 4401  vim ~/.kube/config 
+ 4402  kubectl apply -f zookeeper.yaml 
+ 4403  kubectl get pods
+ 4404  kubectl get services
+ 4405  vim kafka.yaml 
+ 4406  kubectl apply -f kafka.yaml 
+ 4407  vagrant destroy
+ 4408  vagrant up
+ 4409  vagrant ssh
+ 4410  rm ~/.kube/config 
+ 4411  vim ~/.kube/config 
+ 4412  kubectl apply -f zookeeper.yaml 
+ 4413  kubectl get pods
+ 4414  kubectl get services
+ 4415  kubectl get pods
+ 4416  vim kafka.yaml 
+ 4417  kubectl get pods
+ 4418  kubectl apply -f kafka.yaml 
+ 4419  kubectl get pods
+ 4420  kubectl logs kafka-broker-6dfdb8cd69-t8h24
+ 4421  vagrant destroy
+ 4422  vagrant up
+ 4423  vagrant ssh
+ 4424  rm ~/.kube/config 
+ 4425  vim ~/.kube/config 
+ 4426  ls
+ 4427  kubectl apply -f zookeeper.yaml 
+ 4428  kubectl get pods
+ 4429  kubectl get services
+ 4430  vim kafka.yaml 
+ 4431  kubectl get services
+ 4432  kubectl get pods
+ 4433  kubectl apply -f kafka.yaml 
+ 4434  kubectl get pods
+ 4435  kubectl get services
+ 4436  kubectl get pods
+ 4437  kubectl logs kafka-broker-d4fc4ff4c-9xlj8
+ 4438  kubectl get pods
+ 4439  vagrant destroy
+ 4440  vagrant up
+ 4441  vagrant ssh
+ 4442  rm ~/.kube/config 
+ 4443  vim ~/.kube/config 
+ 4444  ls
+ 4445  kubectl apply -f zookeeper.yaml 
+ 4446  kubectl get pods
+ 4447  kubectl get services
+ 4448  vim kafka.yaml 
+ 4449  kubectl get services
+ 4450  kubectl get pods
+ 4451  kubectl get services
+ 4452  kubectl get pods
+ 4453  kubectl apply -f kafka.yaml 
+ 4454  kubectl get services
+ 4455  kubectl get pods
+ 4456  kubectl logs kafka-broker-d6bc6445f-7q9p5
+ 4457  kubectl get pods
+ 4458  kubectl apply -f kafka.yaml 
+ 4459  kubectl get pods
+ 4460  kubectl logs kafka-broker-5fc65664f4-27gfp
+ 4461  kubectl apply -f kafka.yaml 
+ 4462  kubectl get pods
+ 4463  kubectl logs kafka-broker-54d4899847-tdmzw
+ 4464  kubectl apply -f kafka.yaml 
+ 4465  kubectl logs kafka-broker-54d4899847-tdmzw
+ 4466  kubectl get pods
+ 4467  kubectl logs kafka-broker-7776f8695-vvvw6
+ 4468  kubectl get pods
+ 4469  kubectl logs kafka-broker-7776f8695-vvvw6
+ 4470  kubectl get pods
+ 4471  kubectl logs kafka-broker-7776f8695-vvvw6
+ 4472  kubectl get pods
+ 4473  kubectl logs kafka-broker-7776f8695-vvvw6
+ 4474  kubectl get pods
+ 4475  kubectl logs kafka-broker-7776f8695-vvvw6
+ 4476  kubectl apply -f kafka.yaml 
+ 4477  kubectl get pods
+ 4478  kubectl get services
+ 4479  kubectl get pods
+ 4480  kubectl get services
+ 4481  kubectl get pods
+ 4482  kubectl logs kafka-broker-6658798759-j49rw
+ 4483  kubectl get pods
+ 4484  kubectl get services
+ 4485  vim kafka.yaml 
+ 4486  kubectl apply -f kafka.yaml 
+ 4487  kubectl get services
+ 4488  kubectl get pods
+ 4489  kubectl logs kafka-broker-587d664648-xhsh8
+ 4490  kubectl apply -f kafka.yaml 
+ 4491  kubectl get pods
+ 4492  kubectl logs kafka-broker-844c4cb7f8-hw245
+ 4493  kubectl apply -f kafka.yaml 
+ 4494  kubectl get pods
+ 4495  kubectl get services
+ 4496  kubectl get pods
+ 4497  kubectl logs kafka-broker-7fd9457454-57ttw
+ 4498  kubectl apply -f kafka.yaml 
+ 4499  kubectl get pods
+ 4500  kubectl logs kafka-broker-844c4cb7f8-kwdfw
+ 4501  kubectl apply -f kafka.yaml 
+ 4502  kubectl get pods
+ 4503  kubectl get services
+ 4504  kubectl get pods
+ 4505  kubectl logs kafka-broker-8455b565cb-k7gjf
+ 4506  kubectl apply -f kafka.yaml 
+ 4507  kubectl get pods
+ 4508  kubectl get services
+ 4509  kubectl get pods
+ 4510  kubectl logs kafka-broker-5f9bf9d969-g4kgc
+ 4511  kubectl get pods
+ 4512  kubectl logs kafka-broker-5f9bf9d969-g4kgc
+ 4513  kubectl get services
+ 4514  kubectl apply -f kafka.yaml 
+ 4515  kubectl get pods
+ 4516  kubectl get services
+ 4517  kubectl get pods
+ 4518  kubectl logs kafka-broker-594f488bdf-g6l52
+ 4519  kubectl get pods
+ 4520  kubectl get services
+ 4521  vagrant destroy
+ 4522  vagrant up
+ 4523  vagrant ssh
+ 4524  rm ~/.kube/config 
+ 4525  vim kafka.yaml 
+ 4526  vim ~/.kube/config 
+ 4527  kubectl apply -f zookeeper.yaml 
+ 4528  kubectl get pods
+ 4529  kubectl get services
+ 4530  kubectl apply -f kafka.yaml 
+ 4531  kubectl get services
+ 4532  kubectl get pods
+ 4533  kubectl get services
+ 4534  kubectl get pods
+ 4535  ls
+ 4536  kubectl apply -f kafka.yaml 
+ 4537  kubectl get pods
+ 4538  kubectl get services
+ 4539  kubectl exec -it kafka-deployment-7985656cd5-549x5 /bin/sh
+ 4540  cd ../
+ 4541  ls
+ 4542  cd ../
+ 4543  ls
+ 4544  kubectl apply -f deployment/
+ 4545  kubectl get pods
+ 4546  kubectl logs udaconnect-api-5f9dcb65ff-cjnpx
+ 4547  cd deployment/
+ 4548  ls
+ 4549  kubectl apply -f udaconnect-api.yaml
+ 4550  kubectl get pods
+ 4551  kubectl logs udaconnect-api-5f9dcb65ff-cjnpx
+ 4552  kubectl get services
+ 4553  kubectl apply -f udaconnect-api.yaml
+ 4554  kubectl get pods
+ 4555  kubectl logs udaconnect-api-5f9dcb65ff-cjnpx
+ 4556  kubectl apply -f udaconnect-api.yaml
+ 4557  kubectl get pods
+ 4558  kubectl apply -f udaconnect-api.yaml
+ 4559  kubectl get pods
+ 4560  kubectl delete pod udaconnect-api-5f9dcb65ff-cjnpx
+ 4561  kubectl get pods
+ 4562  kubectl logs udaconnect-api-5f9dcb65ff-tk7bx
+ 4563  kubectl get services
+ 4564  kubectl get pods
+ 4565  kubectl delete pod udaconnect-api-5f9dcb65ff-tk7bx
+ 4566  kubectl get pods
+ 4567  kubectl logs udaconnect-api-5f9dcb65ff-v576l
+ 4568  kubectl get pods
+ 4569  kubectl logs udaconnect-api-5f9dcb65ff-v576l
+ 4570  kubectl get pods
+ 4571  sh scripts/run_db_command.sh postgres-59ff9bdfdc-l7fln
+ 4572  cd ../
+ 4573  ls
+ 4574  sh scripts/run_db_command.sh postgres-59ff9bdfdc-l7fln
+ 4575  kubectl get pods
+ 4576  kubectl logs udaconnect-api-5f9dcb65ff-v576l
+ 4577  kubectl get pods
+ 4578  kubectl get services
+ 4579  kubectl logs udaconnect-api-5f9dcb65ff-v576l
+ 4580  kubectl get pods
+ 4581  ls
+ 4582  cd deployment/
+ 4583  ls
+ 4584  kubectl apply -f kafka.yaml 
+ 4585  kubectl apply -f udaconnect-api.yaml
+ 4586  kubectl remove udaconnect-api-5f9dcb65ff-v576l
+ 4587  kubectl delete pod udaconnect-api-5f9dcb65ff-v576l
+ 4588  kubectl get pods
+ 4589  kubectl logs udaconnect-api-5f9dcb65ff-llvn7
+ 4590  kubectl get pods
+ 4591  kubectl logs udaconnect-api-5f9dcb65ff-llvn7
+ 4592  kubectl get pods
+ 4593  kubectl get services
+ 4594  kubectl logs kafka-deployment-7985656cd5-549x5
+ 4595  vagrant destroy
+ 4596  vagrant up
+ 4597  vagrant ssh
+ 4598  rm ~/.kube/config 
+ 4599  vim ~/.kube/config 
+ 4600  ls
+ 4601  cd kafka/
+ 4602  kubectl apply -f zookeeper.yaml 
+ 4603  kubectl apply -f kafka.yaml 
+ 4604  kubectl get pods
+ 4605  kubectl get services
+ 4606  kubectl get pods
+ 4607  kubectl get services
+ 4608  kubectl get pods
+ 4609  ls
+ 4610  cd ../
+ 4611  ;s
+ 4612  ls
+ 4613  kubectl apply -f deployment/
+ 4614  kubectl get pods
+ 4615  kubectl logs udaconnect-api-5f9dcb65ff-dvt98
+ 4616  kubectl get pods
+ 4617  sh scripts/run_db_command.sh postgres-59ff9bdfdc-7sm9r
+ 4618  kubectl logs udaconnect-api-5f9dcb65ff-dvt98
+ 4619  kubectl get pods
+ 4620  kubectl delete pod udaconnect-api-5f9dcb65ff-dvt98
+ 4621  kubectl get pods
+ 4622  kubectl logs udaconnect-api-5f9dcb65ff-ltz7v
+ 4623  kubectl get pods
+ 4624  kubectl delete pod udaconnect-api-5f9dcb65ff-ltz7v
+ 4625  kubectl get pods
+ 4626  kubectl logs udaconnect-api-5f9dcb65ff-98kzc
+ 4627  vagrant destroy
+ 4628  vagrant up
+ 4629  vagrant ssh
+ 4630  rm ~/.kube/config 
+ 4631  vim ~/.kube/config 
+ 4632  ls
+ 4633  cd deployment/
+ 4634  ls
+ 4635  cd kafka/
+ 4636  ls
+ 4637  kubectl apply -f zookeeper.yaml 
+ 4638  kubectl get pods
+ 4639  kubectl get services
+ 4640  ls
+ 4641  kubectl apply -f kafka.yaml 
+ 4642  kubectl get services
+ 4643  kubectl get pods
+ 4644  kubectl get services
+ 4645  kubectl get pods
+ 4646  ls
+ 4647  cd ../
+ 4648  ls
+ 4649  cd ../
+ 4650  ls
+ 4651  kubectl apply -f deployment/
+ 4652  kubectl get pods
+ 4653  vagrant destroy
+ 4654  vagrant up
+ 4655  vagrant ssh
+ 4656  rm ~/.kube/config 
+ 4657  vim ~/.kube/config 
+ 4658  ls
+ 4659  cd de
+ 4660  cd deployment/
+ 4661  ls
+ 4662  cd kafka/
+ 4663  ls
+ 4664  kubectl apply -f zookeeper.yaml 
+ 4665  kubectl get pods
+ 4666  kubectl get services
+ 4667  kubectl get pods
+ 4668  kubectl apply -f kafka.yaml 
+ 4669  ls
+ 4670  kubectl get services
+ 4671  kubectl get pods
+ 4672  ls
+ 4673  kubectl get pods
+ 4674  cd ../../
+ 4675  ls
+ 4676  kubectl apply -f deployment/
+ 4677  kubectl get pods
+ 4678  sh scripts/run_db_command.sh postgres-59ff9bdfdc-2kgxx
+ 4679  kubectl get pods
+ 4680  kubectl logs udaconnect-api-5f9dcb65ff-7dp2z
+ 4681  vagrant destroy
+ 4682  vagrant up
+ 4683  vagrant ssh
+ 4684  rm ~/.kube/config 
+ 4685  vim ~/.kube/config 
+ 4686  ls
+ 4687  cd deployment/kafka/
+ 4688  ls
+ 4689  kubectl apply -f zookeeper.yaml 
+ 4690  kubectl get pods
+ 4691  kubectl apply -f kafka.yaml 
+ 4692  kubectl get pods
+ 4693  cd ../
+ 4694  ls
+ 4695  cd ../
+ 4696  kubectl apply -f deployment/
+ 4697  kubectl get pods
+ 4698  sh scripts/run_db_command.sh postgres-59ff9bdfdc-9crcp
+ 4699  kubectl get pods
+ 4700  kubectl logs udaconnect-api-5f9dcb65ff-g2rk4
+ 4701  kubectl get services
+ 4702  kubectl get pods
+ 4703  kubectl delete pod udaconnect-api-5f9dcb65ff-g2rk4
+ 4704  kubectl get pods
+ 4705  kubectl logs udaconnect-api-5f9dcb65ff-l2qk6
+ 4706  kubectl get pods
+ 4707  kubectl remove udaconnect-api-5f9dcb65ff-l2qk6
+ 4708  kubectl get pods
+ 4709  kubectl logs udaconnect-api-5f9dcb65ff-l2qk6
+ 4710  kubectl get pods
+ 4711  kubectl remove udaconnect-api-5f9dcb65ff-l2qk6
+ 4712  kubectl remove pod udaconnect-api-5f9dcb65ff-l2qk6
+ 4713  kubectl delete pod udaconnect-api-5f9dcb65ff-l2qk6
+ 4714  kubectl get pods
+ 4715  kubectl logs udaconnect-api-5f9dcb65ff-p9ndr
+ 4716  kubectl get pods
+ 4717  kubectl logs udaconnect-api-5f9dcb65ff-p9ndr
+ 4718  kubectl get pods
+ 4719  kubectl logs udaconnect-api-5f9dcb65ff-p9ndr
+ 4720  kubectl get pods
+ 4721  kubectl logs udaconnect-api-5f9dcb65ff-p9ndr
+ 4722  kubectl get pods
+ 4723  kubectl get services
+ 4724  kubectl get pods
+ 4725  kubectl delete pod udaconnect-api-5f9dcb65ff-p9ndr
+ 4726  kubectl get pods
+ 4727  kubectl logs udaconnect-api-5f9dcb65ff-qglnq
+ 4728  kubectl get pods
+ 4729  kubectl remove pod udaconnect-api-5f9dcb65ff-qglnq
+ 4730  kubectl get pods
+ 4731  kubectl logs udaconnect-api-5f9dcb65ff-qglnq
+ 4732  kubectl get pods
+ 4733  kubectl remove pod udaconnect-api-5f9dcb65ff-qglnq
+ 4734  kubectl get pods
+ 4735  kubectl logs udaconnect-api-5f9dcb65ff-qglnq
+ 4736  ls
+ 4737  cd deployment/
+ 4738  ls
+ 4739  kubectl apply -f udaconnect-api.yaml 
+ 4740  kubectl get pods
+ 4741  kubectl delete pod udaconnect-api-5f9dcb65ff-qglnq
+ 4742  kubectl get pods
+ 4743  kubectl logs udaconnect-api-5f9dcb65ff-8qj6w
+ 4744  kubectl get pods
+ 4745  kubectl logs udaconnect-api-5f9dcb65ff-8qj6w
+ 4746  kubectl apply -f udaconnect-api.yaml 
+ 4747  kubectl get pods
+ 4748  kubectl apply -f udaconnect-api.yaml 
+ 4749  kubectl get pods
+ 4750  kubectl remove pod udaconnect-api-5f9dcb65ff-8qj6w
+ 4751  kubectl get pods
+ 4752  kubectl remove pod udaconnect-api-5f9dcb65ff-8qj6w
+ 4753  kubectl delete pod udaconnect-api-5f9dcb65ff-8qj6w
+ 4754  kubectl get pods
+ 4755  kubectl logs udaconnect-api-5f9dcb65ff-8vrsx
+ 4756  kubectl apply -f udaconnect-api.yaml 
+ 4757  kubectl delete pod udaconnect-api-5f9dcb65ff-8vrsx
+ 4758  kubectl get pods
+ 4759  kubectl logs udaconnect-api-5f9dcb65ff-hrsc7
+ 4760  kubectl get pods
+ 4761  kubectl logs udaconnect-api-5f9dcb65ff-hrsc7
+ 4762  vagrant destroy
+ 4763  va
+ 4764  vagrant up
+ 4765  vagrant ssh
+ 4766  rm ~/.kube/config 
+ 4767  vim ~/.kube/config 
+ 4768  ls
+ 4769  cd kafka/
+ 4770  kubectl apply -f zookeeper.yaml 
+ 4771  kubectl apply -f kafka.yaml 
+ 4772  kubectl get pods
+ 4773  cd ../../
+ 4774  ls
+ 4775  kubectl apply -f deployment/
+ 4776  kubectl get pods
+ 4777  kubectl logs udaconnect-api-5f9dcb65ff-str2s
+ 4778  kubectl get services
+ 4779  cd ../../
+ 4780  ls
+ 4781  cd CloudNativeApplicationArchitecture/
+ 4782  ls
+ 4783  cd UdaConnect/
+ 4784  ls
+ 4785  cd deployment/
+ 4786  ls
+ 4787  kubectl apply -f udaconnect-api.yaml 
+ 4788  kubectl get pods
+ 4789  kubectl delete pod udaconnect-api-5f9dcb65ff-str2s
+ 4790  kubectl get pods
+ 4791  kubectl logs udaconnect-api-5f9dcb65ff-gh9t4
+ 4792  sh scripts/run_db_command.sh postgres-59ff9bdfdc-9crcp
+ 4793  kubectl get pods
+ 4794  sh scripts/run_db_command.sh postgres-59ff9bdfdc-jdwfp
+ 4795  cd ../
+ 4796  sh scripts/run_db_command.sh postgres-59ff9bdfdc-jdwfp
+ 4797  cd deployment/
+ 4798  kubectl get pods
+ 4799  kubectl logs udaconnect-api-5f9dcb65ff-gh9t4
+ 4800  vagrant destroy
+ 4801  vagrant up
+ 4802  vagrant ssh
+ 4803  rm ~/.kube/config 
+ 4804  vim ~/.kube/config 
+ 4805  cd kafka/
+ 4806  ls
+ 4807  kubectl apply -f 1-zookeeper.yaml 
+ 4808  kubectl get pods
+ 4809  kubectl get services
+ 4810  vim 1-kafka.yaml 
+ 4811  kubectl get services
+ 4812  kubectl get pods
+ 4813  kubectl apply -f 1-kafka.yaml 
+ 4814  kubectl get pods
+ 4815  kubectl get services
+ 4816  vagrant destroy
+ 4817  exit
+ 4818  cd ../../
+ 4819  ls
+ 4820  cd db/
+ 4821  ls
+ 4822  cd ../deployment/
+ 4823  ls
+ 4824  cd kafka/
+ 4825  ls
+ 4826  cd ../../
+ 4827  ls
+ 4828  cd scripts/
+ 4829  ls
+ 4830  python3 producer.py 
+ 4831  vim producer.py 
+ 4832  python3 producer.py 
+ 4833  vim producer.py 
+ 4834  python3 producer.py 
+ 4835  vim producer.py 
+ 4836  python3 producer.py 
+ 4837  vim producer.py 
+ 4838  python3 producer.py 
+ 4839  vim producer.py 
+ 4840  python3 producer.py 
+ 4841  vim producer.py 
+ 4842  python3 producer.py 
+ 4843  vim producer.py 
+ 4844  python3 producer.py 
+ 4845  vim producer.py 
+ 4846  python3 producer.py 
+ 4847  vim producer.py 
+ 4848  python3 producer.py 
+ 4849  vim producer.py 
+ 4850  python3 producer.py 
+ 4851  vim producer.py 
+ 4852  python3 producer.py 
+ 4853  vim producer.py 
+ 4854  python3 producer.py 
+ 4855  ls
+ 4856  python3 producer.py 
+ 4857  vim producer.py 
+ 4858  python3 producer.py 
+ 4859  vim producer.py 
+ 4860  python3 producer.py 
+ 4861  vim producer.py 
+ 4862  python3 producer.py 
+ 4863  vim producer.py 
+ 4864  python3 producer.py 
+ 4865  vim producer.py 
+ 4866  python3 producer.py 
+ 4867  vim producer.py 
+ 4868  python3 producer.py 
+ 4869  vim producer.py 
+ 4870  python3 producer.py 
+ 4871  vim producer.py 
+ 4872  python3 producer.py 
+ 4873  vim producer.py 
+ 4874  python3 producer.py 
+ 4875  vim producer.py 
+ 4876  python3 producer.py 
+ 4877  vim producer.py 
+ 4878  python3 producer.py 
+ 4879  vim producer.py 
+ 4880  python3 producer.py 
+ 4881  vim producer.py 
+ 4882  exit
+ 4883  kubectl exec -it kafka-service -c 10.43.87.6 -n labkafka -- kafka-topics --create --topic persons --bootstrap-server localhost:9092
+ 4884  kubectl exec -it kafka-service -c 10.43.87.6 -- kafka-topics --create --topic persons --bootstrap-server localhost:9092
+ 4885  kubectl exec kafka-broker-7f4f7cdc69-wxqdt -- /opt/kafka/bin/kafka-topics.sh --create --topic persons --partitions 1 --bootstrap-server localhost:9092 --replication-factor 1
+ 4886  kubectl exec kafka-broker-7f4f7cdc69-wxqdt -- /opt/kafka/bin/kafka-topics.sh --create --topic locations --partitions 1 --bootstrap-server localhost:9092 --replication-factor 1
+ 4887  kubectl exec kafka-broker-64cb57c8f8-sb6v2 -- /opt/kafka/bin/kafka-topics.sh --create --topic persons --partitions 1 --bootstrap-server localhost:9092 --replication-factor 1
+ 4888  kubectl exec kafka-broker-64cb57c8f8-sb6v2 -- /opt/kafka/bin/kafka-topics.sh --create --topic locations --partitions 1 --bootstrap-server localhost:9092 --replication-factor 1
+ 4889  kubectl exec kafka-broker-6d849b7677-hzplf -- /opt/kafka/bin/kafka-topics.sh --create --topic locations --partitions 1 --bootstrap-server localhost:9092 --replication-factor 1
+ 4890  kubectl exec kafka-broker-6d849b7677-hzplf -- /opt/kafka/bin/kafka-topics.sh --create --topic persons --partitions 1 --bootstrap-server localhost:9092 --replication-factor 1
+ 4891  kubectl exec kafka-broker-6bb97c6497-xhhz7 -- /opt/kafka/bin/kafka-topics.sh --create --topic persons --partitions 1 --bootstrap-server localhost:9092 --replication-factor 1
+ 4892  kubectl exec kafka-broker-6bb97c6497-xhhz7 -- /opt/kafka/bin/kafka-topics.sh --create --topic locations --partitions 1 --bootstrap-server localhost:9092 --replication-factor 1
+ 4893  kubectl exec kafka-broker-7dd776c6fb-p7lvz -- /opt/kafka/bin/kafka-topics.sh --create --topic locations --partitions 1 --bootstrap-server localhost:9092 --replication-factor 1
+ 4894  kubectl exec kafka-broker-7dd776c6fb-p7lvz -- /opt/kafka/bin/kafka-topics.sh --create --topic persons --partitions 1 --bootstrap-server localhost:9092 --replication-factor 1
+ 4895  exit
+ 4896  kubectl port-forward kafka-broker-7d8795b784-lml7g 9092
+ 4897  kubectl get services 
+ 4898  kubectl get pods
+ 4899  kubectl get all
+ 4900  ls
+ 4901  cd ../
+ 4902  ls
+ 4903  cd scripts/
+ 4904  ls
+ 4905  vim ../deployment/kafka/kafka.yaml 
+ 4906  kubectl get services 
+ 4907  kubectl exec -it kafka-service -c 10.43.87.6 -- kafka-topics --create --topic persons --bootstrap-server localhost:9092
+ 4908  kubectl port-forward kafka-broker-7d8795b784-lml7g 9092
+ 4909  kubectl port-forward kafka-broker-7f4f7cdc69-wxqdt 9092
+ 4910  kubectl port-forward kafka-broker-5579fd78b5-p27t5 9092
+ 4911  kubectl port-forward kafka-broker-64cb57c8f8-sb6v2 9092
+ 4912  kubectl port-forward kafka-broker-6d849b7677-hzplf 9092
+ 4913  kubectl port-forward kafka-broker-6bb97c6497-xhhz7 9092
+ 4914  kubectl port-forward kafka-broker-7dd776c6fb-p7lvz 9092
+ 4915  kubectl port-forward kafka-broker-7dd8f9d75f-xfzjp 9092
+ 4916  kubectl port-forward kafka-broker-55c76747b5-xhp9d
+ 4917  kubectl port-forward kafka-broker-55c76747b5-xhp9d 9092
+ 4918  kubectl port-forward udaconnect-api-5f9dcb65ff-cjnpx 9092
+ 4919  kubectl port-forward udaconnect-api-5f9dcb65ff-v576l 9092
+ 4920  kubectl kafka-deployment-7985656cd5-549x5 9092
+ 4921  kubectl port-forward kafka-deployment-7985656cd5-549x5 9092
+ 4922  kubectl port-forward 10.43.175.39 9092
+ 4923  kubectl port-forward kafka-deployment-7985656cd5-549x5 9092
+ 4924  kubectl port-forward kafka-deployment-5c47fd5dc5-gw96w 9092
+ 4925  kubectl port-forward kafka-deployment-5c47fd5dc5-5k69r 9092
+ 4926  kubectl port-forward kafka-deployment-7985656cd5-9spnx 9092
+ 4927  kubectl port-forward kafka-deployment-7985656cd5-hzmgd 9092
+ 4928  kubectl port-forward kafka-broker-5d985964bd-zzbkn 9092
+ 4929  exit
+ 4930  kubectl get pods
+ 4931  kubectl exec --stdin --tty zookeeper-69fb744db5-tdjjw -- /bin/bash
+ 4932  kubectl get pods
+ 4933  kubectl exec --stdin --tty kafka-broker-7d8795b784-lml7g -- /bin/bash
+ 4934  kubectl exec --stdin --tty zookeeper-69fb744db5-tdjjw -- /bin/bash
+ 4935  kubectl exec --stdin --tty kafka-broker-7d8795b784-lml7g -- /bin/bash
+ 4936  kubectl get pods
+ 4937  kubectl exec kafka-broker-7d8795b784-lml7g -- ps aux
+ 4938  kubectl exec kafka-broker-7d8795b784-lml7g -- ls /
+ 4939  kubectl exec kafka-broker-7d8795b784-lml7g -- bin/kafka-topics.sh --create --topic persons --partitions 1 --bootstrap-server localhost:9092 --replication-factor 1
+ 4940  /opt/kafka/bin/kafka-topics.sh --create --topic persons --partitions 1 --bootstrap-server localhost:9092 --replication-factor 1
+ 4941  kubectl exec kafka-broker-7d8795b784-lml7g -- /opt/kafka/bin/kafka-topics.sh --create --topic persons --partitions 1 --bootstrap-server localhost:9092 --replication-factor 1
+ 4942  kubectl exec kafka-broker-5579fd78b5-p27t5 -- /opt/kafka/bin/kafka-topics.sh --create --topic persons --partitions 1 --bootstrap-server localhost:9092 --replication-factor 1
+ 4943  kubectl exec kafka-broker-5579fd78b5-p27t5 -- /opt/kafka/bin/kafka-topics.sh --create --topic locations --partitions 1 --bootstrap-server localhost:9092 --replication-factor 1
+ 4944  ps -ef
+ 4945  kubectl exec kafka-broker-7dd8f9d75f-xfzjp -- /opt/kafka/bin/kafka-topics.sh --create --topic locations --partitions 1 --bootstrap-server localhost:9092 --replication-factor 1
+ 4946  kubectl exec kafka-broker-7dd8f9d75f-xfzjp -- /opt/kafka/bin/kafka-topics.sh --create --topic persons --partitions 1 --bootstrap-server localhost:9092 --replication-factor 1
+ 4947  kubectl exec kafka-broker-55c76747b5-xhp9d -- /opt/kafka/bin/kafka-topics.sh --create --topic persons --partitions 1 --bootstrap-server localhost:9092 --replication-factor 1
+ 4948  kubectl exec kafka-broker-7476b9b8cb-4z2q2 -- /opt/kafka/bin/kafka-topics.sh --create --topic persons --partitions 1 --bootstrap-server localhost:9092 --replication-factor 1
+ 4949  kafka-topics — create — bootstrap-server localhost:29092 — replication-factor 1 — partitions 1
+ 4950  kubectl exec kafka-deployment-7985656cd5-549x5 -- /opt/kafka/bin/kafka-topics.sh --create --topic locations --partitions 1 --bootstrap-server localhost:9092 --replication-factor 1
+ 4951  kubectl exec kafka-deployment-7985656cd5-549x5 -- /bin/kafka-topics.sh --create --topic locations --partitions 1 --bootstrap-server localhost:9092 --replication-factor 1
+ 4952  kubectl exec kafka-deployment-7985656cd5-549x5 -- /bin/kafka-topics --create --topic locations --partitions 1 --bootstrap-server localhost:9092 --replication-factor 1
+ 4953  kubectl exec kafka-deployment-7985656cd5-549x5 -- /bin/kafka-topics --create --topics persons --partitions 1 --bootstrap-server localhost:29092 --replication-factor 1
+ 4954  kubectl exec kafka-deployment-7985656cd5-549x5 -- /bin/kafka-topics --create --topic persons --partitions 1 --bootstrap-server localhost:29092 --replication-factor 1
+ 4955  kubectl exec kafka-deployment-5c47fd5dc5-gw96w -- /bin/kafka-topics --create --topic persons --partitions 1 --bootstrap-server localhost:29092 --replication-factor 1
+ 4956  kubectl exec kafka-deployment-5c47fd5dc5-gw96w -- /bin/kafka-topics --create --topic locations --partitions 1 --bootstrap-server localhost:9092 --replication-factor 1
+ 4957  kubectl exec kafka-deployment-7985656cd5-9spnx -- /bin/kafka-topics --create --topic locations --partitions 1 --bootstrap-server localhost:9092 --replication-factor 1
+ 4958  kubectl exec kafka-deployment-7985656cd5-9spnx -- /bin/kafka-topics --create --topic persons --partitions 1 --bootstrap-server localhost:29092 --replication-factor 1
+ 4959  kubectl exec kafka-deployment-7985656cd5-hzmgd  -- /bin/kafka-topics --create --topic persons --partitions 1 --bootstrap-server localhost:29092 --replication-factor 1
+ 4960  kubectl exec kafka-deployment-7985656cd5-hzmgd -- /bin/kafka-topics --create --topic locations --partitions 1 --bootstrap-server localhost:9092 --replication-factor 1
+ 4961  kubectl exec kafka-broker-5d985964bd-zzbkn -- /bin/kafka-topics --create --topic locations --partitions 1 --bootstrap-server localhost:9092 --replication-factor 1
+ 4962  kubectl exec kafka-broker-5d985964bd-zzbkn -- /opt/kafka/bin/kafka-topics.sh --create --topic persons --partitions 1 --bootstrap-server localhost:9092 --replication-factor 1
+ 4963  kubectl exec kafka-broker-5d985964bd-zzbkn -- /opt/kafka/bin/kafka-topics.sh --create --topic locations --partitions 1 --bootstrap-server localhost:9092 --replication-factor 1
+ 4964  exit
+ 4965  cd ../
+ 4966  ls
+ 4967  cd modules/
+ 4968  ls
+ 4969  cd api/
+ 4970  ls
+ 4971  cd ../
+ 4972  ls
+ 4973  cd api/
+ 4974  ls
+ 4975  docker build -t udaconnect-persons-api .
+ 4976  sudo docker build -t udaconnect-persons-api .
+ 4977  docker build -t udaconnect-api .
+ 4978  sudo docker build -t udaconnect-api .
+ 4979  sudo docker tag udaconnect-api bjk1456/udaconnect-api:v1.0.4
+ 4980  sudo docker push bjk1456/udaconnect-api:v1.0.4
+ 4981  sudo docker build -t udaconnect-api .
+ 4982  /usr/local/bin/python -m pip install --upgrade pip
+ 4983  pip --version 
+ 4984  pip install --upgrade pip
+ 4985  sudo docker build -t udaconnect-api .
+ 4986  pip --version 
+ 4987  RUN python -m pip install --upgrade pip
+ 4988  python -m pip install --upgrade pip
+ 4989  python3 -m pip install --upgrade pip
+ 4990  pip3
+ 4991  sudo docker build -t udaconnect-api .
+ 4992  sudo docker system prune -a
+ 4993  docker build -t udaconnect-api .
+ 4994  sudo docker build -t udaconnect-api .
+ 4995  pip install --upgrade pip
+ 4996  sudo docker build -t udaconnect-api .
+ 4997  which pip
+ 4998  sudo docker build -t udaconnect-api .
+ 4999  cd /bin/
+ 5000  ls
+ 5001  file sh
+ 5002  cd ~/Udacity/CloudNativeApplicationArchitecture/UdaConnect/modules/api
+ 5003  ls
+ 5004  sudo docker build -t udaconnect-api .
+ 5005  pip --version 
+ 5006  pip kafka-python
+ 5007  docker build -t udaconnect-api .
+ 5008  sudo docker build -t udaconnect-api .
+ 5009  sudo docker tag udaconnect-api bjk1456/udaconnect-api:v1.0.4
+ 5010  sudo docker push bjk1456/udaconnect-api:v1.0.4
+ 5011  history | grep exec
+ 5012  which python3
+ 5013  sudo docker build -t udaconnect-api .
+ 5014  sudo docker tag udaconnect-api bjk1456/udaconnect-api:v1.0.4
+ 5015  sudo docker push bjk1456/udaconnect-api:v1.0.4
+ 5016  sudo docker build -t udaconnect-api .
+ 5017  sudo docker tag udaconnect-api bjk1456/udaconnect-api:v1.0.4
+ 5018  sudo docker push bjk1456/udaconnect-api:v1.0.4
+ 5019  sudo docker build -t udaconnect-api .
+ 5020  sudo docker tag udaconnect-api bjk1456/udaconnect-api:v1.0.4
+ 5021  sudo docker push bjk1456/udaconnect-api:v1.0.4
+ 5022  sudo docker build -t udaconnect-api .
+ 5023  sudo docker tag udaconnect-api bjk1456/udaconnect-api:v1.0.4
+ 5024  sudo docker push bjk1456/udaconnect-api:v1.0.4
+ 5025  sudo docker build -t udaconnect-api .
+ 5026  sudo docker tag udaconnect-api bjk1456/udaconnect-api:v1.0.4
+ 5027  sudo docker push bjk1456/udaconnect-api:v1.0.4
+ 5028  sudo docker build -t udaconnect-api .
+ 5029  sudo docker push bjk1456/udaconnect-api:v1.0.4
+ 5030  sudo docker tag udaconnect-api bjk1456/udaconnect-api:v1.0.4
+ 5031  sudo docker push bjk1456/udaconnect-api:v1.0.4
+ 5032  sudo docker build -t udaconnect-api .
+ 5033  sudo docker tag udaconnect-api bjk1456/udaconnect-api:v1.0.4
+ 5034  sudo docker push bjk1456/udaconnect-api:v1.0.4
+ 5035  sudo docker build -t udaconnect-api .
+ 5036  sudo docker tag udaconnect-api bjk1456/udaconnect-api:v1.0.4
+ 5037  sudo docker push bjk1456/udaconnect-api:v1.0.4
+ 5038  sudo docker build -t udaconnect-api .
+ 5039  sudo docker tag udaconnect-api bjk1456/udaconnect-api:v1.0.4
+ 5040  sudo docker push bjk1456/udaconnect-api:v1.0.4
+ 5041  sudo docker build -t udaconnect-api .
+ 5042  sudo docker tag udaconnect-api bjk1456/udaconnect-api:v1.0.4
+ 5043  sudo docker push bjk1456/udaconnect-api:v1.0.4
+ 5044  sudo docker build -t udaconnect-api .
+ 5045  sudo docker tag udaconnect-api bjk1456/udaconnect-api:v1.0.4
+ 5046  sudo docker push bjk1456/udaconnect-api:v1.0.4
+ 5047  sudo docker build -t udaconnect-api .
+ 5048  sudo docker tag udaconnect-api bjk1456/udaconnect-api:v1.0.4
+ 5049  sudo docker push bjk1456/udaconnect-api:v1.0.4
+ 5050  sudo docker build -t udaconnect-api .
+ 5051  sudo docker tag udaconnect-api bjk1456/udaconnect-api:v1.0.4
+ 5052  sudo docker push bjk1456/udaconnect-api:v1.0.4
+ 5053  cat /etc/hosts
+ 5054  vim /etc/hosts
+ 5055  sudo vim /etc/hosts
+ 5056  sudo docker build -t udaconnect-api .
+ 5057  sudo docker tag udaconnect-api bjk1456/udaconnect-api:v1.0.4
+ 5058  sudo docker push bjk1456/udaconnect-api:v1.0.4
+ 5059  sudo docker build -t udaconnect-api .
+ 5060  sudo docker tag udaconnect-api bjk1456/udaconnect-api:v1.0.4
+ 5061  sudo docker push bjk1456/udaconnect-api:v1.0.4
+ 5062  sudo docker build -t udaconnect-api .
+ 5063  sudo docker tag udaconnect-api bjk1456/udaconnect-api:v1.0.4
+ 5064  sudo docker push bjk1456/udaconnect-api:v1.0.4
+ 5065  sudo docker build -t udaconnect-api .
+ 5066  sudo docker tag udaconnect-api bjk1456/udaconnect-api:v1.0.4
+ 5067  sudo docker push bjk1456/udaconnect-api:v1.0.4
+ 5068  sudo docker build -t udaconnect-api .
+ 5069  sudo docker tag udaconnect-api bjk1456/udaconnect-api:v1.0.4
+ 5070  sudo docker push bjk1456/udaconnect-api:v1.0.4
+ 5071  sudo docker build -t udaconnect-api .
+ 5072  sudo docker tag udaconnect-api bjk1456/udaconnect-api:v1.0.4
+ 5073  sudo docker push bjk1456/udaconnect-api:v1.0.4
+ 5074  sudo docker build -t udaconnect-api .
+ 5075  sudo docker tag udaconnect-api bjk1456/udaconnect-api:v1.0.4
+ 5076  sudo docker push bjk1456/udaconnect-api:v1.0.4
+ 5077  sudo docker build -t udaconnect-api .
+ 5078  sudo docker tag udaconnect-api bjk1456/udaconnect-api:v1.0.4
+ 5079  sudo docker push bjk1456/udaconnect-api:v1.0.4
+ 5080  sudo docker build -t udaconnect-api .
+ 5081  sudo docker tag udaconnect-api bjk1456/udaconnect-api:v1.0.4
+ 5082  sudo docker push bjk1456/udaconnect-api:v1.0.4
+ 5083  sudo docker build -t udaconnect-api .
+ 5084  sudo docker tag udaconnect-api bjk1456/udaconnect-api:v1.0.4
+ 5085  sudo docker push bjk1456/udaconnect-api:v1.0.4
+ 5086  exit
+ 5087  python3 consumer.py 
+ 5088  vim consumer.py 
+ 5089  python3 consumer.py 
+ 5090  vim consumer.py 
+ 5091  python3 consumer.py 
+ 5092  vim consumer.py 
+ 5093  python3 consumer.py 
+ 5094  vim consumer.py 
+ 5095  python3 consumer.py 
+ 5096  vim consumer.py 
+ 5097  python3 consumer.py 
+ 5098  vim consumer.py 
+ 5099  python3 consumer.py 
+ 5100  vim consumer.py 
+ 5101  python3 consumer.py 
+ 5102  vim consumer.py 
+ 5103  python3 consumer.py 
+ 5104  vim consumer.py 
+ 5105  python3 consumer.py 
+ 5106  vim consumer.py 
+ 5107  python3 consumer.py 
+ 5108  vim consumer.py 
+ 5109  python3 consumer.py 
+ 5110  vim consumer.py 
+ 5111  python3 consumer.py 
+ 5112  vim consumer.py 
+ 5113  python3 consumer.py 
+ 5114  vim consumer.py 
+ 5115  python3 consumer.py 
+ 5116  vim consumer.py 
+ 5117  python3 consumer.py 
+ 5118  vim consumer.py 
+ 5119  python3 consumer.py 
+ 5120  vim consumer.py 
+ 5121  python3 consumer.py 
+ 5122  vim consumer.py 
+ 5123  python3 consumer.py 
+ 5124  vim consumer.py 
+ 5125  python3 consumer.py 
+ 5126  vim consumer.py 
+ 5127  python3 consumer.py 
+ 5128  vim consumer.py 
+ 5129  python3 consumer.py 
+ 5130  vim consumer.py 
+ 5131  python3 consumer.py 
+ 5132  vim consumer.py 
+ 5133  python3 consumer.py 
+ 5134  vim consumer.py 
+ 5135  python3 consumer.py 
+ 5136  vim consumer.py 
+ 5137  ls -la
+ 5138  vim consumer.py 
+ 5139  vim -r consumer.py 
+ 5140  vim consumer.py 
+ 5141  ls -la
+ 5142  rm .consumer.py.swp 
+ 5143  vim consumer.py 
+ 5144  python3 consumer.py 
+ 5145  vim consumer.py 
+ 5146  python3 consumer.py 
+ 5147  vim consumer.py 
+ 5148  python3 consumer.py 
+ 5149  vim consumer.py 
+ 5150  python3 consumer.py 
+ 5151  vim consumer.py 
+ 5152  python3 consumer.py 
+ 5153  vim consumer.py 
+ 5154  python3 consumer.py 
+ 5155  vim consumer.py 
+ 5156  python3 consumer.py 
+ 5157  vim consumer.py 
+ 5158  python3 consumer.py 
+ 5159  vim consumer.py 
+ 5160  python3 consumer.py 
+ 5161  vim consumer.py 
+ 5162  python3 consumer.py 
+ 5163  cp /home/kelbenj/Udacity/CloudNativeApplicationArchitecture/UdaConnect/modules/api/app/udaconnect/consumer.py  .
+ 5164  ls
+ 5165  python3 consumer.py 
+ 5166  vim consumer.py 
+ 5167  python3 consumer.py 
+ 5168  vim consumer.py 
+ 5169  python3 consumer.py 
+ 5170  vim consumer.py 
+ 5171  python3 consumer.py 
+ 5172  vim consumer.py 
+ 5173  python3 consumer.py 
+ 5174  vim consumer.py 
+ 5175  python3 consumer.py 
+ 5176  vim consumer.py 
+ 5177  python3 consumer.py 
+ 5178  vim consumer.py 
+ 5179  python3 consumer.py 
+ 5180  vim consumer-1.py
+ 5181  python3 consumer-1.py 
+ 5182  vim consumer-1.py
+ 5183  python3 consumer-1.py 
+ 5184  vim consumer-1.py
+ 5185  python3 consumer-1.py 
+ 5186  vim consumer-1.py
+ 5187  python3 consumer-1.py 
+ 5188  exit
+ 5189  cd Udacity/
+ 5190  ls
+ 5191  cd CloudNativeApplicationArchitecture/
+ 5192  ls
+ 5193  cd UdaConnect/
+ 5194  ls
+ 5195  curl -X GET "http://localhost:30001/api/locations" -H "accept: application/json"
+ 5196  history | grep install
+ 5197  pip3 show kafka-python
+ 5198  curl -X GET "http://localhost:30001/api/locations" -H "accept: application/json"
+ 5199  cd Udacity/
+ 5200  ls
+ 5201  cd CloudNativeApplicationArchitecture/
+ 5202  ls
+ 5203  cd UdaConnect/
+ 5204  ls
+ 5205  vagrant up
+ 5206  vagrant ssh
+ 5207  rm .consumer.py.swp 
+ 5208  rm ~/.kube/config 
+ 5209  vim ~/.kube/config 
+ 5210  ls
+ 5211  cd deployment/
+ 5212  ls
+ 5213  cd kafka/
+ 5214  ls
+ 5215  kubectl apply -f 1-zookeeper.yaml 
+ 5216  kubectl get pods
+ 5217  kubectl get services 
+ 5218  kubectl get pods
+ 5219  ls
+ 5220  vim 1-kafka.yaml 
+ 5221  kubectl get pods
+ 5222  kubectl apply -f 1-kafka.yaml 
+ 5223  kubectl get pods
+ 5224  kubectl get services 
+ 5225  vim 1-kafka.yaml 
+ 5226  vagrant destroy
+ 5227  ls
+ 5228  mv * /tmp/kafka/
+ 5229  ls
+ 5230  /usr/local/bin/helm install my-release oci://registry-1.docker.io/bitnamicharts/kafka
+ 5231  vagrant up
+ 5232  vagrant ssh
+ 5233  rm ~/.kube/config 
+ 5234  vim ~/.kube/config 
+ 5235  /usr/local/bin/helm install my-release oci://registry-1.docker.io/bitnamicharts/kafka
+ 5236  /usr/local/bin/helm repo add bitnami ‌https://charts.bitnami.com/bitnami‌
+ 5237  ls
+ 5238  /usr/local/bin/helm repo update
+ 5239  helm repo add bitnami https://charts.bitnami.com/bitnami
+ 5240  which helm
+ 5241  kubectl cluster-info
+ 5242  helm repo update
+ 5243  helm template kafka bitnami/kafka --set volumePermissions.enabled=true --set zookeeper.volumePermissions.enabled=true kafka.yaml
+ 5244  ls
+ 5245  helm template kafka bitnami/kafka --set volumePermissions.enabled=true --set zookeeper.volumePermissions.enabled=true
+ 5246  ls
+ 5247  helm template kafka bitnami/kafka --set volumePermissions.enabled=true --set zookeeper.volumePermissions.enabled=true > kafka.yaml
+ 5248  ls
+ 5249  kubectl apply -f kafka.yaml
+ 5250  kubectl get pods
+ 5251  kubectl get services 
+ 5252  kubectl get pods
+ 5253  ls
+ 5254  grep zoo
+ 5255  grep zoo *
+ 5256  kubectl get services 
+ 5257  kubectl get pods
+ 5258  vagrant destroy
+ 5259  vagrant up
+ 5260  vagrant ssh
+ 5261  rm ~/.kube/config 
+ 5262  vim ~/.kube/config 
+ 5263  ls
+ 5264  rm kafka.yaml 
+ 5265  helm template kafka bitnami/kafka --set volumePermissions.enabled=true --set zookeeper.volumePermissions.enabled=true --set externalAccess.enabled=true --set externalAccess.autoDiscovery.enabled=true --set externalAccess.service.type=NodePort > kafka.yaml
+ 5266  helm template kafka bitnami/kafka --set volumePermissions.enabled=true --set zookeeper.volumePermissions.enabled=true --set externalAccess.service.type=NodePort > kafka.yaml
+ 5267  ls
+ 5268  kubectl apply -f kafka.yaml
+ 5269  kubectl get pods
+ 5270  kubectl get services 
+ 5271  kubectl get pods
+ 5272  kubectl get services 
+ 5273  cd ../../
+ 5274  kubectl apply -f deployment/
+ 5275  kubectl get pods
+ 5276  kubectl get services 
+ 5277  kubectl get pods
+ 5278  sh scripts/run_db_command.sh postgres-59ff9bdfdc-shzxd
+ 5279  kubectl get pods
+ 5280  kubectl logs udaconnect-api-5f9dcb65ff-gh9t4
+ 5281  kubectl logs udaconnect-api-5f9dcb65ff-mxpbw
+ 5282  kubectl get services 
+ 5283  ls
+ 5284  cd deployment/
+ 5285  ls
+ 5286  kubectl get pods
+ 5287  kubectl remove pod udaconnect-api-5f9dcb65ff-mxpbw
+ 5288  ls
+ 5289  kubectl get pods
+ 5290  ls
+ 5291  kubectl apply -f udaconnect-api.yaml 
+ 5292  kubectl delete pod udaconnect-api-5f9dcb65ff-mxpbw
+ 5293  kubectl get pods
+ 5294  kubectl logs udaconnect-api-5f9dcb65ff-nk2xt
+ 5295  kubectl get pods
+ 5296  kubectl delete pod udaconnect-api-5f9dcb65ff-nk2xt
+ 5297  kubectl apply -f udaconnect-api.yaml 
+ 5298  kubectl get pods
+ 5299  kubectl logs udaconnect-api-5f9dcb65ff-4qtmz
+ 5300  kubectl apply -f udaconnect-api.yaml 
+ 5301  kubectl delete pod udaconnect-api-5f9dcb65ff-4qtmz
+ 5302  kubectl get pods
+ 5303  kubectl logs udaconnect-api-5f9dcb65ff-ftc9r
+ 5304  vagrant destroy
+ 5305  vagrant up
+ 5306  vagrant ssh
+ 5307  rm ~/.kube/config 
+ 5308  vim ~/.kube/config 
+ 5309  ls
+ 5310  cd kafka/
+ 5311  ls
+ 5312  kubectl apply -f kafka.yaml
+ 5313  kubectl get pods
+ 5314  cd ../
+ 5315  ls
+ 5316  cd ../
+ 5317  ls
+ 5318  kubectl get pods
+ 5319  kubectl get services 
+ 5320  kubectl get pods
+ 5321  kubectl apply -f deployment/
+ 5322  kubectl get pods
+ 5323  kubectl logs udaconnect-api-5f9dcb65ff-9qcjf
+ 5324  kubectl get pods
+ 5325  kubectl delete pod udaconnect-api-5f9dcb65ff-9qcjf
+ 5326  kubectl get pods
+ 5327  kubectl logs udaconnect-api-5f9dcb65ff-dqv46
+ 5328  kubectl get services 
+ 5329  kubectl logs udaconnect-api-5f9dcb65ff-dqv46
+ 5330  kubectl get services 
+ 5331  kubectl remove pod udaconnect-api-5f9dcb65ff-dqv46
+ 5332  kubectl apply -f udaconnect-api.yaml 
+ 5333  kubectl get pods
+ 5334  kubectl logs udaconnect-api-5f9dcb65ff-dqv46
+ 5335  cd deployment/
+ 5336  las
+ 5337  ls
+ 5338  kubectl apply -f udaconnect-api.yaml 
+ 5339  kubectl get pods
+ 5340  kubectl remove pod udaconnect-api-5f9dcb65ff-dqv46
+ 5341  kubectl get pods
+ 5342  kubectl delete pod udaconnect-api-5f9dcb65ff-dqv46
+ 5343  kubectl get pods
+ 5344  kubectl logs udaconnect-api-5f9dcb65ff-n46r5
+ 5345  kubectl get pods
+ 5346  kubectl logs udaconnect-api-5f9dcb65ff-n46r5
+ 5347  kubectl get pods
+ 5348  kubectl logs udaconnect-app-6559967c97-kgr92
+ 5349  cd ../
+ 5350  sh scripts/run_db_command.sh postgres-59ff9bdfdc-bnzws
+ 5351  kubectl get pods
+ 5352  kubectl logs udaconnect-app-6559967c97-kgr92
+ 5353  kubectl logs udaconnect-api-5f9dcb65ff-n46r5
+ 5354  cd deployment/
+ 5355  ;s
+ 5356  ls
+ 5357  kubectl apply -f udaconnect-api.yaml 
+ 5358  kubectl get pods
+ 5359  kubectl delete pod udaconnect-api-5f9dcb65ff-n46r5
+ 5360  kubectl get pods
+ 5361  kubectl logs udaconnect-api-5f9dcb65ff-79nmn
+ 5362  vagrant destroy
+ 5363  ls
+ 5364  cd kafka/
+ 5365  ;s
+ 5366  ls
+ 5367  vagrant up
+ 5368  vagrant ssh
+ 5369  ls
+ 5370  rm ~/.kube/config 
+ 5371  vim ~/.kube/config 
+ 5372  kubectl apply -f kafka.yaml
+ 5373  cd ../
+ 5374  ls
+ 5375  cd ../
+ 5376  kubectl apply -f deployment/
+ 5377  kubectl get pods
+ 5378  sh scripts/run_db_command.sh postgres-59ff9bdfdc-ql2mn
+ 5379  kubectl get pods
+ 5380  kubectl get services 
+ 5381  kubectl get pods
+ 5382  kubectl logs udaconnect-api-5f9dcb65ff-7csqc
+ 5383  kubectl get pods
+ 5384  ls
+ 5385  cd deployment/
+ 5386  ls
+ 5387  kubectl apply -f udaconnect-api.yaml 
+ 5388  kubectl get pods
+ 5389  kubectl delete pod udaconnect-api-5f9dcb65ff-7csqc
+ 5390  kubectl get pods
+ 5391  kubectl logs udaconnect-api-5f9dcb65ff-nwfbk
+ 5392  kubectl get pods
+ 5393  kubectl delete pod udaconnect-api-5f9dcb65ff-nwfbk
+ 5394  kubectl get pods
+ 5395  kubectl logs udaconnect-api-5f9dcb65ff-cfb99
+ 5396  kubectl delete pod udaconnect-api-5f9dcb65ff-cfb99
+ 5397  kubectl get pods
+ 5398  kubectl logs udaconnect-api-5f9dcb65ff-rxf82
+ 5399  kubectl get pods
+ 5400  kubectl delete pod udaconnect-api-5f9dcb65ff-rxf82
+ 5401  kubectl get pods
+ 5402  kubectl logs udaconnect-api-5f9dcb65ff-qpm9b
+ 5403  kubectl delete pod udaconnect-api-5f9dcb65ff-qpm9b
+ 5404  kubectl get pods
+ 5405  ls
+ 5406  kubectl apply -f udaconnect-api.yaml 
+ 5407  kubectl get pods
+ 5408  kubectl delete pod udaconnect-api-5f9dcb65ff-xs8t5
+ 5409  kubectl get pods
+ 5410  vagrant destroy
+ 5411  vagrant up
+ 5412  vagrant ssh
+ 5413  rm ~/.kube/config 
+ 5414  vim ~/.kube/config 
+ 5415  ls
+ 5416  cd kafka/
+ 5417  ls
+ 5418  kubectl apply -f kafka.yaml
+ 5419  cd ../../
+ 5420  ls
+ 5421  kubectl apply -f deployment/
+ 5422  kubectl get pods
+ 5423  kubectl logs udaconnect-api-5f9dcb65ff-dc78p
+ 5424  kubectl get pods
+ 5425  kubectl logs udaconnect-api-5f9dcb65ff-dc78p
+ 5426  kubectl get pods
+ 5427  kubectl remove pod udaconnect-api-5f9dcb65ff-dc78p
+ 5428  kubectl delete pod udaconnect-api-5f9dcb65ff-dc78p
+ 5429  kubectl get pods
+ 5430  kubectl logs udaconnect-api-5f9dcb65ff-gxmfp
+ 5431  sh scripts/run_db_command.sh postgres-59ff9bdfdc-bsc6l
+ 5432  kubectl get pods
+ 5433  kubectl delete pod udaconnect-api-5f9dcb65ff-gxmfp
+ 5434  kubectl get pods
+ 5435  ls
+ 5436  cd deployment/
+ 5437  ls
+ 5438  kubectl logs udaconnect-api-5f9dcb65ff-gxmfp
+ 5439  kubectl logs udaconnect-api-5f9dcb65ff-8qw7z
+ 5440  ls
+ 5441  kubectl apply -f udaconnect-api.yaml 
+ 5442  kubectl get pods
+ 5443  grep -R 30002
+ 5444  cd ../
+ 5445  ls
+ 5446  grep -R 30002
+ 5447  kubectl get pods
+ 5448  kubectl logs udaconnect-persons-api-844664c9d8-h6d5p
+ 5449  kubectl get pods
+ 5450  sh scripts/run_db_command.sh postgres-59ff9bdfdc-bsc6l
+ 5451  kubectl get pods
+ 5452  kubectl logs udaconnect-persons-api-844664c9d8-h6d5p
+ 5453  kubectl get pods
+ 5454  kubectl logs udaconnect-api-6b87589cfd-6mkr4
+ 5455  kubectl get pods
+ 5456  kubectl logs udaconnect-api-6b87589cfd-6mkr4
+ 5457  kubectl get pods
+ 5458  kubectl delete pod udaconnect-api-6b87589cfd-6mkr4
+ 5459  kubectl get pods
+ 5460  kubectl logs udaconnect-api-6b87589cfd-m9rrw
+ 5461  ls
+ 5462  cd deployment/
+ 5463  ls
+ 5464  kubectl apply -f udaconnect-api.yaml 
+ 5465  kubectl get pods
+ 5466  kubectl logs udaconnect-api-5f9dcb65ff-x4qdf
+ 5467  vagrant destroy
+ 5468  ls
+ 5469  cd kafka/
+ 5470  ls
+ 5471  vagrant up
+ 5472  vagrant ssh
+ 5473  rm ~/.kube/config 
+ 5474  vim ~/.kube/config 
+ 5475  ls
+ 5476  kubectl apply -f kafka.yaml
+ 5477  cd ../../
+ 5478  kubectl apply -f deployment/
+ 5479  kubectl get pods
+ 5480  kubectl logs udaconnect-api-5f9dcb65ff-5wdbg
+ 5481  kubectl get pods
+ 5482  kubectl logs udaconnect-persons-api-75975c5b86-5lj5h
+ 5483  kubectl get pods
+ 5484  kubectl logs udaconnect-persons-api-75975c5b86-5lj5h
+ 5485  kubectl logs udaconnect-api-5f9dcb65ff-5wdbg
+ 5486  vagrant destroy
+ 5487  vagrant up
+ 5488  vagrant ssh
+ 5489  rm ~/.kube/config 
+ 5490  vim ~/.kube/config 
+ 5491  ls
+ 5492  cd deployment/
+ 5493  ls
+ 5494  cd kafka/
+ 5495  ls
+ 5496  kubectl apply -f kafka.yaml
+ 5497  kubectl get pods
+ 5498  kubectl get services 
+ 5499  cd ../../
+ 5500  ls
+ 5501  kubectl apply -f deployment/
+ 5502  kubectl get pods
+ 5503  sh scripts/run_db_command.sh postgres-59ff9bdfdc-bxzjx
+ 5504  kubectl get pods
+ 5505  kubectl logs udaconnect-api-5f9dcb65ff-25thb
+ 5506  kubectl get pods
+ 5507  ls
+ 5508  kubectl apply -f deployment/
+ 5509  kubectl get pods
+ 5510  kubectl delete pod udaconnect-api-5f9dcb65ff-25thb
+ 5511  kubectl get pods
+ 5512  kubectl logs udaconnect-api-7b469d78cb-j4rls
+ 5513  kubectl get pods
+ 5514  kubectl logs udaconnect-api-7b469d78cb-j4rls
+ 5515  kubectl get pods
+ 5516  ls
+ 5517  cd deployment/
+ 5518  ls
+ 5519  kubectl apply -f udaconnect-api.yaml 
+ 5520  kubectl get pods
+ 5521  kubectl logs udaconnect-api-5f9dcb65ff-9qg4p
+ 5522  kubectl get pods
+ 5523  ls
+ 5524  kubectl get pods
+ 5525  kubectl logs udaconnect-api-5f9dcb65ff-9qg4p
+ 5526  ls
+ 5527  kubectl get pods
+ 5528  kubectl delete pod udaconnect-api-5f9dcb65ff-9qg4p
+ 5529  kubectl get pods
+ 5530  kubectl logs udaconnect-api-5f9dcb65ff-fz4mc
+ 5531  kubectl get pods
+ 5532  kubectl delete pod udaconnect-api-5f9dcb65ff-fz4mc
+ 5533  kubectl get pods
+ 5534  kubectl logs udaconnect-api-5f9dcb65ff-rq6kq
+ 5535  ls
+ 5536  kubectl apply -f udaconnect-api.yaml 
+ 5537  kubectl get pods
+ 5538  kubectl delete pod udaconnect-api-5f9dcb65ff-rq6kq
+ 5539  kubectl get pods
+ 5540  kubectl logs udaconnect-api-5f9dcb65ff-bn65g
+ 5541  kubectl get pods
+ 5542  kubectl delete pod udaconnect-api-5f9dcb65ff-bn65g
+ 5543  kubectl get pods
+ 5544  kubectl logs udaconnect-api-5f9dcb65ff-n49l8
+ 5545  kubectl get pods
+ 5546  kubectl delete pod udaconnect-api-5f9dcb65ff-n49l8
+ 5547  kubectl get pods
+ 5548  kubectl logs udaconnect-api-5f9dcb65ff-xrdzf
+ 5549  kubectl get pods
+ 5550  kubectl delete pod udaconnect-api-5f9dcb65ff-xrdzf
+ 5551  kubectl get pods
+ 5552  kubectl logs udaconnect-api-5f9dcb65ff-j4wk2
+ 5553  kubectl get pods
+ 5554  kubectl delete pod udaconnect-api-5f9dcb65ff-j4wk2
+ 5555  kubectl get pods
+ 5556  kubectl logs udaconnect-api-5f9dcb65ff-7zqmd
+ 5557  kubectl get pods
+ 5558  kubectl delete pod udaconnect-api-5f9dcb65ff-7zqmd
+ 5559  kubectl get pods
+ 5560  kubectl logs udaconnect-api-5f9dcb65ff-6xzbz
+ 5561  vagrant destroy
+ 5562  vagrant up
+ 5563  vagrant ssh
+ 5564  rm ~/.kube/config 
+ 5565  vim ~/.kube/config 
+ 5566  ls
+ 5567  cd kafka/
+ 5568  ;s
+ 5569  ls
+ 5570  kubectl apply -f kafka.yaml
+ 5571  cd ../../
+ 5572  ls
+ 5573  kubectl get pods
+ 5574  ls
+ 5575  kubectl apply -f deployment/
+ 5576  kubectl get pods
+ 5577  ls
+ 5578  cd deployment/
+ 5579  ls
+ 5580  kubectl apply -f udaconnect-api-persons.yaml 
+ 5581  cd ../
+ 5582  ls
+ 5583  kubectl get pods
+ 5584  sh scripts/run_db_command.sh postgres-59ff9bdfdc-blq7f
+ 5585  kubectl get pods
+ 5586  kubectl logs udaconnect-api-5f9dcb65ff-ccmn8
+ 5587  kubectl get pods
+ 5588  kubectl delete pod udaconnect-api-5f9dcb65ff-ccmn8
+ 5589  kubectl get pods
+ 5590  kubectl logs udaconnect-api-5f9dcb65ff-gn7p2
+ 5591  kubectl get pods
+ 5592  kubectl delete pod udaconnect-api-5f9dcb65ff-gn7p2
+ 5593  kubectl get pods
+ 5594  kubectl logs udaconnect-api-5f9dcb65ff-4jc65
+ 5595  kubectl get pods
+ 5596  kubectl delete pod udaconnect-api-5f9dcb65ff-4jc65
+ 5597  kubectl get pods
+ 5598  kubectl logs udaconnect-api-5f9dcb65ff-ncssd
+ 5599  file /home/kelbenj/Udacity/CloudNativeApplicationArchitecture/UdaConnect/db/person.csv
+ 5600  ls
+ 5601  cd deployment/
+ 5602  ls
+ 5603  cd ../
+ 5604  ls
+ 5605  cd db
+ 5606  ls
+ 5607  cd ../
+ 5608  ls
+ 5609  cd deployment/
+ 5610  ls
+ 5611  cd ../
+ 5612  ls
+ 5613  cd modules/
+ 5614  ls
+ 5615  cd api/
+ 5616  ls
+ 5617  kubectl get pods
+ 5618  kubectl exec -it udaconnect-api-5f9dcb65ff-ncssd /bin/sh 
+ 5619  exit
+ 5620  exit
+ 5621  ls
+ 5622  cd ../
+ 5623  ls
+ 5624  cd persons_api/
+ 5625  ls
+ 5626  history | grep udaconnect-person
+ 5627  sudo docker build -t udaconnect-persons-api .
+ 5628  udo docker tag udaconnect-persons-api bjk1456/udaconnect-persons-api:v1.0.4
+ 5629  sudo docker push bjk1456/udaconnect-persons-api:v1.0.4
+ 5630  sudo docker tag udaconnect-persons-api bjk1456/udaconnect-persons-api:v1.0.4
+ 5631  sudo docker push bjk1456/udaconnect-persons-api:v1.0.4
+ 5632  sudo docker build -t udaconnect-persons-api .
+ 5633  sudo docker tag udaconnect-persons-api bjk1456/udaconnect-persons-api:v1.0.4
+ 5634  sudo docker push bjk1456/udaconnect-persons-api:v1.0.4
+ 5635  sudo docker build -t udaconnect-persons-api .
+ 5636  sudo docker tag udaconnect-persons-api bjk1456/udaconnect-persons-api:v1.0.4
+ 5637  sudo docker push bjk1456/udaconnect-persons-api:v1.0.4
+ 5638  sudo docker build -t udaconnect-persons-api .
+ 5639  sudo docker tag udaconnect-persons-api bjk1456/udaconnect-persons-api:v1.0.4
+ 5640  sudo docker push bjk1456/udaconnect-persons-api:v1.0.4
+ 5641  sudo docker build -t udaconnect-persons-api .
+ 5642  sudo docker tag udaconnect-persons-api bjk1456/udaconnect-persons-api:v1.0.4
+ 5643  sudo docker push bjk1456/udaconnect-persons-api:v1.0.4
+ 5644  sudo docker build -t udaconnect-persons-api .
+ 5645  sudo docker tag udaconnect-persons-api bjk1456/udaconnect-persons-api:v1.0.4
+ 5646  sudo docker push bjk1456/udaconnect-persons-api:v1.0.4
+ 5647  sudo docker build -t udaconnect-persons-api .
+ 5648  sudo docker tag udaconnect-persons-api bjk1456/udaconnect-persons-api:v1.0.4
+ 5649  sudo docker push bjk1456/udaconnect-persons-api:v1.0.4
+ 5650  sudo docker build -t udaconnect-persons-api .
+ 5651  sudo docker tag udaconnect-persons-api bjk1456/udaconnect-persons-api:v1.0.4
+ 5652  sudo docker push bjk1456/udaconnect-persons-api:v1.0.4
+ 5653  sudo docker build -t udaconnect-persons-api .
+ 5654  sudo docker tag udaconnect-persons-api bjk1456/udaconnect-persons-api:v1.0.4
+ 5655  sudo docker push bjk1456/udaconnect-persons-api:v1.0.4
+ 5656  sudo docker build -t udaconnect-persons-api .
+ 5657  sudo docker tag udaconnect-persons-api bjk1456/udaconnect-persons-api:v1.0.4
+ 5658  sudo docker push bjk1456/udaconnect-persons-api:v1.0.4
+ 5659  sudo docker build -t udaconnect-persons-api .
+ 5660  sudo docker tag udaconnect-persons-api bjk1456/udaconnect-persons-api:v1.0.4
+ 5661  sudo docker push bjk1456/udaconnect-persons-api:v1.0.4
+ 5662  sudo docker build -t udaconnect-persons-api .
+ 5663  sudo docker tag udaconnect-persons-api bjk1456/udaconnect-persons-api:v1.0.4
+ 5664  sudo docker push bjk1456/udaconnect-persons-api:v1.0.4
+ 5665  sudo docker build -t udaconnect-persons-api .
+ 5666  sudo docker tag udaconnect-persons-api bjk1456/udaconnect-persons-api:v1.0.4
+ 5667  sudo docker push bjk1456/udaconnect-persons-api:v1.0.4
+ 5668  sudo docker build -t udaconnect-persons-api .
+ 5669  sudo docker tag udaconnect-persons-api bjk1456/udaconnect-persons-api:v1.0.4
+ 5670  sudo docker push bjk1456/udaconnect-persons-api:v1.0.4
+ 5671  sudo docker build -t udaconnect-persons-api .
+ 5672  sudo docker tag udaconnect-persons-api bjk1456/udaconnect-persons-api:v1.0.4
+ 5673  sudo docker push bjk1456/udaconnect-persons-api:v1.0.4
+ 5674  sudo docker build -t udaconnect-persons-api .
+ 5675  sudo docker tag udaconnect-persons-api bjk1456/udaconnect-persons-api:v1.0.4
+ 5676  sudo docker push bjk1456/udaconnect-persons-api:v1.0.4
+ 5677  sudo docker build -t udaconnect-persons-api .
+ 5678  sudo docker tag udaconnect-persons-api bjk1456/udaconnect-persons-api:v1.0.4
+ 5679  sudo docker push bjk1456/udaconnect-persons-api:v1.0.4
+ 5680  sudo docker build -t udaconnect-persons-api .
+ 5681  sudo docker tag udaconnect-persons-api bjk1456/udaconnect-persons-api:v1.0.4
+ 5682  sudo docker push bjk1456/udaconnect-persons-api:v1.0.4
+ 5683  sudo docker build -t udaconnect-persons-api .
+ 5684  sudo docker tag udaconnect-persons-api bjk1456/udaconnect-persons-api:v1.0.4
+ 5685  sudo docker push bjk1456/udaconnect-persons-api:v1.0.4
+ 5686  sudo docker build -t udaconnect-persons-api .
+ 5687  sudo docker tag udaconnect-persons-api bjk1456/udaconnect-persons-api:v1.0.4
+ 5688  sudo docker push bjk1456/udaconnect-persons-api:v1.0.4
+ 5689  sudo docker build -t udaconnect-persons-api .
+ 5690  sudo docker tag udaconnect-persons-api bjk1456/udaconnect-persons-api:v1.0.4
+ 5691  sudo docker push bjk1456/udaconnect-persons-api:v1.0.4
+ 5692  sudo docker build -t udaconnect-persons-api .
+ 5693  sudo docker tag udaconnect-persons-api bjk1456/udaconnect-persons-api:v1.0.4
+ 5694  sudo docker push bjk1456/udaconnect-persons-api:v1.0.4
+ 5695  sudo docker build -t udaconnect-persons-api .
+ 5696  sudo docker tag udaconnect-persons-api bjk1456/udaconnect-persons-api:v1.0.4
+ 5697  sudo docker push bjk1456/udaconnect-persons-api:v1.0.4
+ 5698  sudo docker build -t udaconnect-persons-api .
+ 5699  sudo docker tag udaconnect-persons-api bjk1456/udaconnect-persons-api:v1.0.4
+ 5700  sudo docker push bjk1456/udaconnect-persons-api:v1.0.4
+ 5701  sudo docker build -t udaconnect-persons-api .
+ 5702  sudo docker tag udaconnect-persons-api bjk1456/udaconnect-persons-api:v1.0.4
+ 5703  sudo docker push bjk1456/udaconnect-persons-api:v1.0.4
+ 5704  sudo docker build -t udaconnect-persons-api .
+ 5705  sudo docker tag udaconnect-persons-api bjk1456/udaconnect-persons-api:v1.0.4
+ 5706  sudo docker push bjk1456/udaconnect-persons-api:v1.0.4
+ 5707  sudo docker build -t udaconnect-persons-api .
+ 5708  exit
+ 5709  ls
+ 5710  cd modules/
+ 5711  ls
+ 5712  cd persons_api/
+ 5713  ls
+ 5714  cd app/
+ 5715  ls
+ 5716  cd ../
+ 5717  ls
+ 5718  cd locations_
+ 5719  cd locations_gRPC_api/
+ 5720  ls
+ 5721  cd app/
+ 5722  ls
+ 5723  cd udaconnect/
+ 5724  ls
+ 5725  cd ../
+ 5726  ls
+ 5727  cd ../
+ 5728  ls
+ 5729  cd app/
+ 5730  ls
+ 5731  cd udaconnect/
+ 5732  ls
+ 5733  mv location* ../../
+ 5734  ls
+ 5735  cd ../../
+ 5736  ls
+ 5737  cd modules/
+ 5738  ls
+ 5739  cd locations_gRPC_api/
+ 5740  ls
+ 5741  grep OrderMessage *
+ 5742  grep -i OrderMessage *
+ 5743  grep -iR OrderMessage *
+ 5744  grep -iRl OrderMessage *
+ 5745  grep -in OrderMessage *
+ 5746  grep -in stub *
+ 5747  grep -in order *
+ 5748  exit
+ 5749  ls
+ 5750  cd Udacity/
+ 5751  ls
+ 5752  ls -lhtr
+ 5753  cd CloudNativeApplicationArchitecture/
+ 5754  ls
+ 5755  cd UdaConnect/
+ 5756  ls
+ 5757  vagrant up
+ 5758  vagrant ssh
+ 5759  rm ~/.kube/config 
+ 5760  vim ~/.kube/config 
+ 5761  cd deployment/
+ 5762  ls
+ 5763  cd ../
+ 5764  kubectl apply -f deployment/
+ 5765  kubectl get pods
+ 5766  sh scripts/run_db_command.sh postgres-5c4dbcb7f-gfftf
+ 5767  kubectl get pods
+ 5768  kubectl logs udaconnect-persons-api-75465d46f9-bkzp9
+ 5769  kubectl get pods
+ 5770  kubectl exec -it udaconnect-persons-api-75465d46f9-bkzp9 /bin/sh 
+ 5771  kubectl get pods
+ 5772  kubectl logs udaconnect-persons-api-75465d46f9-bkzp9
+ 5773  kubectl get pods
+ 5774  kubectl exec -it udaconnect-persons-api-75465d46f9-bkzp9 /bin/sh 
+ 5775  kubectl get pods
+ 5776  cd ~/Downloads/
+ 5777  ls
+ 5778  ls -lhtr
+ 5779  mv api-for_persons-latest-resolved.json ~/Udacity/CloudNativeApplicationArchitecture/UdaConnect/docs/
+ 5780  kubectl cp loudNativeApplicationArchitecture/UdaConnect/db/person.csv udaconnect-persons-api-75465d46f9-xbrq6:/app/udaconnect/person.csv
+ 5781  kubectl cp ./db/person.csv udaconnect-persons-api-75465d46f9-xbrq6:/app/udaconnect/person.csv
+ 5782  kubectl cp ./db/person.csv udaconnect-persons-api-75465d46f9-s2lm6:/app/udaconnect/person.csv
+ 5783  ls
+ 5784  cd modules/
+ 5785  ls
+ 5786  cd persons_api/
+ 5787  ls
+ 5788  docker build -t udaconnect-persons-api .
+ 5789  sudo docker build -t udaconnect-persons-api .
+ 5790  sudo docker tag udaconnect-persons-api bjk1456/udaconnect-persons-api:v1.0.5
+ 5791  sudo docker push bjk1456/udaconnect-persons-api:v1.0.5
+ 5792  history | grep kubectl
+ 5793  kubectl get pods
+ 5794  kubectl delete pod udaconnect-persons-api-75465d46f9-bkzp9
+ 5795  kubectl get pods
+ 5796  kubectl exec -it udaconnect-persons-api-75465d46f9-xbrq6 /bin/sh 
+ 5797  ls
+ 5798  kubectl get pods
+ 5799  kubectl exec -it udaconnect-app-66c759ccfc-2dv7n /bin/sh 
+ 5800  kubectl get pods
+ 5801  kubectl delete pod udaconnect-persons-api-75465d46f9-xbrq6
+ 5802  kubectl get pods
+ 5803  kubectl logs udaconnect-persons-api-75465d46f9-s2lm6
+ 5804  kubectl get pods
+ 5805  cd ka
+ 5806  cd deployment/
+ 5807  ls
+ 5808  cd kafka/
+ 5809  ls
+ 5810  kubectl apply -f kafka.yaml
+ 5811  cd ../../
+ 5812  ls
+ 5813  kubectl get pods
+ 5814  kubectl logs udaconnect-persons-api-75465d46f9-s2lm6
+ 5815  kubectl get pods
+ 5816  kubectl logs udaconnect-persons-api-75465d46f9-s2lm6
+ 5817  kubectl get pods
+ 5818  kubectl logs udaconnect-persons-api-75465d46f9-s2lm6
+ 5819  vagrant destroy
+ 5820  ls
+ 5821  cd docs/
+ 5822  ls
+ 5823  vim grpc.txt
+ 5824  ls
+ 5825  vim grpc.txt
+ 5826  cd ../
+ 5827  ls
+ 5828  git status
+ 5829  git add *
+ 5830  ls
+ 5831  git status
+ 5832  git push
+ 5833  git commit -m "Incorporate OpenAPI to all microservices"
+ 5834  git push
+ 5835  ls
+ 5836  git status
+ 5837  git add *
+ 5838  git commit -m "Add openapi documents"
+ 5839  git push
+ 5840  cd Ud
+ 5841  ls
+ 5842  cd
+ 5843  cd Udacity/
+ 5844  ls
+ 5845  git clone git@github.com:bjk1456/Cloud_Native_Observability.git
+ 5846  ls
+ 5847  cd Cloud_Native_Observability/
+ 5848  ls
+ 5849  pwd
+ 5850  ls
+ 5851  cd manifests/
+ 5852  ls
+ 5853  cd ../
+ 5854  ls
+ 5855  git add *
+ 5856  git commit -m "Initial commit"
+ 5857  git push
+ 5858  cd /tmp/
+ 5859  ls
+ 5860  git clone git@github.com:bjk1456/CNAND_nd064_C4_Observability_Starter_Files.git
+ 5861  ls -lhtr
+ 5862  cd CNAND_nd064_C4_Observability_Starter_Files/
+ 5863  ls
+ 5864  cd Project_Starter_Files-Building_a_Metrics_Dashboard/
+ 5865  ls
+ 5866  rp -R * /home/kelbenj/Udacity/Cloud_Native_Observability
+ 5867  cp -R * /home/kelbenj/Udacity/Cloud_Native_Observability
+ 5868  ls
+ 5869  cd CloudNativeApplicationArchitecture/
+ 5870  ls
+ 5871  cd UdaConnect/
+ 5872  ls
+ 5873  git status
+ 5874  git main -r
+ 5875  git branch -r
+ 5876  git config --get remote.origin.url
+ 5877  ls
+ 5878  cd docs/
+ 5879  ls
+ 5880  history
+ 5881  sed -n '2171,5843p;5844q' history
+ 5882  sed -n '2171,5843p;5844q' $history
+ 5883  $history
+ 5884  history
+ 5885  sed -n '2171,5843p;5844q' ~/.bash_history
+ 5886  sed -n '2171,5843p;5844q' ~/.bash_history > bash_history.txt
+ 5887  ls
+ 5888  vim bash_history.txt 
+ 5889  cd ../
+ 5890  git status
+ 5891  git add docs/bash_history.txt 
+ 5892  git commit -m "Add bash_history"
+ 5893  gity push
+ 5894  git push
+ 5895  exit
+ 5896  cd Udacity/
+ 5897  ls
+ 5898  mv Cloud_Native_Observability/ CloudNativeApplicationArchitecture/
+ 5899  ls
+ 5900  cd CloudNativeApplicationArchitecture/
+ 5901  ls
+ 5902  cd Cloud_Native_Observability/
+ 5903  ls
+ 5904  kubectl create namespace monitoring
+ 5905  vagrant up
+ 5906  vagrant status
+ 5907  vagrant up
+ 5908  vim /etc/vbox/networks.conf
+ 5909  vagrant status
+ 5910  vagrant ssh
+ 5911  lss
+ 5912  ls
+ 5913  vagrant ssh
+ 5914  vagrant up
+ 5915  vim /etc/vbox/networks.conf
+ 5916  sudo vim /etc/vbox/networks.conf
+ 5917  vim /etc/vbox/networks.conf
+ 5918  vim networks.conf
+ 5919  mv networks.conf /etc/vbox
+ 5920  sudo mv networks.conf /etc/vbox
+ 5921  vagrant up
+ 5922  vim /etc/vbox/networks.conf
+ 5923  sudo vim /etc/vbox/networks.conf
+ 5924  ls
+ 5925  vagrant up
+ 5926  rm ~/.kube/config
+ 5927  vagrant ssh
+ 5928  vim ~/.kube/config
+ 5929  kubectl get pods
+ 5930  kubectl create namespace monitoring
+ 5931  vagrant status
+ 5932  vim ~/.kube/config
+ 5933  vagrant ssh
+ 5934  kubectl cluster-info
+ 5935  sudo -i
+ 5936  strace -eopenat kubectl version
+ 5937  kubectl cluster-info
+ 5938  vagrant stop
+ 5939  vagrant halt
+ 5940  vagrant up
+ 5941  kubectl cluster-info
+ 5942  sudo swapoff -a
+ 5943  history | grep helm
+ 5944  cd /etc/vbox/
+ 5945  cd /etc
+ 5946  ls
+ 5947  ls -lhtr
+ 5948  cd vbox
+ 5949  cat vbox 
+ 5950  mkdir vbox
+ 5951  mv vbox vbox.old
+ 5952  rm vbox 
+ 5953  sudo rm vbox 
+ 5954  mkdir vbox
+ 5955  sudo mkdir vbox
+ 5956  ls
+ 5957  ls -lhtr
+ 5958  cd vbox/
+ 5959  ls
+ 5960  vim networks.conf
+ 5961  sudo vim networks.conf
+ 5962  ls
+ 5963  history
+ 5964  cd Udacity/
+ 5965  ls
+ 5966  cd CloudNativeApplicationArchitecture/
+ 5967  ls
+ 5968  cd Cloud_Native_Observability/
+ 5969  ls
+ 5970  vagrant up
+ 5971  vagrant ssh
+ 5972  rm ~/.kube/config
+ 5973  vim ~/.kube/config
+ 5974  kubectl cluster-info
+ 5975  kubectl create namespace monitoring
+ 5976  helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+ 5977  helm repo add stable https://charts.helm.sh/stable
+ 5978  helm repo update
+ 5979  helm install prometheus prometheus-community/kube-prometheus-stack --namespace monitoring --kubeconfig /etc/rancher/k3s/k3s.yaml
+ 5980  vagrant ssh
+ 5981  kubectl cluster-info
+ 5982  export KUBECONFIG=/etc/rancher/k3s/k3s.yaml
+ 5983  helm install prometheus prometheus-community/kube-prometheus-stack --namespace monitoring --kubeconfig /etc/rancher/k3s/k3s.yaml
+ 5984  helm install prometheus prometheus-community/kube-prometheus-stack --namespace monitoring
+ 5985  helm install prometheus prometheus-community/kube-prometheus-stack --namespace monitoring --kubeconfig /etc/rancher/k3s/k3s.yaml
+ 5986  vagrant destroy
+ 5987  vagrant up
+ 5988  vagrant ssh
+ 5989  rm ~/.kube/config
+ 5990  vim ~/.kube/config
+ 5991  helm install prometheus prometheus-community/kube-prometheus-stack --namespace monitoring --kubeconfig /etc/rancher/k3s/k3s.yaml
+ 5992  kubectl cluster-info
+ 5993  vim ~/.kube/config
+ 5994  vagrant ssh
+ 5995  rm ~/.kube/config
+ 5996  vim ~/.kube/config
+ 5997  kubectl cluster-info
+ 5998  $PATH
+ 5999  printenv
+ 6000  unset -f KUBECONFIG
+ 6001  kubectl cluster-info
+ 6002  printenv
+ 6003  vagrant destroy
+ 6004  cd Udacity/
+ 6005  ls
+ 6006  cd CloudNativeApplicationArchitecture/
+ 6007  vagrant up
+ 6008  ls
+ 6009  cd Cloud_Native_Observability/
+ 6010  vagrant up
+ 6011  vagrant ssh
+ 6012  rm ~/.kube/config
+ 6013  vim ~/.kube/config
+ 6014  kubectl describe services
+ 6015  kubectl cluster-info
+ 6016  kubectl create namespace monitoring
+ 6017  helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+ 6018  helm repo add stable https://charts.helm.sh/stable
+ 6019  helm repo update
+ 6020  helm install prometheus prometheus-community/kube-prometheus-stack --namespace monitoring --kubeconfig /etc/rancher/k3s/k3s.yaml
+ 6021  kubectl get po
+ 6022  kubectl get po monitoring
+ 6023  kubectl cluster-info
+ 6024  git status
+ 6025  git add Vagrantfile
+ 6026  git commit -m "Add default_box"
+ 6027  git push
+ 6028  ls
+ 6029  vagrant destroy
+ 6030  cd Udacity/
+ 6031  ls
+ 6032  cd CloudNativeApplicationArchitecture/
+ 6033  ls
+ 6034  cd Cloud_Native_Observability/lsvagrant up
+ 6035  ls
+ 6036  cd Cloud_Native_Observability/
+ 6037  ls
+ 6038  vagrant up
+ 6039  vagrant ssh
+ 6040  rm ~/.kube/config
+ 6041  vim ~/.kube/config
+ 6042  kubectl create namespace monitoring
+ 6043  helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+ 6044  helm repo add stable https://charts.helm.sh/stable
+ 6045  helm repo update
+ 6046  sudo k3s kubectl config view --raw > /etc/rancher/k3s/k3s.yaml
+ 6047  kubectl cluster-info
+ 6048  helm install prometheus prometheus-community/kube-prometheus-stack --namespace monitoring --kubeconfig /etc/rancher/k3s/k3s.yam
+ 6049  sudo k3s kubectl config view --raw
+ 6050  sudo kubectl config view --raw
+ 6051  sudo kubectl config view --raw > /etc/rancher/k3s/k3s.yaml
+ 6052  vim /etc/rancher/k3s/k3s.yaml
+ 6053  helm install prometheus prometheus-community/kube-prometheus-stack --namespace monitoring --kubeconfig ~/.kube/config
+ 6054  vagrant halt
+ 6055  gpg --gen-key
+ 6056  cd /tmp
+ 6057  ls
+ 6058  vim psswd.txt
+ 6059  gpg -c z psswd.txt 
+ 6060  gpg -c psswd.txt 
+ 6061  history
+ 6062  cd /tmp
+ 6063  ls
+ 6064  ls -lhtr
+ 6065  history
+ 6066  ls
+ 6067  vim psswd.txt
+ 6068  gpg -c psswd.txt
+ 6069  ls -lhtr
+ 6070  cat psswd.txt.gpg 
+ 6071  kubectl port-forward svc/frontend-service 8080:8080
+ 6072  history | grep kubectl
+ 6073  kubectl cluster-info
+ 6074  kubectl pods
+ 6075  kubectl get pods
+ 6076  vagrant suspend
+ 6077  vagrant resume
+ 6078  history | grep "get pods"
+ 6079  kubectl get pods -n observability
+ 6080  vagrant suspend
+ 6081  vagrant resume
+ 6082  vagrant suspend
+ 6083  ls
+ 6084  cd Udacity/
+ 6085  ls
+ 6086  cd CloudNativeApplicationArchitecture/
+ 6087  ls
+ 6088  cd Cloud_Native_Observability/
+ 6089  ls
+ 6090  vagrant up
+ 6091  vagrant ssh
+ 6092  kubectl create namespace observability
+ 6093  ls
+ 6094  vim install_jaeger.txt
+ 6095  bash install_jaeger.txt 
+ 6096  kubectl create -f https://raw.githubusercontent.com/jaegertracing/jaeger-operator/${jaeger_version}/deploy/crds/jaegertracing.io_jaegers_crd.yaml
+ 6097  echo $jaeger_version
+ 6098  export jaegaer_version=v1.47.0
+ 6099  echo $jaeger_version
+ 6100  export jaeger_version=v1.47.0
+ 6101  echo $jaeger_version
+ 6102  bash install_jaeger.txt 
+ 6103  kubectl create -f https://raw.githubusercontent.com/jaegertracing/jaeger-operator/${jaeger_version}/deploy/crds/jaegertracing.io_jaegers_crd.yaml
+ 6104  export jaeger_version=v1.28.0
+ 6105  echo $jaeger_version
+ 6106  kubectl create -f https://raw.githubusercontent.com/jaegertracing/jaeger-operator/${jaeger_version}/deploy/crds/jaegertracing.io_jaegers_crd.yaml
+ 6107  bash install_jaeger.txt 
+ 6108  kubectl create -f https://raw.githubusercontent.com/jaegertracing/jaeger-operator/${jaeger_version}/deploy/cluster_role.yaml
+ 6109  kubectl create -f https://raw.githubusercontent.com/jaegertracing/jaeger-operator/${jaeger_version}/deploy/cluster_role_binding.yaml
+ 6110  ls
+ 6111  mkdir answer-img
+ 6112  cd answer-img/
+ 6113  ls
+ 6114  kubectl
+ 6115  vagrant ssh
+ 6116  history
+ 6117  ls
+ 6118  kubectl create namespace monitoring
+ 6119  vls
+ 6120  ls
+ 6121  cd manifests/
+ 6122  ls
+ 6123  cd app/
+ 6124  ls
+ 6125  cd ../
+ 6126  ls
+ 6127  kubectl apply -f app/
+ 6128  kubectl cluster-info
+ 6129  kubectl get pod -n monitoring | grep grafana
+ 6130  kubectl port-forward -n monitoring prometheus-grafana-5c9575968f-vq9lf 3000
+ 6131  kubectl cluster-info
+ 6132  kubectl port-forward -n monitoring prometheus-grafana-5c9575968f-vq9lf 3000
+ 6133  history | grep kubectl
+ 6134  kubectl get pods -n observability
+ 6135  kubectl get pod -n monitoring
+ 6136  history | grep vagrant
+ 6137  vagrant suspend
+ 6138  vagrant resume
+ 6139  vagrant suspend
+ 6140  ls
+ 6141  cd Udacity/
+ 6142  ls
+ 6143  cd CloudNativeApplicationArchitecture/
+ 6144  ls
+ 6145  cd Cloud_Native_Observability/
+ 6146  ls
+ 6147  history | grep vagrant
+ 6148  vagrant resume
+ 6149  ls
+ 6150  cd answer-img/
+ 6151  ls
+ 6152  cd ../
+ 6153  history
+ 6154  kubectl port-forward -n monitoring prometheus-grafana-5c9575968f-vq9lf 3000
+ 6155  history | grep kubectl
+ 6156  history | grep "kubectl port"
+ 6157  kubectl port-forward svc/frontend-service 8080:8080
+ 6158  which $SHELL
+ 6159  history | grep docker
+ 6160  exit
+ 6161  pwd
+ 6162  ls
+ 6163  cd answer-img/
+ 6164  ls
+ 6165  history | grep suspend
+ 6166  vagrant suspend
+ 6167  vagrant resume
+ 6168  history | grep kubectl
+ 6169  kubectl get pods
+ 6170  kubectl get pods -n monitoring
+ 6171  ls
+ 6172  vagrant suspend
+ 6173  exit
+ 6174  history | grep kubectl
+ 6175  exit
+ 6176  history | grep kubectl
+ 6177  kubectl get pods -n observability
+ 6178  kubectl get pods
+ 6179  kubectl get pods,svc --namespace=monitoring
+ 6180  history grep jaeger-instance.yaml
+ 6181  history | grep jaeger-instance.yaml
+ 6182  ls
+ 6183  cd ../
+ 6184  ls
+ 6185  grep -R jaeger-instance.yaml
+ 6186  grep -R jaeger-instance
+ 6187  find type -f -name *instance*
+ 6188  find -type f -name *instance*
+ 6189  find -type f -name *txt*
+ 6190  kubectl get pods,svc --namespace=observability
+ 6191  kubectl get -n observability ingress -o yaml | tail
+ 6192  grep -iR ingress
+ 6193  kubectl ingress -o yaml | tail
+ 6194  kubectl get ingress -o yaml | tail
+ 6195  history | grep service
+ 6196  kubectl get services
+ 6197  kubectl get pods,svc --namespace=observability
+ 6198  kubectl get pods
+ 6199  ls
+ 6200  cd manifests/
+ 6201  ls
+ 6202  cd app/
+ 6203  ls
+ 6204  cd ../
+ 6205  ls
+ 6206  mkdir -p jaeger-tracing
+ 6207  ls
+ 6208  export namespace=observability
+ 6209  cat >> jaeger-tracing/jaeger.yaml <<EOF
+ 6210  apiVersion: jaegertracing.io/v1
+ 6211  kind: Jaeger
+ 6212  metadata:
+ 6213    name: my-traces
+ 6214    namespace: ${namespace}
+ 6215  EOF
+ 6216  ls
+ 6217  cd jaeger-tracing/
+ 6218  ls
+ 6219  vim jaeger.yaml 
+ 6220  cd ../
+ 6221  ls
+ 6222  kubectl apply -n ${namespace} -f jaeger-tracing/jaeger.yaml
+ 6223  kubectl get -n ${namespace} pods,svc
+ 6224  kubectl get -n ${namespace} ingress -o yaml | tail
+ 6225  kubectl port-forward -n ${namespace}     $(kubectl get pods -n ${namespace} -l=app="jaeger" -o name) --address 0.0.0.0 16686:16686
+ 6226  exit
+ 6227  exit
+ 6228  cd /tmp
+ 6229  ls
+ 6230  cd 
+ 6231  ls
+ 6232  cd Udacity/
+ 6233  ls
+ 6234  cd CloudNativeApplicationArchitecture/
+ 6235  l
+ 6236  ls
+ 6237  cd Cloud_Native_Observability/
+ 6238  ls
+ 6239  kubectl port-forward svc/frontend-service 8080:8080
+ 6240  exit
+ 6241  history
+ 6242  history | grep vagrant
+ 6243  history | grep kubectl
+ 6244  kubectl cluster-info
+ 6245  kubectl get pods
+ 6246  ls
+ 6247  cd Udacity/
+ 6248  ls
+ 6249  cd CloudNativeApplicationArchitecture/
+ 6250  ls
+ 6251  cd Cloud_Native_Observability/
+ 6252  ls
+ 6253  cd reference-
+ 6254  cd reference-dashboards/
+ 6255  ls
+ 6256  cd ../
+ 6257  ls
+ 6258  cd manifests/
+ 6259  ls
+ 6260  kubectl apply -f app/
+ 6261  kubectl get pod -n monitoring | grep grafana
+ 6262  history | grep 'kubectl port-forward'
+ 6263  prometheus-grafana-5c9575968f-vq9lf
+ 6264  kubectl port-forward -n monitoring prometheus-grafana-5c9575968f-vq9lf 3000
+ 6265  exit
+ 6266  ls
+ 6267  cd Udacity/
+ 6268  ls
+ 6269  cd CloudNativeApplicationArchitecture/
+ 6270  ls
+ 6271  cd Cloud_Native_Observability/
+ 6272  vagrant resume
+ 6273  ingress_name=$(kubectl get -n ${namespace} ingress -o jsonpath='{.items[0].metadata.name}'); ingress_port=$(kubectl get -n ${namespace} ingress -o jsonpath='{.items[0].spec.defaultBackend.service.port.number}'); echo -e "\n\n${ingress_name}.${namespace}.svc.cluster.local:${ingress_port}"
+ 6274  ingress_name=$(kubectl get -n ${namespace} ingress -o jsonpath='{.items[0].metadata.name}');
+ 6275  kubectl get -n ${namespace}
+ 6276  ingress_name=$(kubectl get -n ${namespace} ingress -o jsonpath='{.items[0].metadata.name}');
+ 6277  ingress_name=$(kubectl get -n observability  ingress -o jsonpath='{.items[0].metadata.name}');
+ 6278  kubectl port-forward -n observability     $(kubectl get pods -n observability -l=app="jaeger" -o name) --address 0.0.0.0 16686:16686
+ 6279  ingress_name=$(kubectl get -n observability ingress -o jsonpath='{.items[0].metadata.name}'); ingress_port=$(kubectl get -n observability ingress -o jsonpath='{.items[0].spec.defaultBackend.service.port.number}'); echo -e "\n\n${ingress_name}.observability.svc.cluster.local:${ingress_port}"
+ 6280  exit
+ 6281  history
+ 6282  history | grep history
+ 6283  history | grep docker
+ 6284  cd ~/Udacity/CloudNativeApplicationArchitecture/Cloud_Native_Observability/starter-files/CNAND_nd064_C4_Observability_Starter_Files-master
+ 6285  ls
+ 6286  cd ../
+ 6287  ls
+ 6288  cd ../
+ 6289  ls
+ 6290  cd starter-files/
+ 6291  ls
+ 6292  cd CNAND_nd064_C4_Observability_Starter_Files-master/
+ 6293  ls
+ 6294  cd Exercise_Starter_Files/
+ 6295  ls
+ 6296  vagrant ssh
+ 6297  pwd
+ 6298  ls
+ 6299  vagrant upload sampleapp/k8s/* /vagrant/home
+ 6300  vagrant upload sampleapp/k8s/jaeger-app-2.yaml /vagrant/home
+ 6301  vagrant upload sampleapp/k8s/jaeger-app-1.yaml /vagrant/home
+ 6302  vagrant upload sampleapp/k8s/jaeger-instance.yaml /vagrant/home
+ 6303  vagrant ssh
+ 6304  ls
+ 6305  vagrant upload sampleapp/k8s/jaeger-instance.yaml /vagrant
+ 6306  vagrant ssh
+ 6307  exit
+ 6308  history | grep vagrant
+ 6309  history | grep 'vagrant scp'
+ 6310  ls
+ 6311  cd sampleapp/
+ 6312  ls
+ 6313  cd k8s/
+ 6314  ls
+ 6315  vagrant scp * 
+ 6316  vagrant upload * 
+ 6317  ls
+ 6318  pwd
+ 6319  ls
+ 6320  vagrant plugin install vagrant-scp
+ 6321  ls
+ 6322  vagrant scp jaeger-instance.yaml /home/vagrant
+ 6323  ls
+ 6324  vagrant ssh
+ 6325  vagrant scp * /home/vagrant
+ 6326  ls
+ 6327  vagrant scp jaeger-app-1.yaml /home/vagrant
+ 6328  vagrant scp jaeger-app-2.yaml /home/vagrant
+ 6329  vagrant ssh
+ 6330  ls
+ 6331  vagrant destroy
+ 6332  vagrant up
+ 6333  vagrant scp jaeger-app-2.yaml /home/vagrant
+ 6334  vagrant scp jaeger-app-1.yaml /home/vagrant
+ 6335  ls
+ 6336  vagrant scp jaeger-instance.yaml /home/vagrant
+ 6337  vim install_jaeger.txt 
+ 6338  ls
+ 6339  vagrant scp install_jaeger.txt /home/vagrant
+ 6340  vagrant ssj
+ 6341  vagrant ssh
+ 6342  vagrant destroy
+ 6343  cd ../../
+ 6344  ls
+ 6345  vagrant up
+ 6346  vagrant ssh
+ 6347  vagrant suspend
+ 6348  pwd
+ 6349  ls
+ 6350  ls
+ 6351  vagrant scp install_jaeger.txt /vagrant/home
+ 6352  vagrant scp install_jaeger.txt /home/vagant
+ 6353  vagrant scp install_jaeger.txt /home/vagrant
+ 6354  ${jaeger_version}
+ 6355  jaeger_version
+ 6356  history | grep jaeger_version
+ 6357  echo $jaeger_version
+ 6358  export jaeger_version=v1.28.0
+ 6359  echo $jaeger_version
+ 6360  kubectl describe jaegers -n observability
+ 6361  history | grep kubectl
+ 6362  kubectl get pods
+ 6363  kubectl cluster-info
+ 6364  kubectl get pod -n monitoring
+ 6365  for i in 0 1 2 3 4 5 6 7 8 9; do curl localhost:8080; done
+ 6366  curl localhost:8080
+ 6367  for i in 0 1 2 3 4 5 6 7 8 9; do curl localhost:8081; done
+ 6368  for i in 0 1 2 3 4 5 6 7 8 9; do curl localhost:8888; done
+ 6369  for i in 0 1 2 3 4 5 6 7 8 9; do curl localhost:8080/api; done
+ 6370  for i in 0 1 2 3 4 5 6 7 8 9; do curl localhost:8080/star; done
+ 6371  for i in 0 1 2 3 4 5 6 7 8 9; do curl localhost:8080/api; done
+ 6372  nmap -p 16686 my-traces-query.observability.svc.cluster.local
+ 6373  sudo apt install nmap
+ 6374  nmap -p 16686 my-traces-query.observability.svc.cluster.local
+ 6375  ingress_name=$(kubectl get -n observability ingress -o jsonpath='{.items[0].metadata.name}'); ingress_port=$(kubectl get -n observability ingress -o jsonpath='{.items[0].spec.defaultBackend.service.port.number}'); echo -e "\n\n${ingress_name}.observability.svc.cluster.local:${ingress_port}"
+ 6376  kubectl get -n ${namespace} pods,svc
+ 6377  kubectl get -n observability pods,svc
+ 6378  vagrant suspend
+ 6379  ls
+ 6380  cd ../
+ 6381  grep -R /metrics
+ 6382  grep -R metrics
+ 6383  history | grep "vagrant scp"
+ 6384  history | grep "scp"
+ 6385  ls
+ 6386  pwd
+ 6387  ls
+ 6388  mkdir start-files
+ 6389  rmdir start-files
+ 6390  mkdir starter-files
+ 6391  ls
+ 6392  mv CNAND_nd064_C4_Observability_Starter_Files-master.zip starter-files/
+ 6393  cd starter-files/
+ 6394  ls
+ 6395  unzip CNAND_nd064_C4_Observability_Starter_Files-master.zip 
+ 6396  ls
+ 6397  rm CNAND_nd064_C4_Observability_Starter_Files-master
+ 6398  ls
+ 6399  rm CNAND_nd064_C4_Observability_Starter_Files-master.zip 
+ 6400  ls
+ 6401  cd CNAND_nd064_C4_Observability_Starter_Files-master/
+ 6402  ls
+ 6403  cd Exercise_Starter_Files/
+ 6404  ls
+ 6405  vagrant up
+ 6406  ls
+ 6407  vim Vagrantfile 
+ 6408  vagrant up
+ 6409  grep -R jaeger
+ 6410  cd ../
+ 6411  ls
+ 6412  rm -rf Project_Starter_Files-Building_a_Metrics_Dashboard/
+ 6413  ls
+ 6414  vagrant ssh
+ 6415  pwd
+ 6416  history | grep kubectl
+ 6417  cd ../../
+ 6418  ls
+ 6419  grep -R http://backend-app.default.svc.cluster.local
+ 6420  curl http://backend-app.default.svc.cluster.local
+ 6421  history | grep port
+ 6422  kubectl get pods,svc --namespace=monitoring
+ 6423  history | grep forward
+ 6424  kubectl port-forward -n monitoring prometheus-grafana-5c9575968f-vq9lf 3000
+ 6425  ls -ef
+ 6426  ps -ef
+ 6427  top
+ 6428  history | grep kubectl
+ 6429  kubectl get pods
+ 6430  kubectl get services
+ 6431  history | grep backend-service
+ 6432  kubectl port-forward svc/back-service 8081:8081
+ 6433  kubectl port-forward svc/backend-service 8081:8081
+ 6434  history | grep 16686
+ 6435  kubectl port-forward -n observability     $(kubectl get pods -n observability -l=app="jaeger" -o name) --address 0.0.0.0 16686:16686
+ 6436  which vagrant
+ 6437  history | grep 
+ 6438  cd Udacity/
+ 6439  las
+ 6440  ls
+ 6441  cd CloudNativeApplicationArchitecture/
+ 6442  ls
+ 6443  cd Cloud_Native_Observability/
+ 6444  ls
+ 6445  cd manifests/
+ 6446  ls
+ 6447  cd app/
+ 6448  ls
+ 6449  cd ../
+ 6450  ls
+ 6451  cd app/
+ 6452  ls
+ 6453  cd ../jaeger-tracing/
+ 6454  ls
+ 6455  cd ../../../
+ 6456  ls
+ 6457  cd Cloud_Native_Observability/
+ 6458  ls
+ 6459  cd reference-app/
+ 6460  ls
+ 6461  cd frontend/
+ 6462  ls
+ 6463  docker build -t frontend .
+ 6464  ocker build -t frontend .u
+ 6465  sudo docker build -t frontend .
+ 6466  sudo docker tag frontend bjk1456/frontend:v1
+ 6467  sudo docker push bjk1456/frontend:v1
+ 6468  cd ../backend/
+ 6469  ls
+ 6470  sudo docker build -t backend .
+ 6471  sudo docker tag backend bjk1456/backend:v1
+ 6472  sudo docker push bjk1456/backend:v1
+ 6473  cd ../trial/
+ 6474  ls
+ 6475  sudo docker build -t trial .
+ 6476  sudo docker tag backend bjk1456/trial:v1
+ 6477  sudo docker push bjk1456/trial:v1
+ 6478  cd ../../
+ 6479  ls
+ 6480  history | kubectl
+ 6481  history | grep kubectl
+ 6482  kubectl get pods
+ 6483  history | 'kubectl kill'
+ 6484  history | kubectl
+ 6485  history | grep kubectl
+ 6486  history | grep forward
+ 6487  kubectl port-forward svc/frontend-service 8080:8080
+ 6488  cd Udacity/
+ 6489  ls
+ 6490  cd CloudNativeApplicationArchitecture/
+ 6491  ls
+ 6492  cd Cloud_Native_Observability/
+ 6493  ls
+ 6494  vagrant resume
+ 6495  history | grep install
+ 6496  history | grep kubectl
+ 6497  kubectl apply -f app/
+ 6498  ls
+ 6499  pwd
+ 6500  ls
+ 6501  cd reference-app/
+ 6502  ls
+ 6503  cd manifests/
+ 6504  ls
+ 6505  kubectl apply -f app/
+ 6506  vagrant suspend
+ 6507  vagrant resume
+ 6508  grep -R monitoring
+ 6509  grep -R /metrics
+ 6510  cd ../
+ 6511  grep -R /metrics
+ 6512  grep -R metrics
+ 6513  curl 127.0.0.0
+ 6514  history | grep curl
+ 6515  curl http://localhost:30000
+ 6516  curl http://localhost:30000/
+ 6517  curl http://localhost:3000/
+ 6518  curl http://localhost:3000
+ 6519  curl prometheus-grafana-5c9575968f-vq9lf
+ 6520  history
+ 6521  ingress_name=$(kubectl get -n observability ingress -o jsonpath='{.items[0].metadata.name}'); ingress_port=$(kubectl get -n observability ingress -o jsonpath='{.items[0].spec.defaultBackend.service.port.number}'); echo -e "\n\n${ingress_name}.observability.svc.cluster.local:${ingress_port}"
+ 6522  curl my-traces-query.observability.svc.cluster.local:3000
+ 6523  curl my-traces-query.observability.svc.cluster.local:300
+ 6524  cd /tmp
+ 6525  vagrant resume
+ 6526  cd ~/Downloads/
+ 6527  ls
+ 6528  ls -lhtr
+ 6529  mv 'Fwd Government Contracting 2023-09-29T18_06_27-04 00.eml' /tmp/governmentcontracting/
+ 6530  sudo apt update
+ 6531  sudo apt install build-essential
+ 6532  sudo apt install gdb
+ 6533  ls
+ 6534  cd Udacity/
+ 6535  ls
+ 6536  cd CloudNativeApplicationArchitecture/
+ 6537  ls
+ 6538  cd Cloud_Native_Observability/
+ 6539  ls
+ 6540  cd ../
+ 6541  ls
+ 6542  cd ../
+ 6543  ls
+ 6544  ls -lhtr
+ 6545  cd CloudNativeApplicationArchitecture/
+ 6546  ls
+ 6547  ls -lhtr
+ 6548  cd Cloud_Native_Observability/
+ 6549  ls
+ 6550  find -R README.md
+ 6551  find -f README.md
+ 6552  find -type f README.md
+ 6553  find . -type f README.md
+ 6554  find . type -f README.md
+ 6555  find . -type f README.md
+ 6556  find -type f . README.md
+ 6557  find -type f README.md
+ 6558  find -type f -name README.md
+ 6559  ls
+ 6560  cd starter-files/
+ 6561  ls
+ 6562  cd CNAND_nd064_C4_Observability_Starter_Files-master/
+ 6563  ls
+ 6564  vim README.md 
+ 6565  cd ../
+ 6566  cd /tmp
+ 6567  history | grep liberty.sgvpm.com
+ 6568  git checkout https://liberty.sgvpm.com/benjamin.kelly/governmentcontracting.git
+ 6569  git clone https://liberty.sgvpm.com/benjamin.kelly/governmentcontracting.git
+ 6570  git checkout https://liberty.sgvpm.com/benjamin.kelly/governmentcontracting.git
+ 6571  git clone https://liberty.sgvpm.com/benjamin.kelly/governmentcontracting.git
+ 6572  ls
+ 6573  ls -lhtr
+ 6574  cd governmentcontracting/
+ 6575  ls
+ 6576  history | grep "git checkout"
+ 6577  history | grep "git switch"
+ 6578  history | grep "git"
+ 6579  git checkout 30Sept2023BootstoBusinessEmail
+ 6580  git clone git@liberty.sgvpm.com:benjamin.kelly/governmentcontracting.git
+ 6581  ls
+ 6582  git checkout 30Sept2023BootstoBusinessEmail
+ 6583  git branch -r
+ 6584  git checkout -b origin/30Sept2023BootstoBusinessEmail
+ 6585  git pull
+ 6586  git pull remote 30Sept2023BootstoBusinessEmail
+ 6587  git branch -r
+ 6588  git status
+ 6589  ls
+ 6590  git rm README.md 
+ 6591  ls
+ 6592  git add Fwd\ Government\ Contracting\ 2023-09-29T18_06_27-04\ 00.eml 
+ 6593  git commit -m "Email from Darwin Byrd"
+ 6594  git push
+ 6595  git push --set-upstream origin origin/30Sept2023BootstoBusinessEmail
+ 6596  cd Udacity/
+ 6597  ls
+ 6598  cd CloudNativeApplicationArchitecture/
+ 6599  ls
+ 6600  cd Cloud_Native_Observability/
+ 6601  ls
+ 6602  vim Vagrantfile 
+ 6603  cd ./starter-files/CNAND_nd064_C4_Observability_Starter_Files-master/Exercise_Starter_Files/Vagrantfile
+ 6604  ls
+ 6605  cd Udacity/
+ 6606  ls
+ 6607  cd CloudNativeApplicationArchitecture/
+ 6608  cd ./starter-files/CNAND_nd064_C4_Observability_Starter_Files-master/Exercise_Starter_Files/Vagrantfile
+ 6609  ls
+ 6610  cd Cloud_Native_Observability/
+ 6611  ls
+ 6612  cd ./starter-files/CNAND_nd064_C4_Observability_Starter_Files-master/Exercise_Starter_Files/Vagrantfile
+ 6613  cd ./starter-files/CNAND_nd064_C4_Observability_Starter_Files-master/Exercise_Starter_Files/
+ 6614  ls
+ 6615  vagrant up
+ 6616  history | grep kubectl
+ 6617  kubectl get pods
+ 6618  kubectl
+ 6619  history | grep kubectl
+ 6620  kubectl get services
+ 6621  vagrant ssh
+ 6622  history grep Vagrant
+ 6623  history | grep Vagrant
+ 6624  history | grep vagrant
+ 6625  vagrant suspend
+ 6626  vagrant resume
+ 6627  vagrant suspend
+ 6628  grep -R prometheus
+ 6629  ls
+ 6630  cd Udacity/
+ 6631  ls
+ 6632  cd CloudNativeApplicationArchitecture/
+ 6633  ls
+ 6634  cd Cloud_Native_Observability/
+ 6635  ls
+ 6636  cd starter-files/
+ 6637  ls
+ 6638  cd CNAND_nd064_C4_Observability_Starter_Files-master/
+ 6639  ls
+ 6640  cd ../../
+ 6641  ls
+ 6642  find -type f -name Vagrantfile 
+ 6643  grep -R bjk1456
+ 6644  ls
+ 6645  grep -R 16686
+ 6646  grep -R "from jinja2 import escape"
+ 6647  grep -R "from jinja2 import"
+ 6648  grep -R "from jinja2"
+ 6649  ls
+ 6650  grep -R simpletest-query
+ 6651  grep -R simpletest
+ 6652  grep -R query
+ 6653  grep -R prometheus
+ 6654  curl http://jaeger-operator-694cbbb886-nbl8r:8383
+ 6655  curl http://jaeger-operator-694cbbb886-nbl8r:8686
+ 6656  cd ../../
+ 6657  ls
+ 6658  cd ../
+ 6659  grep -R 16686
+ 6660  cd ../
+ 6661  grep -R 16686
+ 6662  grep -R simpletest-query
+ 6663  grep -R simpletest
+ 6664  ls
+ 6665  cd Cloud_Native_Observability/
+ 6666  ls
+ 6667  cd manifests/
+ 6668  ls
+ 6669  history | grep upload
+ 6670  vagrant upload app/ /vagrant
+ 6671  pwd
+ 6672  history | grep kubectl
+ 6673  ls
+ 6674  cd ../
+ 6675  ls
+ 6676  cd reference-app/
+ 6677  ls
+ 6678  cd backend/
+ 6679  ls
+ 6680  history
+ 6681  history | grep docker
+ 6682  ls
+ 6683  history
+ 6684  history | grep docker
+ 6685  sudo docker build -t backend .
+ 6686  history | grep docker
+ 6687  sudo docker tag backend bjk1456/backend:v1
+ 6688  sudo docker push bjk1456/backend:v1
+ 6689  sudo docker build -t backend .
+ 6690  sudo docker tag backend bjk1456/backend:v1
+ 6691  sudo docker push bjk1456/backend:v1
+ 6692  sudo docker build -t backend .
+ 6693  sudo docker push bjk1456/backend:v2
+ 6694  sudo docker tag backend bjk1456/backend:v2
+ 6695  sudo docker push bjk1456/backend:v2
+ 6696  sudo docker build -t backend .
+ 6697  sudo docker tag backend bjk1456/backend:v2
+ 6698  sudo docker push bjk1456/backend:v2
+ 6699  history | grep docker
+ 6700  sudo docker run -d -p 30000:30000 backend:v2
+ 6701  sudo docker run -d -p 30000:30000 backend
+ 6702  sudo docker status
+ 6703  sudo docker ps
+ 6704  sudo docker rm backend
+ 6705  sudo docker rm vibrant_elbakyan
+ 6706  sudo docker stop vibrant_elbakyan
+ 6707  sudo docker rm vibrant_elbakyan
+ 6708  sudo docker ps
+ 6709  sudo docker build -t backend .
+ 6710  sudo docker tag backend bjk1456/backend:v2
+ 6711  sudo docker run -d -p 30000:30000 backend
+ 6712  sudo docker ps
+ 6713  sudo docker run -d -p 30000:30000 backend:v2
+ 6714  sudo docker run -d -p 30000:30000 backend
+ 6715  sudo docker ps
+ 6716  docker logs 6b19e3e19299d1b3bd18fd01c71ed01caa2cdaa6408b9559541a4bb362e0d30d
+ 6717  sudo docker logs 6b19e3e19299d1b3bd18fd01c71ed01caa2cdaa6408b9559541a4bb362e0d30d
+ 6718  cd ../frontend/
+ 6719  history | grep frontend
+ 6720  sudo docker build -t frontend .
+ 6721  history | grep frontend
+ 6722  udo docker tag frontend bjk1456/frontend:v2
+ 6723  sudo docker tag frontend bjk1456/frontend:v2
+ 6724  sudo docker push bjk1456/frontend:v2
+ 6725  cd ../trial/
+ 6726  ls
+ 6727  history | grep trial
+ 6728  sudo docker build -t trial .
+ 6729  sudo docker tag backend bjk1456/trial:v2
+ 6730  sudo docker push bjk1456/trial:v2
+ 6731  sudo docker run -d -p 30000:30000 trial
+ 6732  sudo docker ps
+ 6733  sudo docker logs 96cac8152d1cb7d9e0d352acd3e89323287bf6a3820ee02e909608dfa3ab80a1
+ 6734  sudo docker build -t trial .
+ 6735  sudo docker run -d -p 30000:30000 trial
+ 6736  sudo docker ps
+ 6737  sudo docker logs e4ce5a0ab8361b08ae202fd991605e2375a426d1bd0019e72ef57264b99517fb
+ 6738  sudo docker build -t trial .
+ 6739  sudo docker run -d -p 30000:30000 trial
+ 6740  sudo docker ps
+ 6741  sudo docker logs 3726ea142af9810f7ce12e4c119f21d979173785c44e3424ca82593a31fdf416
+ 6742  sudo docker build -t trial .
+ 6743  sudo docker run -d -p 30000:30000 trial
+ 6744  sudo docker ps
+ 6745  sudo docker logs 9a86fd322867cc783a01ba2cabc3bfb6aa9740e81ab4ac3c01024604be374496
+ 6746  sudo docker build -t trial .
+ 6747  sudo docker run -d -p 30000:30000 trial
+ 6748  sudo docker ps
+ 6749  sudo docker stop unruffled_sinoussi
+ 6750  sudo docker rm unruffled_sinoussi
+ 6751  sudo docker ps
+ 6752  sudo docker tag backend bjk1456/trial:v3
+ 6753  sudo docker push bjk1456/trial:v3
+ 6754  sudo docker run -d -p 30000:30000 trial
+ 6755  sudo docker ps
+ 6756  sudo docker stop great_brahmagupta
+ 6757  sudo docker ps
+ 6758  sudo docker remove great_brahmagupta
+ 6759  sudo docker rm great_brahmagupta
+ 6760  sudo docker build -t trial .
+ 6761  sudo docker tag trial bjk1456/trial:v3
+ 6762  sudo docker push bjk1456/trial:v3
+ 6763  sudo docker tag trial bjk1456/trial:v4
+ 6764  sudo docker push bjk1456/trial:v4
+ 6765  vagrant ssh
+ 6766  pwd
+ 6767  ls
+ 6768  vagrant upload /home/kelbenj/Udacity/CloudNativeApplicationArchitecture/Cloud_Native_Observability/manifests/app/ /vagrant
+ 6769  vagrant ssh
+ 6770  ls
+ 6771  cd app/
+ 6772  ls
+ 6773  cd ../
+ 6774  ls
+ 6775  cd sampleapp/
+ 6776  ls
+ 6777  cd ../
+ 6778  ls
+ 6779  vagrant ssh
+ 6780  vagrant halt
+ 6781  vagrant resume
+ 6782  vagrant status
+ 6783  vagrant up
+ 6784  vagrant ssh
+ 6785  ls
+ 6786  vagrant ssh
+ 6787  vagrant suspend
+ 6788  ls
+ 6789  cd Udacity/
+ 6790  ls
+ 6791  ls -lhtr
+ 6792  cd CloudNativeApplicationArchitecture/
+ 6793  ls
+ 6794  ls -lhtr
+ 6795  cs Cloud_Native_Observability
+ 6796  cd Cloud_Native_Observability
+ 6797  ls
+ 6798  vagrant resume
+ 6799  ls
+ 6800  ls
+ 6801  find type -f name -Vagrant
+ 6802  find -type f -name Vagrant
+ 6803  find -type f -name Vagrant -i
+ 6804  find -type f -name Vagrant*
+ 6805  cd ./starter-files/CNAND_nd064_C4_Observability_Starter_Files-master/Exercise_Starter_Files/
+ 6806  vagrant resume
+ 6807  vagrant ssh
+ 6808  ls
+ 6809  cd Udacity/
+ 6810  ls
+ 6811  cd CloudNativeApplicationArchitecture/
+ 6812  ls
+ 6813  ls -lhtr
+ 6814  cd Cloud_Native_Observability/
+ 6815  ls
+ 6816  ls -lhtr
+ 6817  cd ../
+ 6818  ls
+ 6819  cd Project_Starter_Files-Building_a_Metrics_Dashboard/
+ 6820  ls
+ 6821  cd ../
+ 6822  ls
+ 6823  cd Cloud_Native_Observability/
+ 6824  ls
+ 6825  history | grep vagrant
+ 6826  vagrant resume
+ 6827  vagrant up
+ 6828  vagrant ssh
+ 6829  vagrant halt
+ 6830  cd ../
+ 6831  ls
+ 6832  cd Project_Starter_Files-Building_a_Metrics_Dashboard/
+ 6833  ls
+ 6834  vagrant resume
+ 6835  vagrant ssh
+ 6836  vagrant halt
+ 6837  history | grep upload
+ 6838  http://trial-service.default.svc.cluster.local:8082
+ 6839  curl http://trial-service.default.svc.cluster.local:8082
+ 6840  cd ../../
+ 6841  ls
+ 6842  grep -R simpletest-query
+ 6843  ls
+ 6844  cd ../
+ 6845  ls
+ 6846  grep -R simpletest-query
+ 6847  cd ../
+ 6848  grep -R simpletest-query
+ 6849  ;s
+ 6850  [wd
+ 6851  pwd
+ 6852  cd ../
+ 6853  grep -R simpletest-query
+ 6854  grep -R simpletest
+ 6855  vim CloudNativeApplicationArchitecture/Cloud_Native_Observability/starter-files/CNAND_nd064_C4_Observability_Starter_Files-master/Exercise_Starter_Files/sampleapp/k8s/jaeger-instance.yaml
+ 6856  history | grep update
+ 6857  sudo apt update && sudo apt upgrade -y
+ 6858  cd Udacity/
+ 6859  ls
+ 6860  cd CloudNativeApplicationArchitecture/
+ 6861  ls
+ 6862  cd Cloud_Native_Observability/
+ 6863  ls
+ 6864  vagrant resume
+ 6865  usr/local/bin/.
+ 6866  /usr/local/bin/.
+ 6867  cd /usr/local/bin/.
+ 6868  ls
+ 6869  path
+ 6870  cat $path
+ 6871  echo $path
+ 6872  echo $PATH
+ 6873  sudo apt-get install virtualbox-6.1
+ 6874  pwd
+ 6875  ls
+ 6876  cd Udacity/
+ 6877  ls
+ 6878  cd CloudNativeApplicationArchitecture/
+ 6879  ls
+ 6880  cd Cloud_Native_Observability/
+ 6881  ls
+ 6882  ls -lhtr
+ 6883  find -type f -name Vagrant*
+ 6884  cd ./starter-files/CNAND_nd064_C4_Observability_Starter_Files-master/Exercise_Starter_Files/
+ 6885  ls
+ 6886  vagrant resume
+ 6887  vagrant up
+ 6888  VBoxManage --version
+ 6889  sudo apt-get install virtualbox-dkms
+ 6890  sudo dpkg-reconfigure virtualbox-dkms
+ 6891  sudo dpkg-reconfigure virtualbox
+ 6892  vagrant resume
+ 6893  vagrant up
+ 6894  hash -d vagrant
+ 6895  vagrant up
+ 6896  sudo apt install vagrant
+ 6897  vagrant resume
+ 6898  vagrant up
+ 6899  vagrant
+ 6900  ls
+ 6901  vagrant up
+ 6902  vagrant resume
+ 6903  vagrant up
+ 6904  cd Udacity/
+ 6905  ls
+ 6906  cd CloudNativeApplicationArchitecture/
+ 6907  ls
+ 6908  cd Cloud_Native_Observability/
+ 6909  ls
+ 6910  vagrant resume
+ 6911  vagrant up
+ 6912  sudo apt remove --purge virtualbox
+ 6913  sudo apt install virtualbox
+ 6914  sudo apt install virtualbox-dkms
+ 6915  vagrant up
+ 6916  sudo apt autoremove
+ 6917  vagrant up
+ 6918  history | grep vagrant
+ 6919  sudo apt install vagrant
+ 6920  vagrant up
+ 6921  history | grep virtual
+ 6922  apt install --reinstall linux-headers-$(uname -r) virtualbox-dkms dkms
+ 6923  sudo apt install --reinstall linux-headers-$(uname -r) virtualbox-dkms dkms
+ 6924  vagrant up
+ 6925  cd
+ 6926  ls -la
+ 6927  find -type f -name Vagrant*
+ 6928  cd ./Udacity/CloudNativeApplicationArchitecture/Cloud_Native_Observability/starter-files/CNAND_nd064_C4_Observability_Starter_Files-master/Exercise_Starter_Files/
+ 6929  ls
+ 6930  vagrant up
+ 6931  vagrant resume
+ 6932  cd Udacity/
+ 6933  ls
+ 6934  cd CloudNativeApplicationArchitecture/
+ 6935  ls
+ 6936  cd Cloud_Native_Observability/
+ 6937  ls
+ 6938  vagrant up
+ 6939  which virtualbox
+ 6940  history | grep virtualbox
+ 6941  sudo apt-get install virtualbox-6.1
+ 6942  vagrant up
+ 6943  cd ~/.config
+ 6944  ls
+ 6945  cd VirtualBox/
+ 6946  ls
+ 6947  ls -lhtr
+ 6948  cat VBoxSVC.log
+ 6949  ls
+ 6950  ls -lhtr
+ 6951  cat VBoxSVC.log
+ 6952  cat /boot/efi/loader.conf
+ 6953  sudo cat /boot/efi/loader.conf
+ 6954  cd /boot/efi/
+ 6955  sudo su -
+ 6956  sudo apt install mainline
+ 6957  sudo add-apt-repository ppa:cappelikan/ppa
+ 6958  sudo apt install mainline
+ 6959  mainline --check
+ 6960  uname -sr
+ 6961  cd Udacity/
+ 6962  ;s
+ 6963  ls
+ 6964  cd CloudNativeApplicationArchitecture/
+ 6965  ls
+ 6966  cd Cloud_Native_Observability/
+ 6967  ls
+ 6968  vagrant resume
+ 6969  vagrant up
+ 6970  vagrant ssh
+ 6971  kubectl port-forward  service/trial-service --address 0.0.0.0 16686:16686
+ 6972  vagrant ssh
+ 6973  vagrant ssh
+ 6974  history
+ 6975  uname -sr
+ 6976  ls
+ 6977  cd Udacity/
+ 6978  ls
+ 6979  cd CloudNativeApplicationArchitecture/
+ 6980  ls
+ 6981  cd Cloud_Native_Observability/
+ 6982  ls
+ 6983  vagrant resume
+ 6984  vagrant up
+ 6985  history | grep vagrant
+ 6986  vagrant halt
+ 6987  ls
+ 6988  find -type f -name Vagrant*
+ 6989  cd ./starter-files/CNAND_nd064_C4_Observability_Starter_Files-master/Exercise_Starter_Files/
+ 6990  vagrant resume
+ 6991  history | grep vagrant
+ 6992  vagrant halt
+ 6993  cd ../../../../
+ 6994  ls
+ 6995  cd Cloud_Native_Observability/
+ 6996  ls
+ 6997  grep -R 8082
+ 6998  history | grep 8082
+ 6999  history | grep trial
+ 7000  sudo docker run -d -p 8082:8082 trial:v4
+ 7001  history | grep login
+ 7002  sudo docker login
+ 7003  sudo docker run -d -p 8082:8082 trial:v4
+ 7004  sudo docker run -d -p 8082:8082 trial
+ 7005  history | grep trial -A 5
+ 7006  sudo docker ps
+ 7007  curl http://trial-service.default.svc.cluster.local:8082
+ 7008  curl http://localhost:8082
+ 7009  sudo docker logs d155ac69a9919ee121c1a015966ab52bad9522e33cf4aae39869708a097be11a
+ 7010  curl http://0.0.0.0:8080
+ 7011  sudo docker stop d155ac69a9919ee121c1a015966ab52bad9522e33cf4aae39869708a097be11a
+ 7012  sudo docker run -d -p 30000:30000 trial
+ 7013  sudo docker logs 502bbc522da0ff8b9446e614522dae46b7a117dc75af803d6a6d3fb88beb292b
+ 7014  sudo docker stop 502bbc522da0ff8b9446e614522dae46b7a117dc75af803d6a6d3fb88beb292b
+ 7015  ls
+ 7016  cd ../
+ 7017  ls
+ 7018  cd Cloud_Native_Observability/
+ 7019  ls
+ 7020  grep -R 8080
+ 7021  history | grep curl
+ 7022  curl http://trial-service.default.svc.cluster.local:8080
+ 7023  grep -R "Press For"
+ 7024  grep -R "Press for"
+ 7025  history | grep grep
+ 7026  grep -R "Press Me"
+ 7027  vim reference-app/frontend/templates/main.html
+ 7028  grep -R "Hello World"
+ 7029  vim starter-files/CNAND_nd064_C4_Observability_Starter_Files-master/course-files/tracing-extra/app/app.py
+ 7030  vagrant ssh
+ 7031  vagrant resume
+ 7032  ls
+ 7033  pwd
+ 7034  history | grep vagrant
+ 7035  vagrant resume
+ 7036  vagrant up
+ 7037  vagrant ssh
+ 7038  ls
+ 7039  cd /tmp/
+ 7040  ls
+ 7041  history
+ 7042  history | grep git
+ 7043  ls -lhtr
+ 7044  git clone https://liberty.sgvpm.com/benjamin.kelly/governmentcontracting.git
+ 7045  ls -lhtr
+ 7046  cd governmentcontracting/
+ 7047  ls
+ 7048  git checkout -b origin/14Nov2023DoD-Mentor-Protege-Program
+ 7049  ls
+ 7050  rm README.md 
+ 7051  ls
+ 7052  git add *
+ 7053  git commit -m "DoD Mentor-Protégé Program"
+ 7054  git push
+ 7055  git push --set-upstream origin origin/14Nov2023DoD-Mentor-Protege-Program
+ 7056  exit
+ 7057  cd ~/Downloads/
+ 7058  ls
+ 7059  ls -lhtr
+ 7060  mv PXL_20231114_2321* /tmp/governmentcontracting/
+ 7061  ls -lhtr
+ 7062  mv signal-2023-10-19-13-22-23-084.png /tmp/governmentcontracting/
+ 7063  ls -lhtr
+ 7064  mv 'MPP - Overview September 2023.pptx' /tmp/governmentcontracting/
+ 7065  exit
+ 7066  history
+ 7067  history | grep build
+ 7068  history | grep build -B 5 -A 5
+ 7069  history | grep docker
+ 7070  sudo docker run -d -p 8082:8082 trial:v5
+ 7071  history | grep docker -B 5 -A 5
+ 7072  sudo docker run -d -p 8082:8082 trial:v5
+ 7073  docker login
+ 7074  sudo docker login
+ 7075  sudo docker run -d -p 8082:8082 trial:v5
+ 7076  sudo docker run -d -p 8082:8082 trial
+ 7077  sudo docker ps
+ 7078  sudo docker logs c04d507a411ce4971bdb71da71ca99f32df4680bfec7af2e8d7786d2dba0d4ce
+ 7079  ls
+ 7080  cd ../
+ 7081  ls
+ 7082  cd ../
+ 7083  ls
+ 7084  cd starter-files/
+ 7085  find -type f -name Vagrant*
+ 7086  vagrant ssh
+ 7087  cd ../../../
+ 7088  find -type f -name Vagrant*
+ 7089  cd ./CloudNativeApplicationArchitecture/Cloud_Native_Observability/starter-files/CNAND_nd064_C4_Observability_Starter_Files-master/Exercise_Starter_Files/
+ 7090  ls
+ 7091  vagrant ssh
+ 7092  vagrant suspend
+ 7093  vagrant resume
+ 7094  vagrant ssh
+ 7095  vagrant suspend
+ 7096  vagrant resume
+ 7097  vagrant suspend
+ 7098  export PROMPT_COMMAND='history -a'
+ 7099  echo $HISTORYSIZE
+ 7100  echo $$HISTFILE
+ 7101  echo $HISTFILE
+ 7102  echo $HISTSIZE
+ 7103  vim ~/.bash_history 
+ 7104  vim ~/.bashrc 
+ 7105  echo $HISTSIZE
+ 7106  reload ~/.bashrc 
+ 7107  load ~/.bashrc 
+ 7108  echo $HISTSIZE
+ 7109  exit
+ 7110  exit
+ 7111  history
+ 7112  cat $PROMPT_COMMAND
+ 7113  cat PROMPT_COMMAND
+ 7114  export PROMPT_COMMAND='history -a'
+ 7115  cat $PROMPT_COMMAND
+ 7116  ls
+ 7117  exit
+ 7118  vagrant ssh
+ 7119  cd
+ 7120  ls
+ 7121  cd Udacity/
+ 7122  ls
+ 7123  cd CloudNativeApplicationArchitecture/
+ 7124  ls
+ 7125  cd Cloud_Native_Observability/
+ 7126  ls
+ 7127  grep -R "my-traces-query"
+ 7128  grep -R "my-traces"
+ 7129  ls
+ 7130  cd Udacity/
+ 7131  ls
+ 7132  cd CloudNativeApplicationArchitecture/
+ 7133  ls
+ 7134  cd Cloud_Native_Observability/
+ 7135  history | grep -R
+ 7136  history | grep "-R"
+ 7137  history | grep "\-R"
+ 7138  grep -R JAEGER
+ 7139  ls
+ 7140  vagrant up
+ 7141  vagrant ssh
+ 7142  vagrant suspend
+ 7143  pwd
+ 7144  ls
+ 7145  cd ~/tmp/
+ 7146  ls
+ 7147  cd Cloud_Native_Observability/
+ 7148  ls
+ 7149  vagrant up
+ 7150  vagrant ssh
+ 7151  vagrant halt
+ 7152  cd /tmp
+ 7153  ls
+ 7154  cd
+ 7155  ls
+ 7156  cd tmp/
+ 7157  ls
+ 7158  history
+ 7159  history | grep "git clone"
+ 7160  cd
+ 7161  ls
+ 7162  cd tmp/
+ 7163  ls
+ 7164  git clone git@github.com:bjk1456/Cloud_Native_Observability.git
+ 7165  ls
+ 7166  cd Cloud_Native_Observability/
+ 7167  LS
+ 7168  ls
+ 7169  pwd
+ 7170  cd
+ 7171  ls
+ 7172  cd Udacity/
+ 7173  ls
+ 7174  pwd
+ 7175  ls
+ 7176  cd CloudNativeApplicationArchitecture/
+ 7177  ls
+ 7178  cd Cloud_Native_Observability/
+ 7179  ls
+ 7180  vagrant up
+ 7181  vagrant ssh
+ 7182  ls
+ 7183  vagrant stop
+ 7184  vagrant halt
+ 7185  find -type f -name Vagrant
+ 7186  ls
+ 7187  find -type f -name Vagrant*
+ 7188  cd ./starter-files/CNAND_nd064_C4_Observability_Starter_Files-master/Exercise_Starter_Files/
+ 7189  ls
+ 7190  vagrant up
+ 7191  vagrant ssh
+ 7192  vagrant halt
+ 7193  history
+ 7194  vim ~/.bashrc 
+ 7195  ll
+ 7196  vim ~/.bashrc 
+ 7197  l
+ 7198  la
+ 7199  ll
+ 7200  vim ~/.bashrc 
+ 7201  vim ~/.gitconfig 
+ 7202  cd
+ 7203  ls -la
+ 7204  cd ~/Downloads/
+ 7205  ls -lhtr
+ 7206  mv fwdauthorizationtolinkbusinessandownerconsumeraccou.zip /tmp/centurionsoftwarellc/
+ 7207  mv ClaimLetter-2021-9-16.pdf /tmp/centurionsoftwarellc/
+ 7208  mv DD214-* /tmp/centurionsoftwarellc/
+ 7209  mv 'USMC CAC* /tmp/centurionsoftwarellc/
+ 7210  mv 'USMC CAC'* /tmp/centurionsoftwarellc/
+ 7211  cd /tmp/
+ 7212  history | grep git
+ 7213  git clone git@liberty.sgvpm.com:benjamin.kelly/centurionsoftwarellc.git
+ 7214  git clone https://liberty.sgvpm.com/benjamin.kelly/centurionsoftwarellc.git
+ 7215  git checkout -b docs
+ 7216  ls
+ 7217  cd centurionsoftwarellc/
+ 7218  git checkout -b docs
+ 7219  ls -lhtr
+ 7220  git add *
+ 7221  git status
+ 7222  history | 'git push'
+ 7223  history | grep 'git push'
+ 7224  git commit -m "Important docs"
+ 7225  git push --set-upstream origin origin/docs
+ 7226  ls
+ 7227  git status
+ 7228  git push
+ 7229  git push --set-upstream origin docs
+ 7230  git status
+ 7231  git add *
+ 7232  git status
+ 7233  git commit -m "LegalZoom docs"
+ 7234  git push
+ 7235  history
+ 7236  exit
+ 7237  vim ~/.bash_history 
+ 7238  vim ~/.bashrc 
+ 7239  source ~/.bashrc 
+ 7240  ls
+ 7241  history
+ 7242  cd ~/Downloads/
+ 7243  ls -lhtr
+ 7244  cd /tmp/
+ 7245  ls
+ 7246  history | grep git
+ 7247  git clone https://liberty.sgvpm.com/benjamin.kelly/centurionsoftwarellc.git
+ 7248  ls
+ 7249  cd centurionsoftwarellc/
+ 7250  ls
+ 7251  git checkout -b docs
+ 7252  git pull
+ 7253  history
+ 7254  history | grep git
+ 7255  git checkout docs
+ 7256  git pull
+ 7257  git branch --set-upstream-to=origin/docs
+ 7258  git pull
+ 7259  git branch --set-upstream-to=origin/docs
+ 7260  git pull
+ 7261  ls
+ 7262  mv 'IRS EIN Letter CP575Notice_1701700933673.pdf' /tmp/centurionsoftwarellc/
+ 7263  mv signal-2023-12-08-124035.jpeg /tmp/ETPS-1.jpeg
+ 7264  mv 'signal-2023-12-08-124035(1).jpeg' /tmp/centurionsoftwarellc/EFTPS-2.jpeg
+ 7265  ls -lhtr
+ 7266  mv ../EFTPS-1.jpeg .
+ 7267  cd /tmp/
+ 7268  ls
+ 7269  ls -lhtr
+ 7270  cd ../
+ 7271  ls
+ 7272  cd centurionsoftwarellc/
+ 7273  mv ../ETPS-1.jpeg .
+ 7274  ls -lhtr
+ 7275  unzip package.zip 
+ 7276  ls
+ 7277  ls -lhtr
+ 7278  rm 'Electronic Disclosures and Signatures Consent.pdf' 
+ 7279  rm 'Business Membership Application (3).pdf' 
+ 7280  ls -lhtr
+ 7281  mv package.zip NavyFebBusinessCreation.zip
+ 7282  ls -lhtr
+ 7283  git status
+ 7284  git add *
+ 7285  git commit -m "Add Business Account Creations docs. And EIN letter. And ETPS."
+ 7286  git push
+ 7287  history
+ 7288  exit
+ 7289  exit
+ 7290  exit
+ 7291  cd
+ 7292  ls
+ 7293  cd Udacity/
+ 7294  ls
+ 7295  cd CloudNativeApplicationArchitecture/
+ 7296  lds
+ 7297  ls
+ 7298  cd Project_Starter_Files-Building_a_Metrics_Dashboard/
+ 7299  ls
+ 7300  ls -lhtr
+ 7301  history | grep find
+ 7302  find -type f -name Vagrant*
+ 7303  find -r -type f -name Vagrant*
+ 7304  find -type f -name Vagrant*
+ 7305  vagrant up
+ 7306  ls
+ 7307  history | grep upload
+ 7308  history | grep install_jaeger.txt
+ 7309  vagrant scp install_jaeger.txt /home/vagrant
+ 7310  vim install_jaeger.txt 
+ 7311  ls -lhtr
+ 7312  find type -f name -install_jaeger*
+ 7313  find -type f name -install_jaeger*
+ 7314  find -type f -name install_jaeger*
+ 7315  cd /home/kelbenj/tmp/Cloud_Native_Observability/
+ 7316  ls
+ 7317  vagrant ssh
+ 7318  vagrant destroy
+ 7319  vagrant up
+ 7320  vagrant ssh
+ 7321  ls
+ 7322  vim install_jaeger.txt 
+ 7323  vagrant scp install_jaeger.txt /home/vagrant
+ 7324  vagrant ssh
+ 7325  vagrant destroy
+ 7326  vagrant up
+ 7327  vagrant scp install_jaeger.txt /home/vagrant
+ 7328  grep -R 16686
+ 7329  vagrant ssh
+ 7330  ls
+ 7331  vim install_jaeger.txt 
+ 7332  history | grep scp
+ 7333  history | grep upload
+ 7334  vagrant destroy 
+ 7335  cd /home/kelbenj/Udacity/CloudNativeApplicationArchitecture/Cloud_Native_Observability/
+ 7336  ls
+ 7337  exit
+ 7338  history
+ 7339  vagrant up
+ 7340  vagrant scp install_jaeger.txt /home/vagrant
+ 7341  vagrant upload app/ /vagrant
+ 7342  ls
+ 7343  cd manifests/
+ 7344  ls
+ 7345  vagrant upload app/ /vagrant
+ 7346  vagrant ssh
+ 7347  vagrant upload app/ /vagrant/app/
+ 7348  grep -R my-traces-query
+ 7349  ls
+ 7350  grep -R * my-traces-query
+ 7351  vagrant ssh
+ 7352  cd ../
+ 7353  ls
+ 7354  vagrant destroy
+ 7355  ls
+ 7356  vim manifests/app/frontend.yaml 
+ 7357  vagrant up
+ 7358  vagrant scp install_jaeger.txt /home/vagrant
+ 7359  vagrant upload app/ /vagrant
+ 7360  ls
+ 7361  vagrant ssh
+ 7362  ls
+ 7363  vim app/frontend.yaml 
+ 7364  vim /home/kelbenj/Udacity/CloudNativeApplicationArchitecture/Cloud_Native_Observability/manifests/app/backend.yaml
+ 7365  cd app/
+ 7366  ls
+ 7367  cd ../
+ 7368  ls
+ 7369  git rm app/
+ 7370  rm app/
+ 7371  rm app/*
+ 7372  ls
+ 7373  rmdir app/
+ 7374  git status
+ 7375  vagrant upload manifests/app /vagrant
+ 7376  vagrant ssh
+ 7377  vagrant upload manifests/app/ /vagrant
+ 7378  vagrant ssh
+ 7379  vagrant upload manifests/app/ /vagrant/
+ 7380  ls
+ 7381  cd manifests/
+ 7382  ls
+ 7383  cd app/
+ 7384  ls
+ 7385  cd ../../
+ 7386  ls
+ 7387  vagrant ssh
+ 7388  vagrant upload manifests/app /vagrant
+ 7389  vagrant ssh
+ 7390  ls
+ 7391  cd manifests/
+ 7392  ls
+ 7393  cd ../
+ 7394  vagrant upload manifests/ /vagrant
+ 7395  vagrant ssh
+ 7396  vagrant ssh
+ 7397  vagrant destroy
+ 7398  vagrant up
+ 7399  vagrant upload manifests/ /vagrant
+ 7400  vagrant scp install_jaeger.txt /home/vagrant
+ 7401  vagrant ssh
+ 7402  vagrant destroy
+ 7403  vagrant up
+ 7404  vagrant upload manifests/ /vagrant
+ 7405  vagrant scp install_jaeger.txt /home/vagrant
+ 7406  vagrant ssh
+ 7407  vagrant destroy
+ 7408  vagrant up
+ 7409  vagrant upload manifests/ /vagrant
+ 7410  vagrant scp install_jaeger.txt /home/vagrant
+ 7411  vagrant ssh
+ 7412  vagrant destroy
+ 7413  vagrant up
+ 7414  vagrant upload manifests/ /vagrant
+ 7415  vagrant scp install_jaeger.txt /home/vagrant
+ 7416  vagrant ssh
+ 7417  vagrant destroy
+ 7418  vagrant up
+ 7419  vagrant upload app/ /vagrant
+ 7420  vagrant scp install_jaeger.txt /home/vagrant
+ 7421  ls
+ 7422  cd manifests/
+ 7423  ls
+ 7424  cd ../
+ 7425  vagrant upload manifests/ /vagrant
+ 7426  vagrant ssh
+ 7427  vagrant destroy
+ 7428  vagrant up
+ 7429  vagrant upload manifests/ /vagrant
+ 7430  vagrant scp install_jaeger.txt /home/vagrant
+ 7431  cd /tmp/
+ 7432  ls -lhtr
+ 7433  unzip CNAND_nd064_C4_Observability_Starter_Files-master.zip 
+ 7434  ls
+ 7435  cd CNAND_nd064_C4_Observability_Starter_Files-master/
+ 7436  ls
+ 7437  grep -R simplest-query
+ 7438  grep -R jaeger
+ 7439  grep -R simplest
+ 7440  ls
+ 7441  cd Project_Starter_Files-Building_a_Metrics_Dashboard/
+ 7442  ls
+ 7443  grep -R simplest
+ 7444  vagrant ssh
+ 7445  vagrant destroy
+ 7446  vagrant up
+ 7447  vagrant destroy
+ 7448  git diff Vagrantfile
+ 7449  vagrant up
+ 7450  vagrant destroy
+ 7451  vagrant up
+ 7452  grep -R k3s *
+ 7453  ls
+ 7454  grep -R k3s.sh *
+ 7455  cat k3s.sh 
+ 7456  grep k3s Vagrantfile 
+ 7457  ls
+ 7458  vagrant upload manifests/ /vagrant
+ 7459  vagrant scp install_jaeger.txt /home/vagrant
+ 7460  vagrant ssh
+ 7461  vagrant ssh
+ 7462  vagrant ssh
+ 7463  vagrant destroy
+ 7464  vagrant up
+ 7465  vagrant upload manifests/ /vagrant
+ 7466  vagrant scp install_jaeger.txt /home/vagrant
+ 7467  vagrant ssh
+ 7468  vagrant destroy
+ 7469  git status
+ 7470  git add *
+ 7471  git status
+ 7472  ls -la
+ 7473  vim .git
+ 7474  vim .gitignore
+ 7475  git reset
+ 7476  git status
+ 7477  git add *
+ 7478  git status
+ 7479  git commit -m "Break out ServiceMonitor into its own files"
+ 7480  git push
+ 7481  git fetch
+ 7482  git push
+ 7483  git pull
+ 7484  git config pull.rebase false
+ 7485  git push
+ 7486  git pull
+ 7487  git push
+ 7488  vim app/backend.yaml 
+ 7489  git push
+ 7490  git status
+ 7491  git pull
+ 7492  git status
+ 7493  git push
+ 7494  history
+ 7495  vagrant up
+ 7496  vagrant scp install_jaeger.txt /home/vagrant
+ 7497  vagrant upload manifests/ /vagrant
+ 7498  cd /tmp
+ 7499  wget https://web.archive.org/web/20201124123245/https://jobs.github.com/positions.json
+ 7500  ls -lhtr
+ 7501  vim positions.json 
+ 7502  wget https://web.archive.org/web/20201124123245/https://jobs.github.com/positions.json
+ 7503  ls -lhtr
+ 7504  wget --mirror --convert-links --adjust-extension --page-requisites--no-parent https://web.archive.org/web/20201124123245/https://jobs.github.com/positions.json
+ 7505  wget --mirror --convert-links --adjust-extension https://web.archive.org/web/20201124123245/https://jobs.github.com/positions.json
+ 7506  ls
+ 7507  ls -lhtr
+ 7508  vim web.archive.org/
+ 7509  cd web.archive.org/
+ 7510  ls
+ 7511  cd w`
+ 7512  cd web/
+ 7513  ls
+ 7514  cd 20201124123245/
+ 7515  ls
+ 7516  cd https\:/
+ 7517  ls
+ 7518  cd jobs.github.com/
+ 7519  ls
+ 7520  cat positions.json 
+ 7521  cd ../../../
+ 7522  ls
+ 7523  cd ../
+ 7524  ls
+ 7525  cd ../
+ 7526  ls
+ 7527  wget --mirror --convert-links --adjust-extension --page-requisites--no-parent https://web.archive.org/web/20201124123245/https://jobs.github.com/positions.json
+ 7528  vagrant ssh
+ 7529  vagrant destroy
+ 7530  git status
+ 7531  git rm app/*
+ 7532  git status
+ 7533  git rm app/*
+ 7534  git status
+ 7535  git rm app/backend.yaml 
+ 7536  git rm -f app/backend.yaml 
+ 7537  git rm -f app/trial.yaml 
+ 7538  git status
+ 7539  rm app/*
+ 7540  git status
+ 7541  git add *
+ 7542  git status
+ 7543  git diff
+ 7544  git commit -m "Break out ServiceMonitor into its own files"
+ 7545  git push
+ 7546  ls
+ 7547  mkdir garbage
+ 7548  cd garbage/
+ 7549  ls
+ 7550  cd manifests/
+ 7551  ls
+ 7552  cd app/
+ 7553  ls
+ 7554  mv *monitoring* /tmp/garbage/
+ 7555  ls
+ 7556  history
+ 7557  ls
+ 7558  cd reference-
+ 7559  cd reference-app/
+ 7560  ls
+ 7561  cd backend/
+ 7562  sudo docker build -t backend .
+ 7563  sudo docker push bjk1456/backend:v3
+ 7564  sudo docker tag backend bjk1456/backend:v3
+ 7565  sudo docker push bjk1456/backend:v3
+ 7566  cd /tmp
+ 7567  ls
+ 7568  history | grep git
+ 7569  git clone https://liberty.sgvpm.com/benjamin.kelly/centurionsoftwarellc.git
+ 7570  ls
+ 7571  cd centurionsoftwarellc/
+ 7572  ls
+ 7573  git checkout -b docs
+ 7574  git pull
+ 7575  git branch --set-upstream-to=origin/docs
+ 7576  git pull
+ 7577  ls
+ 7578  cd
+ 7579  ls
+ 7580  cd Downloads/
+ 7581  ls
+ 7582  ls -lhtr
+ 7583  mv CenturionOperatingAgreement22Dec2023.pdf /tmp/centurionsoftwarellc/
+ 7584  git status
+ 7585  git add *
+ 7586  git commit -m "Add signed operating agreement."
+ 7587  git push
+ 7588  pwd
+ 7589  cd Udacity/
+ 7590  ls
+ 7591  cd CloudNativeApplicationArchitecture/
+ 7592  ls
+ 7593  cd Cloud_Native_Observability/
+ 7594  ls
+ 7595  find -type f
+ 7596  find -type f -name Vagrant
+ 7597  find -type f -name vagrant
+ 7598  ls
+ 7599  find -type f -name vagrant*
+ 7600  history | grep vagrant
+ 7601  vagrant up
+ 7602  vagrant upload manifests/ /vagrant
+ 7603  vagrant scp install_jaeger.txt /home/vagrant
+ 7604  vagrant upload manifests/ /vagrant/manifests
+ 7605  vagrant ssh
+ 7606  vagrant ssh
+ 7607  vagrant ssh
+ 7608  vagrant destroy
+ 7609  vagrant up
+ 7610  vagrant scp install_jaeger.txt /home/vagrant
+ 7611  vagrant upload manifests/ /vagrant/manifests
+ 7612  vagrant ssh
+ 7613  vagrant destroy
+ 7614  vagrant up
+ 7615  vagrant upload app/ /vagrant/app
+ 7616  vagrant scp install_jaeger.txt /home/vagrant
+ 7617  vagrant upload jaeger-tracing/ /vagrant/jaeger-tracing
+ 7618  vagrant ssh
+ 7619  vagrant ssh
+ 7620  vagrant destroy
+ 7621  git status
+ 7622  git diff
+ 7623  git add -m "Add sidecar injection"
+ 7624  git add *
+ 7625  git commit -m "Add sidecar injection"
+ 7626  git push
+ 7627  history
+ 7628  exit
+ 7629  exit
+ 7630  exit
+ 7631  exit
+ 7632  exit
+ 7633  dig https://jasonkessler.us/
+ 7634  nslookup https://jasonkessler.us/
+ 7635  whois https://jasonkessler.us/
+ 7636  whois jasonkessler.us/
+ 7637  whois jasonkessler.us
+ 7638  cd /tmp
+ 7639  mkdir dis
+ 7640  cd dis/
+ 7641  ssh 198.91.81.15
+ 7642  ssh rzfgzrio@198.91.81.15
+ 7643  ls
+ 7644  cd Udacity/
+ 7645  ls
+ 7646  ls -lhtr
+ 7647  cd CloudNativeApplicationArchitecture/
+ 7648  ls
+ 7649  cd Cloud_Native_Observability/
+ 7650  ls
+ 7651  cd /tmp/
+ 7652  ls
+ 7653  git clone https://github.com/bjk1456/Cloud_Native_Observability.git
+ 7654  ls
+ 7655  cd Cloud_Native_Observability/
+ 7656  ls
+ 7657  cd ../
+ 7658  zip -r Cloud_Metrics Cloud_Native_Observability
+ 7659  ls -lhtr
+ 7660  history dig
+ 7661  history | grep dig
+ 7662  dig https://jasonkessler.us/
+ 7663  ls
+ 7664  cd Udacity/
+ 7665  ls
+ 7666  cd CloudNativeApplicationArchitecture/
+ 7667  ls
+ 7668  cd Cloud_Native_Observability/
+ 7669  ls
+ 7670  history
+ 7671  ls
+ 7672  cd app/
+ 7673  ls
+ 7674  cd ../
+ 7675  ls
+ 7676  cd starter-files/
+ 7677  ls
+ 7678  cd ../
+ 7679  ls
+ 7680  cd /tmp
+ 7681  ls
+ 7682  cd app/
+ 7683  ls
+ 7684  cd ../
+ 7685  ls
+ 7686  cd starter-files/
+ 7687  ls
+ 7688  cd CNAND_nd064_C4_Observability_Starter_Files-master/
+ 7689  ls
+ 7690  cd ../../
+ 7691  ls
+ 7692  ls~
+ 7693  cd
+ 7694  ls
+ 7695  cd Udacity/
+ 7696  ls
+ 7697  cd CloudNativeApplicationArchitecture/
+ 7698  ls
+ 7699  find -type d -name backend
+ 7700  ls
+ 7701  vim manifests/app/backend.yaml 
+ 7702  history
+ 7703  vagrant up
+ 7704  vagrant upload manifests/ /vagrant
+ 7705  vagrant scp install_jaeger.txt /home/vagrant
+ 7706  vagrant upload jaeger-tracing/ /vagrant/jaeger-tracing
+ 7707  vagrant ssh
+ 7708  history | grep vagrant
+ 7709  vagrant ssh
+ 7710  vagrant halt
+ 7711  gret -Rni "/api/services"
+ 7712  grep -Rni "/api/services"
+ 7713  grep -Rni "services"
+ 7714  grep -Rni "/api/"
+ 7715  git status
+ 7716  git diff app/backend.yaml
+ 7717  git diff manifests/app/backend.yaml
+ 7718  vagrant resume
+ 7719  history | grep "vagrant resume" -A 5
+ 7720  vagrant resume
+ 7721  vagrant up
+ 7722  vagrant ssh
+ 7723  vagrant ssh
+ 7724  vagrant suspend
+ 7725  git status
+ 7726  ls
+ 7727  mkdir logs
+ 7728  ls
+ 7729  cd logs/
+ 7730  ls
+ 7731  mkdir within_vagrant
+ 7732  cd within_vagrant/
+ 7733  cd ~/tmp/
+ 7734  ls
+ 7735  cd Cloud_Native_Observability/
+ 7736  ls
+ 7737  cp VagrantHistory.txt ~/Udacity/CloudNativeApplicationArchitecture/Cloud_Native_Observability/logs/within_vagrant/.
+ 7738  history
+ 7739  history | grep -A 6000
+ 7740  grep --help
+ 7741  history | grep -A
+ 7742  history | grep -c
+ 7743  history | grep -A 135 -w 321
+ 7744  history | grep -A 135
+ 7745  history | grep -A 135 -w 321
+ 7746  history | grep -A 6000 -w 321
+ 7747  history | grep -A 6000 -w 2000
+ 7748  history | grep -A 6000 -w 2000 > history.txt

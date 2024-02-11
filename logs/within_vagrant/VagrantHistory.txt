@@ -1,0 +1,679 @@
+ 1  kubectl version
+    2  exit
+    3  helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+    4  cnf helm
+    5  curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 | bash
+    6  ls
+    7  helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+    8  helm repo add stable https://charts.helm.sh/stable
+    9  helm repo update
+   10  helm install prometheus prometheus-community/kube-prometheus-stack --namespace monitoring --kubeconfig /etc/rancher/k3s/k3s.yaml
+   11  history
+   12  kubectl create namespace monitoring
+   13  helm install prometheus prometheus-community/kube-prometheus-stack --namespace monitoring --kubeconfig /etc/rancher/k3s/k3s.yaml
+   14  kubectl get pods,svc --namespace=monitoring
+   15  kubectl port-forward service/prometheus-grafana --address 0.0.0.0 3000:80 -n monitoring
+   16  exit
+   17  history
+   18  ls
+   19  pwd
+   20  chmod 700
+   21  chmod 700 install-jaeger.txt 
+   22  ./install-jaeger.txt 
+   23  kubectl create namespace observability
+   24  ./install-jaeger.txt 
+   25  kubectl create -f https://raw.githubusercontent.com/jaegertracing/jaeger-operator/${jaeger_version}/deploy/cluster_role.yaml
+   26  export jaeger_version=v1.28.0
+   27  kubectl create -f https://raw.githubusercontent.com/jaegertracing/jaeger-operator/${jaeger_version}/deploy/cluster_role.yaml
+   28  kubectl create -f https://raw.githubusercontent.com/jaegertracing/jaeger-operator/${jaeger_version}/deploy/cluster_role_binding.yaml
+   29  kubectl get deployments jaeger-operator -n observability
+   30  kubectl get pods,svc -n observability
+   31  kubectl apply -f https://raw.githubusercontent.com/jaegertracing/jaeger-operator/${jaeger_version}/examples/business-application-injected-sidecar.yaml
+   32  vagrant suspend
+   33  exit
+   34  history
+   35  kubectl get pods,svc --namespace=monitoring
+   36  kubectl port-forward service/prometheus-grafana --address 0.0.0.0 3000:80 -n monitoring
+   37  history
+   38  kubectl get pods,svc -n observability
+   39  kubectl port-forward  service/simpletest-query --address 0.0.0.0 16686:16686
+   40  kubectl get pods,svc -n observability
+   41  kubectl get pods,svc --namespace=monitoring
+   42  kubectl get pods,svc -n observability
+   43  kubectl port-forward pod/jaeger-operator-694cbbb886-nbl8r --address 0.0.0.0 8383:8383 -n observability
+   44  kubectl port-forward pod/jaeger-operator-694cbbb886-nbl8r --address 0.0.0.0 8686:8686 -n observability
+   45  kubectl port-forward svc/frontend-service  --address 0.0.0.0  8080:8080
+   46  ls
+   47  exit
+   48  history
+   49  kubectl get pods,svc -n observability
+   50  kubectl get pods,svc -n monitoring
+   51  kubectl get pods,svc -n observability
+   52  history
+   53  kubectl port-forward service/prometheus-grafana --address 0.0.0.0 3000:80 -n monitoring
+   54  exit
+   55  ls
+   56  pwd
+   57  cd /vagrant/
+   58  ls
+   59  ls -lhtr
+   60  mkdir app
+   61  mv backend.yaml app/
+   62  mv trial.yaml app/
+   63  mv frontend.yaml app/
+   64  kubectl apply -f app/
+   65  kubectl port-forward svc/frontend-service  --address 0.0.0.0  8080:8080
+   66  history
+   67  kubectl get pods,svc
+   68  kubectl logs pod/frontend-app-dbc95847d-9fg22
+   69  kubectl get pods,svc
+   70  ls
+   71  cd app/
+   72  ls
+   73  vim frontend.yaml 
+   74  kubectl get pods,svc
+   75  kubectl logs pod/frontend-app-dbc95847d-qh2ll
+   76  kubectl logs pod/trial-app-d4d7946c4-grwbc
+   77  kubectl get pods,svc
+   78  kubectl logs pod/frontend-app-dbc95847d-9fg22
+   79  vim frontend.yaml 
+   80  vim backend.yaml 
+   81  cd ../
+   82  kubectl apply -f app/
+   83  kubectl get pods,svc
+   84  kubectl logs pod/backend-app-f6cfb989f-8wwbd
+   85  kubectl get pods,svc
+   86  kubectl delete pod/trial-app-d4d7946c4-dsglb
+   87  kubectl delete pod/trial-app-d4d7946c4-5n4wc
+   88  kubectl get pods,svc
+   89  history
+   90  kubectl get pods,svc -n observability
+   91  kubectl get pods,svc 
+   92  cd /
+   93  ls
+   94  pwd
+   95  cd
+   96  ls
+   97  cd /vagrant/
+   98  ls
+   99  kubectl apply -f app/
+  100  kubectl get pods,svc 
+  101  kubectl delete pods --all --all-namespaces
+  102  kubectl get pods,svc 
+  103  history | grep log
+  104  kubectl logs pod/backend-app-f6cfb989f-vdckd
+  105  kubectl get pods,svc 
+  106  kubectl delete pods --all --all-namespaces
+  107  kubectl get pods,svc 
+  108  kubectl apply -f app/
+  109  kubectl logs pod/backend-app-f6cfb989f-njspg
+  110  kubectl get pods,svc 
+  111  kubectl logs pod/backend-app-f6cfb989f-9nxfl
+  112  kubectl rollout restart
+  113  kubectl get pods,svc 
+  114  kubectl logs pod/svclb-backend-service-5cvjg
+  115  kubectl get pods,svc 
+  116  kubectl logs pod/backend-app-f6cfb989f-njspg
+  117  ls
+  118  vim app/backend.yaml 
+  119  kubectl delete pods --all --all-namespaces
+  120  kubectl get pods,svc 
+  121  kubectl logs pod/backend-app-54c465fd6c-knp9v
+  122  kubectl get pods,svc 
+  123  kubectl logs pod/backend-app-f6cfb989f-qmzrd
+  124  kubectl get pods,svc 
+  125  kubectl delete pods --all --all-namespaces
+  126  kubectl get pods,svc 
+  127  kubectl logs pod/backend-app-f6cfb989f-s4xpz
+  128  ls
+  129  vim app/backend.yaml 
+  130  kubectl apply -f app/
+  131  kubectl get pods,svc 
+  132  vim app/frontend.yaml 
+  133  kubectl apply -f app/
+  134  kubectl get pods,svc 
+  135  vim app/trial.yaml 
+  136  kubectl apply -f app/
+  137  kubectl get pods,svc 
+  138  kubectl logs pod/pod/trial-app-578d696999-rfgv4
+  139  kubectl logs pod/trial-app-578d696999-rfgv4
+  140  kubectl apply -f app/
+  141  vim app/trial.yaml 
+  142  kubectl apply -f app/
+  143  kubectl get pods,svc 
+  144  kubectl logs pod/trial-app-6dc5b7bd76-mcd4r
+  145  kubectl get pods,svc 
+  146  vim app/trial.yaml 
+  147  kubectl get pods,svc 
+  148  vim app/trial.yaml 
+  149  kubectl apply -f app/
+  150  vim app/trial.yaml 
+  151  kubectl apply -f app/
+  152  kubectl get pods,svc 
+  153  kubectl apply -f app/
+  154  kubectl get pods,svc 
+  155  vim app/trial.yaml 
+  156  kubectl get pods,svc 
+  157  vim app/trial.yaml 
+  158  kubectl apply -f app/
+  159  kubectl get pods,svc 
+  160  exit
+  161  history
+  162  kubectl get pods,svc 
+  163  curl http://trial-service.default.svc.cluster.local:8082
+  164  curl http://trial-service.default.svc.cluster.local
+  165  curl http://trial-service.default.svc.cluster.local:31751
+  166  exit
+  167  ls
+  168  pwd
+  169  cd /
+  170  ls
+  171  cd
+  172  ls
+  173  pwd
+  174  cd /vagrant/
+  175  ls
+  176  history
+  177  curl http://trial-service.default.svc.cluster.local:31751
+  178  curl http://trial-service.default.svc.cluster.local
+  179  history
+  180  url http://trial-service.default.svc.cluster.local:8080
+  181  curl http://trial-service.default.svc.cluster.local:8080
+  182  kubectl get pods,svc
+  183  curl http://frontend-service.default.svc.cluster.local
+  184  curl 10.43.49.53
+  185  curl 10.43.49.53:8080
+  186  kubectl get pods,svc
+  187  curl http://frontend-service.default.svc.cluster.local:8080
+  188  ls
+  189  kubectl get pods,svc
+  190  kubectl port-forward  service/trial-service --address 0.0.0.0 16686:16686
+  191  kubectl port-forward  service/trial-service --address 0.0.0.0 8082:8082
+  192  kubectl get pods,svc
+  193  exit
+  194  history
+  195  kubectl get pods,svc
+  196  history | grep port-forward
+  197  kubectl --namespace monitoring port-forward svc/prometheus-grafana --address 0.0.0.0 3000:80
+  198  curl localhost:8082
+  199  exit
+  200  history
+  201  curl http://trial-service.default.svc.cluster.local:8082
+  202  for i in 0 1 2 3 4 5 6 7 8 9; do curl localhost:8080/api
+  203  history
+  204  history | grep forward
+  205  kubectl get pods,svc
+  206  history | grep forward
+  207  kubectl port-forward  service/trial-service --address 0.0.0.0 8082:8082
+  208  kubectl port-forward  service/trial-service --address 0.0.0.0 16686:16686
+  209  kubectl get pods,svc
+  210  history | grep port-forward
+  211  kubectl --namespace monitoring port-forward svc/prometheus-grafana --address 0.0.0.0 3000:80
+  212  kubectl port-forward svc/frontend-service  --address 0.0.0.0  8080:8080
+  213  kubectl port-forward svc/frontend-service  --address 0.0.0.0  8080:8080
+  214  history
+  215  curl localhost:8080/api
+  216  curl localhost:8080
+  217  curl localhost:8081
+  218  curl localhost:8082
+  219  curl localhost:3000
+  220  curl localhost:3001
+  221  kubectl port-forward svc/frontend-service  --address 0.0.0.0  8080:8080
+  222  kubectl get pods,svc
+  223  kubectl --namespace monitoring port-forward svc/prometheus-grafana --address 0.0.0.0 3000:80
+  224  curl localhost:3000
+  225  curl -v localhost:3000
+  226  curl -v localhost:3001
+  227  curl localhost:8081
+  228  curl localhost:8082
+  229  kubectl logs pod/trial-app-6dc5b7bd76-mcd4r
+  230  kubectl logs pod/pod/trial-app-578d696999-rfgv4
+  231  kubectl get pods,svc
+  232  kubectl logs pod/pod/pod/svclb-trial-service-9gf59
+  233  kubectl logs pod/svclb-trial-service-9gf59
+  234  history | grep log
+  235  kubectl logs pod/trial-app-786485df8f-g7h2g
+  236  ls
+  237  cd /
+  238  history
+  239  ls
+  240  cd
+  241  ls
+  242  cd ci
+  243  cd bin/
+  244  ls
+  245  cd /
+  246  find -type f -name trial.yaml
+  247  cd
+  248  ls
+  249  pwd
+  250  cd /
+  251  ls
+  252  cd va
+  253  cd vagrant/
+  254  ld
+  255  ls
+  256  cd app/
+  257  ls
+  258  vim trial.yaml 
+  259  cd ../
+  260  kubectl apply -f app/
+  261  kubectl get pods,svc
+  262  kubectl logs pod/trial-app-7747b9b5cd-47zbm
+  263  kubectl get pods,svc
+  264  ls
+  265  vim app/trial.yaml 
+  266  kubectl get pods,svc
+  267  curl localhost:8082
+  268  kubectl logs pod/trial-app-7747b9b5cd-47zbm
+  269  curl localhost:8080
+  270  curl localhost:8081
+  271  curl localhost:8082
+  272  kubectl logs pod/trial-app-7747b9b5cd-47zbm
+  273  curl -v localhost:8082
+  274  kubectl get pods,svc
+  275  history | grep ssh
+  276  ssh pod/trial-app-7747b9b5cd-klf8v
+  277  history
+  278  kubectl get pods,svc
+  279  kubectl exec -it pod/trial-app-7747b9b5cd-47zbm  -- /bin/bash
+  280  exit
+  281  ls
+  282  curl http://trial-service.default.svc.cluster.local:8082
+  283  curl localhost:8082
+  284  curl localhost:8080
+  285  curl localhost:8082
+  286  curl localhost:8081
+  287  curl localhost:8082
+  288  kubectl get pods,svc
+  289  kubectl logs pod/trial-app-7747b9b5cd-klf8v
+  290  history
+  291  history | grep apply
+  292  history | grep apply -B 5
+  293  cd /vagrant/
+  294  ls
+  295  cd app/
+  296  ls
+  297  vim trial.yaml 
+  298  cd ../
+  299  ls
+  300  kubectl apply -f app/
+  301  kubectl get pods,svc
+  302  curl localhost:8082
+  303  history | grep forward
+  304  kubectl port-forward svc/frontend-service  --address 0.0.0.0  8080:8080
+  305  exit
+  306  history | grep forward
+  307  kubectl --namespace monitoring port-forward svc/prometheus-grafana --address 0.0.0.0 3000:80
+  308  exit
+  309  history | grep forward
+  310  kubectl port-forward svc/frontend-service  --address 0.0.0.0  8080:8080
+  311  history
+  312  history | grep history
+  313  history | grep svc
+  314  kubectl get pods,svc  --all-namespaces
+  315  kubectl port-forward svc/frontend-service  --address 0.0.0.0  8080:8080 
+  316  exit
+  317  kubectl get pods,svc
+  318  curl localhost:8082
+  319  kubectl port-forward svc/backend-service  --address 0.0.0.0  8081:8081
+  320  history
+  321  kubectl get Jaeger -n default
+  322  ingress_name=$(kubectl get -n observability ingress -o jsonpath='{.items[0].metadata.name}'); ingress_port=$(kubectl get -n observability ingress -o jsonpath='{.items[0].spec.defaultBackend.service.port.number}'); echo -e "\n\n${ingress_name}.observability.svc.cluster.local:${ingress_port}"
+  323  history | grep port-forward
+  324  kubectl --namespace monitoring port-forward svc/prometheus-grafana --address 0.0.0.0 3000:80
+  325  history
+  326  ubectl get pods,svc  --all-namespaces
+  327  kubectl get pods,svc  --all-namespaces
+  328  exit
+  329  history | grep curl
+  330  for i in 0 1 2 3 4 5 6 7 8 9; do curl localhost:8080/api; ;
+  331  for i in 0 1 2 3 4 5 6 7 8 9; do curl localhost:8080/api; done
+  332  history | grep curl
+  333  curl localhost:8080
+  334  history | grep curl
+  335  curl localhost:8081
+  336  curl localhost:8081/api
+  337  curl localhost:8081/star
+  338  curl -d '{"name":"John", "distance":"23"}' -H "Content-Type: application/json" -X POST localhost:8081/star
+  339  exit
+  340  curl http://trial-service.default.svc.cluster.local:8082
+  341  kubectl get pods,svc
+  342  curl http://trial-service.default.svc.cluster.local:8082
+  343  history | grep get
+  344  kubectl get pods,svc -n observability
+  345  kubectl get pods,svc -n monitoring
+  346  kubectl get -n ${namespace} pods,svc
+  347  kubectl get pods,svc
+  348  kubectl get pods,svc --all-namespaces
+  349  kubectl get -n ingress -o yaml | tail
+  350  kubectl get ingress -o yaml | tail
+  351  kubectl get ingress --all-namespaces
+  352  kubectl get -n observability ingress -o yaml | tail
+  353  kubectl get ingress -o yaml | tail
+  354  <service_name>.<namespace>.svc.cluster.local
+  355  kubectl get pods,svc --all-namespaces
+  356  ingress_name=$(kubectl get -n ${monitoring} ingress -o jsonpath='{.items[0].metadata.name}');
+  357  ingress_name=$(kubectl get -n observability ingress -o jsonpath='{.items[0].metadata.name}'); ingress_port=$(kubectl get -n observability ingress -o jsonpath='{.items[0].spec.defaultBackend.service.port.number}'); echo -e "\n\n${ingress_name}.observability.svc.cluster.local:${ingress_port}"
+  358  ingress_name=$(kubectl get -n observability ingress -o jsonpath='{.items[0].metadata.name}'); ingress_port=$(kubectl get -n observability ingress -o jsonpath='{.items[0].spec.defaultBackend.service.port.number}'); echo -e "\n\n${ingress_name}.observability.svc.cluster.local:${ingress_port}"
+  359  curl localhost:8082
+  360  curl localhost:8081
+  361  curl localhost:8080
+  362  curl localhost:8081
+  363  curl localhost:8080
+  364  curl localhost:8082
+  365  curl localhost:8081
+  366  curl localhost:8080
+  367  history
+  368  kubectl get pods,svc --all-namespaces
+  369  kubectl get pods,svc
+  370  kubectl get pods,svc --all-namespaces | grep 27017
+  371  history | grep curl
+  372  curl localhost:8080/api
+  373  curl localhost:8082/api
+  374  curl localhost:8082/trace
+  375  curl localhost:8081/trace
+  376  curl localhost:8082/trace
+  377  kubectl logs pod/trial-app-7747b9b5cd-47zbm
+  378  kubectl get pods,svc
+  379  kubectl logs pod/trial-app-849cf6c995-zs6q2
+  380  curl localhost:8081/
+  381  curl localhost:8081/trace
+  382  curl localhost:8081/
+  383  curl localhost:8082/
+  384  curl localhost:8082/trace
+  385  kubectl logs pod/trial-app-849cf6c995-zs6q2
+  386  curl localhost:8082/trace
+  387  curl localhost:8081/trace
+  388  curl localhost:8081/star
+  389  curl -d '{"name":"John", "distance":"23"}' -H "Content-Type: application/json" -X POST localhost:8081/star
+  390  kubectl get pods,svc
+  391  kubectl logs pod/backend-app-659dc4495d-c9c6r
+  392  cd /home/vagrant
+  393  ls
+  394  cd /vagrant/
+  395  ls
+  396  history | grep apply
+  397  cd app/
+  398  ;s
+  399  ls
+  400  cd ../
+  401  kubectl apply -f jaeger.yaml
+  402  ls
+  403  pwd
+  404  mv /home/vagrant/jaeger.yaml .
+  405  mv /home/vagrant/other/ .
+  406  ls
+  407  cd other/
+  408  ls
+  409  cd ../
+  410  kubectl apply -f jaeger.yaml
+  411  kubectl apply -f other/
+  412  ls
+  413  kubectl get pods,svc
+  414  kubectl apply -f https://download.elastic.co/downloads/eck/2.10.0/operator.yaml
+  415  kubectl apply -f other/
+  416  kubectl get pods,svc
+  417  kubectl -n elastic-system logs -f statefulset.apps/elastic-operator
+  418  curl -d '{"name":"John", "distance":"23"}' -H "Content-Type: application/json" -X POST localhost:8081/star
+  419  ls
+  420  cd other/
+  421  ls
+  422  vim elasticsearch.yaml 
+  423  vim grafana-svc.yaml 
+  424  vim jaeger-elasticsearch.yaml 
+  425  ls
+  426  cd ../
+  427  ls
+  428  vim jaeger.yaml 
+  429  grep -R mongo
+  430  history
+  431  kubectl --namespace monitoring port-forward svc/prometheus-grafana --address 0.0.0.0 3000:80
+  432  kubectl get pods,svc --all-namespaces | grep 27017
+  433  kubectl get pods,svc --all-namespaces
+  434  kubectl get pods,svc -a oberservability
+  435  kubectl get pods,svc -a observability
+  436  kubectl get pods,svc --a observability
+  437  history | grep ,svc
+  438  kubectl get pods,svc -n observability
+  439  history | grep svc
+  440  kubectl get pods,svc -n observability
+  441  history | grep forward
+  442  kubectl port-forward svc/frontend-service  --address 0.0.0.0  8080:8080
+  443  kubectl get pods,svc
+  444  kubectl port-forward svc/backend-service  --address 0.0.0.0  8081:8081
+  445  history
+  446  kubectl get pods,svc --a
+  447  history | grep pods,svc
+  448  history | grep port-forward
+  449  kubectl --namespace monitoring port-forward svc/prometheus-grafana --address 0.0.0.0 3000:80
+  450  vagrant ssh
+  451  kubectl get pods,svc  --all-namespaces
+  452  history | grep port-forward
+  453  kubectl port-forward svc/frontend-service  --address 0.0.0.0  8080:8080
+  454  history
+  455  history | grep port-forward
+  456  kubectl get pods,svc  --all-namespaces
+  457  kubectl --namespace observability port-forward  service/trial-service --address 0.0.0.0 16686:16686
+  458  kubectl --namespace observability port-forward  service/my-traces-query  --address 0.0.0.0 16686:16686
+  459  exit
+  460  kubectl --namespace monitoring port-forward svc/prometheus-grafana --address 0.0.0.0 3000:80
+  461  kubectl --namespace observability port-forward  service/my-traces-query  --address 0.0.0.0 16686:16686
+  462  kubectl port-forward svc/frontend-service  --address 0.0.0.0  8080:8080
+  463  kubectl get pods,svc  --all-namespaces
+  464  kubectl get pods,svc
+  465  ls
+  466  kubectl logs pod/backend-app-659dc4495d-9xj6w
+  467  date
+  468  cd /vagrant/
+  469  ls
+  470  vim app/
+  471  cd app/
+  472  ls
+  473  vim backend.yaml 
+  474  history
+  475  cd ../
+  476  kubectl apply -f app/
+  477  history | grep curl
+  478  curl localhost:8081/star
+  479  curl localhost:8082/star
+  480  curl localhost:8081/
+  481  curl localhost:8081/api
+  482  curl localhost:8082/star
+  483  curl localhost:8081/api
+  484  curl localhost:8081/star
+  485  kubectl get pods,svc  --all-namespaces
+  486  kubectl get pods,svc
+  487  ls
+  488  history
+  489  vim app/backend.yaml 
+  490  kubectl apply -f app/
+  491  kubectl get pods,svc
+  492  kubectl port-forward svc/frontend-service  --address 0.0.0.0  8080:8080
+  493  history
+  494  history | grep curl
+  495  curl localhost:8081/
+  496  curl localhost:8082/
+  497  curl localhost:8080/
+  498  curl localhost:8080/trace
+  499  curl localhost:8081/trace
+  500  curl localhost:8082/trace
+  501  kubectl -n elastic-system logs -f statefulset.apps/elastic-operator
+  502  kubectl get pods,svc  --all-namespaces
+  503  kubectl get pods,svc
+  504  kubectl logs service/trial-service
+  505  curl localhost:8082/trace
+  506  kubectl logs service/trial-service
+  507  kubectl --namespace monitoring port-forward svc/prometheus-grafana --address 0.0.0.0 3000:80
+  508  cd /vagrant/
+  509  ls
+  510  history | grep rm
+  511  ls
+  512  rm app/backend.yaml
+  513  vim app/backend.yaml
+  514  kubectl apply -f app/
+  515  kubectl get pods,svc
+  516  kubectl get pods,svc  --all-namespaces
+  517  kubectl --namespace observability port-forward  service/my-traces-query  --address 0.0.0.0 16686:16686
+  518  history | grep forward
+  519  kubectl --namespace monitoring port-forward svc/prometheus-grafana --address 0.0.0.0 3000:80
+  520  curl localhost:8082/trace
+  521  curl localhost:8082/
+  522  curl localhost:8082/api
+  523  curl localhost:8081/trace
+  524  kubectl get pods,svc
+  525  curl localhost:8081/trace
+  526  curl localhost:8081/star
+  527  curl localhost:8081/
+  528  curl localhost:8081/api
+  529  kubectl get pods,svc  --all-namespaces
+  530  kubectl logs service/backend-service
+  531  kubectl logs pod/backend-app-789f5f9bcc-p8dmx
+  532  pwd
+  533  ls
+  534  cd /
+  535  ls
+  536  cd va
+  537  cd vagrant/
+  538  ls
+  539  vim app/backend.yaml 
+  540  cd ../
+  541  kubectl apply -f app/
+  542  ls
+  543  cd vagrant/
+  544  ls
+  545  kubectl apply -f app/
+  546  kubectl get pods,svc  --all-namespaces
+  547  kubectl logs pod/backend-app-6dbbfddb44-rth5t
+  548  kubectl apply -f app/
+  549  kubectl get pods,svc  --all-namespaces
+  550  vim app/backend.yaml 
+  551  kubectl apply -f app/
+  552  kubectl get pods,svc  --all-namespaces
+  553  kubectl logs pod/backend-app-69dfb68c5-ghzgp
+  554  vim app/backend.yaml 
+  555  kubectl apply -f app/
+  556  kubectl get pods,svc  --all-namespaces
+  557  kubectl logs pod/backend-app-847994846b-d5rzx
+  558  vim app/backend.yaml 
+  559  kubectl apply -f app/
+  560  kubectl get pods,svc  --all-namespaces
+  561  kubectl logs pod/backend-app-64cf668b9c-ll4tm
+  562  vim app/backend.yaml 
+  563  kubectl get pods,svc  --all-namespaces
+  564  kubectl apply -f app/
+  565  kubectl get pods,svc  --all-namespaces
+  566  kubectl logs pod/backend-app-d45fcd9c6-bh2qn
+  567  vim app/backend.yaml 
+  568  kubectl apply -f app/
+  569  kubectl get pods,svc  --all-namespaces
+  570  kubectl logs pod/backend-app-7855755bf5-ds68n
+  571  vim app/backend.yaml 
+  572  kubectl apply -f app/
+  573  kubectl get pods,svc  --all-namespaces
+  574  kubectl logs pod/backend-app-7967dbc555-xzwbq
+  575  vim app/backend.yaml 
+  576  kubectl apply -f app/
+  577  kubectl get pods,svc  --all-namespaces
+  578  rm app/backend.yaml 
+  579  vim app/backend.yaml 
+  580  kubectl apply -f app/
+  581  vim app/backend.yaml 
+  582  kubectl apply -f app/
+  583  vim app/backend.yaml 
+  584  kubectl apply -f app/
+  585  vim app/backend.yaml 
+  586  kubectl apply -f app/
+  587  vim app/backend.yaml 
+  588  kubectl apply -f app/
+  589  vim app/backend.yaml 
+  590  kubectl apply -f app/
+  591  vim app/backend.yaml 
+  592  kubectl apply -f app/
+  593  vim app/backend.yaml 
+  594  kubectl apply -f app/
+  595  vim app/backend.yaml 
+  596  rm app/backend.yaml 
+  597  vim app/backend.yaml 
+  598  kubectl apply -f app/
+  599  vim app/backend.yaml 
+  600  kubectl apply -f app/
+  601  kubectl get pods,svc  --all-namespaces
+  602  kubectl logs pod/backend-app-794578dd87-zwccl
+  603  kubectl get pods,svc  --all-namespaces | grep agent
+  604  curl simplest-agent.observability.svc.cluster.local
+  605  curl my-traces-query.observability.svc.cluster.local
+  606  curl localhost:8082/trace
+  607  curl localhost:8081/
+  608  curl localhost:8081/api
+  609  curl localhost:8081/star
+  610  curl -d '{"name":"John", "distance":"23"}' -H "Content-Type: application/json" -X POST localhost:8081/star
+  611  curl localhost:8081/trace
+  612  curl localhost:8081/
+  613  curl localhost:8081/api
+  614  curl -d '{"name":"John", "distance":"23"}' -H "Content-Type: application/json" -X POST localhost:8081/star
+  615  curl localhost:8081/api
+  616  curl -d '{"name":"John", "distance":"23"}' -H "Content-Type: application/json" -X POST localhost:8081/star
+  617  curl localhost:8081/api
+  618  kubectl get svc -n observability
+  619  kubectl --namespace observability port-forward  service/my-traces-query  --address 0.0.0.0 16686:16686
+  620  kubectl --namespace monitoring port-forward svc/prometheus-grafana --address 0.0.0.0 3000:80
+  621  curl localhost:8081/api
+  622  curl -d '{"name":"John", "distance":"23"}' -H "Content-Type: application/json" -X POST localhost:8081/star
+  623  curl localhost:8081/api
+  624  history | grep forward
+  625  kubectl --namespace observability port-forward  svc/my-traces-query  --address 0.0.0.0 16686:16686
+  626  kubectl port-forward -n ${namespace}     $(kubectl get pods -n ${namespace} -l=app="jaeger" -o name) --address 0.0.0.0 16686:16686
+  627  export namespace=monitoring
+  628  kubectl port-forward -n ${namespace}     $(kubectl get pods -n ${namespace} -l=app="jaeger" -o name) --address 0.0.0.0 16686:16686
+  629  kubectl port-forward -n ${namespace} $(kubectl get pods -n ${namespace} -l=app="jaeger" -o name) --address 0.0.0.0 16686:16686
+  630  ${namespace} -l=app="jaeger" -o name)
+  631  $(kubectl get pods -n ${namespace} -l=app="jaeger" -o name)
+  632  kubectl --namespace observability port-forward  svc/my-traces-query  --address 0.0.0.0 16686:16686
+  633  kubectl get svc -n observability
+  634  curl http://localhost:16686/search
+  635  kubectl get pods,svc  --all-namespaces | grep agent
+  636  kubectl get pods,svc  --all-namespaces
+  637  kubectl get pods,svc  --all-namespaces | grep jaeger
+  638  kubectl logs pod/jaeger-operator-694cbbb886-s9gtt
+  639  kubectl --namespace observability port-forward  svc/my-traces-query  --address 0.0.0.0 16686:16686
+  640  kubectl get -n ${namespace} ingress -o yaml | tail
+  641  get -n ${namespace} ingress -o yaml | tail
+  642  kubectl get -n observability ingress -o yaml | tail
+  643  curl localhost:8081/star
+  644  curl -d '{"name":"John", "distance":"23"}' -H "Content-Type: application/json" -X POST localhost:8081/star
+  645  curl localhost:16686:/search
+  646  curl http://localhost:16686/search
+  647  curl http://localhost:16686/
+  648  cd /vagrant/
+  649  ;s
+  650  ls
+  651  vim app/backend.yaml 
+  652  rm app/backend.yaml 
+  653  vim app/backend.yaml 
+  654  kubectl apply -f app/
+  655  kubectl get pods,svc  --all-namespaces
+  656  kubectl --namespace observability port-forward  svc/my-traces-query  --address 0.0.0.0 16686:16686
+  657  curl localhost:8081/api
+  658  history | grep 16686
+  659  curl localhost:16686/search
+  660  curl http://localhost:16686/
+  661  history
+  662  exit
+  663  kubectl port-forward $(kubectl get pods -l=app="jaeger" -o name) 16686:16686
+  664  kubectl port-forward $(kubectl get pods -l=app="jaeger" -o name) --address 0.0.0.0 16686:16686
+  665  kubectl get pods -l=app="jaeger" -o name
+  666  kubectl --namespace observability port-forward  svc/my-traces-query  --address 0.0.0.0 16686:16686
+  667  kubectl get pods -l=app="jaeger" -o name
+  668  history
+
+
+export namespace=monitoring
+kubectl apply -n {namespace} -f manifests/jaeger-tracing/jaeger-hotrod.yaml
+kubectl apply -n monitoring -f app/
+
+kubectl apply -n observability -f jaeger-tracing/
+
+kubectl apply -n monitoring -f other/
+kubectl -n monitoring port-forward svc/frontend-service  --address 0.0.0.0  8080:8080
+
