@@ -26,7 +26,7 @@ spec:
           valueFrom:
             fieldRef:
               fieldPath: status.hostIP
-        image: bjk1456/backend:v11
+        image: bjk1456/backend:v12
         imagePullPolicy: Always
         name: backend
         ports:

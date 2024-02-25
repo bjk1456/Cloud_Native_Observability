@@ -11,43 +11,61 @@
 *PrometheusDashboard.png* Create a dashboard in Grafana that shows Prometheus as a source. Take a screenshot and include it here.
 
 ## Describe SLO/SLI
-*TODO:* Describe, in your own words, what the SLIs are, based on an SLO of *monthly uptime* and *request response time*.
+The SLIs are measurements that provide evidence that a SLO is being upheld.
+
 
 ## Creating SLI metrics.
-*TODO:* It is important to know why we want to measure certain metrics for our customer. Describe in detail 5 metrics to measure these SLIs. 
++ 95% monthly uptime
++ The average request response time will be 300 ms.
++ Not a single request will be > 1 second.
++ Between the hours of 1600 and 1700 - peak time - there won't be any system downtime.
++ Between the hours of 1600 and 1700 the average request response time will be <= 150 ms. 
 
 ## Create a Dashboard to measure our SLIs
-*TODO:* Create a dashboard to measure the uptime of the frontend and backend services We will also want to measure to measure 40x and 50x errors. Create a dashboard that show these values over a 24 hour period and take a screenshot.
+Create a dashboard to measure the uptime of the frontend and backend services We will also want to measure to measure 40x and 50x errors. Create a dashboard that show these values over a 24 hour period and take a screenshot.
 
 ## Tracing our Flask App
-*TODO:*  We will create a Jaeger span to measure the processes on the backend. Once you fill in the span, provide a screenshot of it here. Also provide a (screenshot) sample Python file containing a trace and span code used to perform Jaeger traces on the backend service.
+Also provide a (screenshot) sample Python file containing a trace and span code used to perform Jaeger traces on the backend service.
 
 ## Jaeger in Dashboards
-*TODO:* Now that the trace is running, let's add the metric to our current Grafana dashboard. Once this is completed, provide a screenshot of it here.
+Now that the trace is running, let's add the metric to our current Grafana dashboard. Once this is completed, provide a screenshot of it here.
 
 ## Report Error
 *TODO:* Using the template below, write a trouble ticket for the developers, to explain the errors that you are seeing (400, 500, latency) and to let them know the file that is causing the issue also include a screenshot of the tracer span to demonstrate how we can user a tracer to locate errors easily.
 
 TROUBLE TICKET
 
-Name:
+Name: John P. Johnson
 
-Date:
+Date: 25 Feb 2024
 
-Subject:
+Subject: 500 errors for the localhost:8081/star endpoint
 
-Affected Area:
+Affected Area: the localhost:8081/star endpoint
 
-Severity:
+Severity: High
 
-Description:
+Description: Starting at 1400 on 25 Feb 2024 the localhost:8081/star endpoint starting producing 500 errors. Please see asttached image named TraceSpanCode.png Using the Jaeger UI I was able to obtain the following log message:
+
+"example-mongodb-svc.default.svc.cluster.local:27017: [Errno -2] Name or service not known, Timeout: 30s, Topology Description: <TopologyDescription id: 65db8f89517d76bfe2832d35, topology_type: Single, servers: [<ServerDescription ('example-mongodb-svc.default.svc.cluster.local', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('example-mongodb-svc.default.svc.cluster.local:27017: [Errno -2] Name or service not known')>]>""
+
+The most relevant part of the stack trace is the following: 
+
+" File "/app/app.py", line 74, in add_star
+    star_id = star.insert({"name": name, "distance": distance})"
 
 
 ## Creating SLIs and SLOs
-*TODO:* We want to create an SLO guaranteeing that our application has a 99.95% uptime per month. Name four SLIs that you would use to measure the success of this SLO.
++ The average request response time will be 300 ms.
++ The total amount of 40X and 50X errors will not exceed the denominator of all requests such that the application's uptime is >= 99.95%
++ Not a single request will be > 1 second.
++ Once a 40X and/or 50X error occurs there will not be > 5 consecutive ones ina 30 minute time span.
+
 
 ## Building KPIs for our plan
-*TODO*: Now that we have our SLIs and SLOs, create a list of 2-3 KPIs to accurately measure these metrics as well as a description of why those KPIs were chosen. We will make a dashboard for this, but first write them down here.
++ The aggregate 40X and 50X errors won't exceed the denominator of all requests such that the application's uptime is >= 99.95%
++ The average response time won't be > 300 ms.
+
 
 ## Final Dashboard
-*TODO*: Create a Dashboard containing graphs that capture all the metrics of your KPIs and adequately representing your SLIs and SLOs. Include a screenshot of the dashboard here, and write a text description of what graphs are represented in the dashboard.  
+Create a Dashboard containing graphs that capture all the metrics of your KPIs and adequately representing your SLIs and SLOs. Include a screenshot of the dashboard here, and write a text description of what graphs are represented in the dashboard.  

@@ -5747,3 +5747,9 @@
  7746  history | grep -A 6000 -w 321
  7747  history | grep -A 6000 -w 2000
  7748  history | grep -A 6000 -w 2000 > history.txt
+
+
+https://newrelic.com/blog/best-practices/best-practices-for-setting-slos-and-slis-for-modern-complex-systems
+https://cloud.google.com/blog/products/devops-sre/sre-fundamentals-slis-slas-and-slos
+
+my-traces-query.observability.svc.cluster.local:16686

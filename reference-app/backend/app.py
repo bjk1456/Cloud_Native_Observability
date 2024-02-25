@@ -4,6 +4,7 @@ from jaeger_client import Config
 import pymongo
 from flask_pymongo import PyMongo
 from jaeger_client.metrics.prometheus import PrometheusMetricsFactory
+from prometheus_flask_exporter import PrometheusMetrics
 
 
 app = Flask(__name__)
@@ -14,6 +15,21 @@ app.config[
 ] = "mongodb://example-mongodb-svc.default.svc.cluster.local:27017/example-mongodb"
 
 mongo = PyMongo(app)
+metrics = PrometheusMetrics(app, group_by='endpoint')
+
+# static information as metric
+metrics.info('app_info', 'Application info', version='1.0.3')
+metrics.register_default(
+    metrics.counter(
+        'by_path_counter', 'Request count by request paths',
+        labels={'path': lambda: request.path}
+    )
+)
+
+by_endpoint_counter = metrics.counter(
+    'by_endpoint_counter', 'Request count by request endpoint',
+    labels={'endpoint': lambda: request.endpoint}
+)
 JAEGER_AGENT_HOST = getenv('JAEGER_AGENT_HOST', 'localhost')
 
 def init_tracer(service):
@@ -60,7 +76,19 @@ def add_star():
         output = {"name": new_star["name"], "distance": new_star["distance"]}
         span.set_tag('star', output)
         return jsonify({"result": output})
+    
+@app.route('/nope')
+@by_endpoint_counter
+def no_exist():
+    answer = "error"
+    return jsonify(response=answer), 500
 
+@app.route('/healthz')
+@by_endpoint_counter
+def healthcheck():
+    app.logger.info('Status request successfull')
+    return jsonify({"result": "OK - healthy"})
+    
 
 
 if __name__ == "__main__":

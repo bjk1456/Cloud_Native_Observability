@@ -677,3 +677,12 @@ kubectl apply -n observability -f jaeger-tracing/
 kubectl apply -n monitoring -f other/
 kubectl -n monitoring port-forward svc/frontend-service  --address 0.0.0.0  8080:8080
 
+
+"Inside of my vagrant box when I enter
+echo $JAEGER_HOST"
+
+
+https://knowledge.udacity.com/questions/1026685
+
+"Please try to deploy your jaeger with demonset and set the "jaeger_agent_host" as explained"
+https://www.jaegertracing.io/docs/1.29/operator/#installing-the-agent-as-daemonset
