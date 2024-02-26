@@ -4,11 +4,15 @@
 
 *VerifyMonitoringInstallation.png* run `kubectl` command to show the running pods and services for all components. Take a screenshot of the output and include it here to verify the installation
 
+<img src="answer-img/VerifyMonitoringInstallation.png" alt="monitoring_namespace" title="monitoring">
+
 ## Setup the Jaeger and Prometheus source
 *GrafanaHomePage.png* Expose Grafana to the internet and then setup Prometheus as a data source. Provide a screenshot of the home page after logging into Grafana.
+<img src="answer-img/GrafanaHomePage.png" alt="observability_namespace" title="observability">
 
 ## Create a Basic Dashboard
 *PrometheusDashboard.png* Create a dashboard in Grafana that shows Prometheus as a source. Take a screenshot and include it here.
+<img src="answer-img/PrometheusDashboard.png" alt="observability_namespace" title="observability">
 
 ## Describe SLO/SLI
 The SLIs are measurements that provide evidence that a SLO is being upheld.
@@ -23,12 +27,16 @@ The SLIs are measurements that provide evidence that a SLO is being upheld.
 
 ## Create a Dashboard to measure our SLIs
 Create a dashboard to measure the uptime of the frontend and backend services We will also want to measure to measure 40x and 50x errors. Create a dashboard that show these values over a 24 hour period and take a screenshot.
+<img src="answer-img/40xAnd50xErrors.png" alt="measure_40x_50x_errors" title="Measure 40x and 50x errors">
 
 ## Tracing our Flask App
 Also provide a (screenshot) sample Python file containing a trace and span code used to perform Jaeger traces on the backend service.
+<img src="answer-img/PythonTraceCode.png" alt="python_trace_code" title="Python Trace Code">
+<img src="answer-img/TraceAndSpanCode.png" alt="trace_span_code" title="Trace Span Code">
 
 ## Jaeger in Dashboards
 Now that the trace is running, let's add the metric to our current Grafana dashboard. Once this is completed, provide a screenshot of it here.
+<img src="answer-img/GrafanaHomePage.png" alt="grafana_home_page" title="Grafana Home Page">
 
 ## Report Error
 *TODO:* Using the template below, write a trouble ticket for the developers, to explain the errors that you are seeing (400, 500, latency) and to let them know the file that is causing the issue also include a screenshot of the tracer span to demonstrate how we can user a tracer to locate errors easily.
@@ -68,4 +76,5 @@ The most relevant part of the stack trace is the following:
 
 
 ## Final Dashboard
-Create a Dashboard containing graphs that capture all the metrics of your KPIs and adequately representing your SLIs and SLOs. Include a screenshot of the dashboard here, and write a text description of what graphs are represented in the dashboard.  
+Create a Dashboard containing graphs that capture all the metrics of your KPIs and adequately representing your SLIs and SLOs. Include a screenshot of the dashboard here, and write a text description of what graphs are represented in the dashboard.
+<img src="answer-img/FinalDashboard.png" alt="final_dashboard" title="Final Dashboard">
