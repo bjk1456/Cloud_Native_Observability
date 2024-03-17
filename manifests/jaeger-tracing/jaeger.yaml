@@ -3,3 +3,6 @@ kind: Jaeger
 metadata:
   name: my-traces
   namespace: observability
+spec:
+  agent:
+    strategy: DaemonSet

@@ -21,13 +21,13 @@ metrics = PrometheusMetrics(app, group_by='endpoint')
 metrics.info('app_info', 'Application info', version='1.0.3')
 metrics.register_default(
     metrics.counter(
-        'by_path_counter', 'Request count by request paths',
-        labels={'path': lambda: request.path}
+        'by_path_counter', 'Request count by request endpoint',
+        labels={'endpoint': lambda: request.endpoint}
     )
 )
 
-by_endpoint_counter = metrics.counter(
-    'by_endpoint_counter', 'Request count by request endpoint',
+endpoint_counter = metrics.counter(
+    'endpoint_counter', 'Request count by request endpoint',
     labels={'endpoint': lambda: request.endpoint}
 )
 JAEGER_AGENT_HOST = getenv('JAEGER_AGENT_HOST', 'localhost')
@@ -53,11 +53,13 @@ tracer = init_tracer('backend')
 
 
 @app.route("/")
+@endpoint_counter
 def homepage(): 
     return "Hello World"
 
 
 @app.route("/api")
+@endpoint_counter
 def my_api():
     with tracer.start_span('/api') as span:
         answer = "something"
@@ -66,6 +68,7 @@ def my_api():
 
 
 @app.route("/star", methods=["POST"])
+@endpoint_counter
 def add_star():
     with tracer.start_span('/star') as span:
         star = mongo.db.stars
@@ -78,13 +81,13 @@ def add_star():
         return jsonify({"result": output})
     
 @app.route('/nope')
-@by_endpoint_counter
+@endpoint_counter
 def no_exist():
     answer = "error"
     return jsonify(response=answer), 500
 
 @app.route('/healthz')
-@by_endpoint_counter
+@endpoint_counter
 def healthcheck():
     app.logger.info('Status request successfull')
     return jsonify({"result": "OK - healthy"})

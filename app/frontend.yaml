@@ -20,7 +20,7 @@ spec:
         app: frontend
     spec:
       containers:
-      - image: bjk1456/frontend:v2
+      - image: bjk1456/frontend:v6
         imagePullPolicy: Always
         name: frontend
         ports:

@@ -22,11 +22,11 @@ spec:
     spec:
       containers:
       - env:
-        - name: JAEGER_HOST
+        - name: JAEGER_AGENT_HOST
           valueFrom:
             fieldRef:
               fieldPath: status.hostIP
-        image: bjk1456/backend:v12
+        image: bjk1456/backend:v13
         imagePullPolicy: Always
         name: backend
         ports:
