@@ -31,8 +31,11 @@ Create a dashboard to measure the uptime of the frontend and backend services We
 
 ## Tracing our Flask App
 Also provide a (screenshot) sample Python file containing a trace and span code used to perform Jaeger traces on the backend service.
-<img src="answer-img/PythonTraceCode.png" alt="python_trace_code" title="Python Trace Code">
-<img src="answer-img/TraceAndSpanCode.png" alt="trace_span_code" title="Trace Span Code">
+<img src="answer-img/JaegerTrace1.png" alt="jaeger_trace_1" title="Jaeger Trace Code 1">
+<img src="answer-img/JaegerTrace2.png" alt="jaeger_trace_2" title="Jaeger Trace Code 2">
+<img src="answer-img/TraceCodeFrontend.png" alt="python_trace_code_frontend" title="Python Trace Code FrontEnd">
+<img src="answer-img/TraceCodeBackend.png" alt="python_trace_code_backend" title="Python Trace Code BackEnd">
+
 
 ## Jaeger in Dashboards
 Now that the trace is running, let's add the metric to our current Grafana dashboard. Once this is completed, provide a screenshot of it here.
@@ -60,21 +63,35 @@ Description: Starting at 1400 on 25 Feb 2024 the localhost:8081/star endpoint st
 The most relevant part of the stack trace is the following: 
 
 " File "/app/app.py", line 74, in add_star
-    star_id = star.insert({"name": name, "distance": distance})"
+    star_id = star.insert({"name": name, "distance": distance})"    
 
 
 ## Creating SLIs and SLOs
 + The average request response time will be 300 ms.
 + The total amount of 40X and 50X errors will not exceed the denominator of all requests such that the application's uptime is >= 99.95%
 + Not a single request will be > 1 second.
-+ Once a 40X and/or 50X error occurs there will not be > 5 consecutive ones ina 30 minute time span.
++ Once a 40X and/or 50X error occurs there will not be > 5 consecutive ones in a 30 minute time span.
 
 
 ## Building KPIs for our plan
++ Server Uptime.         This is the most important Key Performance Indicator as if the server isn't available the client cannot do anything. If
+                         your cloud has bad server uptime you will quickly get a reputation as being unreliable and will consequently have great
+                         difficulty retaining and attracting customers. 
+                           a. Ratio of requests: 40X and 50X will be the numerator and all requests will be the denominator over the course of 30 days.
+                         
++ Average Response Time. Years ago I watched a documentary on Amazon.com which described how Amazon observed that when the response time of their
+                          website exceeded a number a large amount of users exited the website. Therefore I think the Average Response Time is the
+                          second most important KPI. 
+                            b. Number of requests > 1 second: The total number of requests that are over 1 second over the course of 30 days
+                            c. Average of response time: the total number of requests divided by the total request time
+                            d. Number of consecutive 40X and/or 50X errors: the total amount of consecutive 40X and/or 50X errors over 30 days.
+
+
 + The aggregate 40X and 50X errors won't exceed the denominator of all requests such that the application's uptime is >= 99.95%
 + The average response time won't be > 300 ms.
 
 
 ## Final Dashboard
 Create a Dashboard containing graphs that capture all the metrics of your KPIs and adequately representing your SLIs and SLOs. Include a screenshot of the dashboard here, and write a text description of what graphs are represented in the dashboard.
-<img src="answer-img/FinalDashboard.png" alt="final_dashboard" title="Final Dashboard">
+<img src="answer-img/ServerUptime.png" alt="server_uptime" title="Final Dashboard Server Uptime ">
+<img src="answer-img/RequestTime.png" alt="request_uptime" title="Final Dashboard Request Time">
